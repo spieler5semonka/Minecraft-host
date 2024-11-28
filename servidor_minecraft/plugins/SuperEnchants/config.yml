@@ -1,0 +1,27 @@
+language: "lang_en" # Language file to use, available languages: lang_en, lang_de, lang_pt, lang_es, lang_fr, lang_nl
+
+lightning-cooldown: 5 # In Seconds
+teleport-cooldown: 5 # In Seconds
+shockwave-cooldown: 5 # In Seconds
+inflame-cooldown: 5 # In Seconds
+dash-cooldown: 3 # In Seconds
+hook-cooldown: 0 # In Seconds
+gravity-cooldown: 5 # In Seconds
+
+explode-blockbreak: true #Makes detonate and explosive break blocks
+
+blindness-duration: 100 # In ticks, gets multiplied by enchant level
+bleed-amount: 5 # Amount of times to deduct health
+bleed-interval: 20 # Amount of ticks in between each bleed
+bleed-health: 1 # Amount of health points to deduct, this would deduct 0.5 hearts, gets multiplied by enchant level
+freeze-duration: 100 # In Ticks
+confusion-duration: 120 # In Ticks
+healthsteal-amount: 0.2 # Set this to a decimal value, example 0.35 would give 35% of the targets health to the attacker, gets multiplied by enchant level
+dash-amount: 1.5 # Amount to multiply the players velocity by, gets multiplied by enchant level
+shockwave-range: 7 # In Blocks, gets changed by enchant level
+explosive-amount: 0.75 # Amount of force of the explosion, multiplied by enchant level, only happens if explode-blockbreak is true
+jetpack-acceleration: 0.1 # Acceleration of jetpack in blocks per tick (1/20th of a second), gets capped at jetpack-velo-limit
+jetpack-velo-limit: 0.45 # Amount of blocks per tick (1/20th of a second)
+detonate-power: 1 # Amount of explosion power for detonate, multiplied by enchant level
+
+display-welcome-message: true

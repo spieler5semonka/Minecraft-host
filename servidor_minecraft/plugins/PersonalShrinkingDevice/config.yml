@@ -1,0 +1,25 @@
+messages:
+  maximal-size-is: "#FF0000Maximal size is: "
+  minimal-size-is: "#FF0000Maximal size is: "
+  reset-size: "#FF0000Your size has been reset to default value!"
+  no-permission: "You don't have permission to use this command!"
+  no-permission-to-use: "You don't have permission to use this device!"
+  not-enough-arguments: "#FF0000Not enough arguments! Available arguments are: give, reload."
+  config-reloaded: "#0FFF00Config has been successfully reloaded."
+  item-given: "#0FFF00PersonalShrinkingDevice has been given to you!"
+  item-given-to: "#0FFF00PersonalShrinkingDevice has been given to "
+
+names:
+  item-name: "#FFE400&lPersonal Shrinking Device"
+  gui-name: "#FFE400&lPersonal Shrinking Device"
+  current-size: "#FFE400Current size "
+  reset-size: "#12C6FFReset Size"
+  add: "#46FF33Add "
+  remove: "#FF0000Remove "
+  psd-lore:
+    - ''
+    - '#FFB712This device allows you to'
+    - '#FFB712change size of you to any value you want!'
+    - ''
+
+default-player-size: 1

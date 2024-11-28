@@ -1,0 +1,280 @@
+#
+# Configuration file for the DoubleJump plugin.
+#
+# If you have a problem with plugin configuration, please create an issue on the project's github.
+# However, if you like the plugin, leave a star for the project on GitHub.
+# 
+# Support site: https://github.com/imDMK/DoubleJump/issues/new/choose
+# GitHub: https://github.com/imDMK/DoubleJump
+#
+# Specifies whether to check for a new plug-in version when the administrator joins the server
+# I highly recommend enabling this option
+checkForUpdate: true
+# Double jump use permission
+doubleJumpUsePermission: doublejump.use
+# 
+# Command settings
+# 
+commandSettings:
+  # Specifies whether "/doublejump" command should be enabled
+  doubleJumpEnabled: true
+# 
+# Jump settings
+# 
+jumpSettings:
+  # Specifies whether to enable double jump mode for the player when he joins the server
+  # NOTE: The player must have double jump permission
+  enableJumpModeOnJoinForPlayers: true
+  # Specifies whether to enable double jump mode for the administrator when he joins the server
+  # NOTE: The player must have double jump permission and OP
+  enableJumpModeOnJoinForAdmins: true
+  # Whether double jump fall damage is enabled or not
+  jumpFallDamageEnabled: true
+  # Jump multiplier
+  jumpMultiple: 0.3
+  # The value of how much up the jump is to be made
+  jumpUp: 0.6
+  #
+  # Jump sound settings
+  #
+  soundSettings:
+    # Specifies whether to enable double jump sound
+    enabled: true
+    # Specifies whether nearby players should hear the jump sound
+    playNearbyEnabled: true
+    # Specifies the distance in X coordinates at which the jump sound should be played
+    playNearbyX: 5.0
+    # Specifies the distance in Y coordinates at which the jump sound should be played
+    playNearbyY: 5.0
+    # Specifies the distance in Z coordinates at which the jump sound should be played
+    playNearbyZ: 5.0
+    # List of available sounds: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+    sounds:
+    - sound: ENTITY_EXPERIENCE_BOTTLE_THROW
+      volume: 0.2
+      pitch: 1.0
+    - sound: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.15
+      pitch: 1.0
+  #
+  # Jump particle settings
+  #
+  particleSettings:
+    # Specifies whether particles during a double jump are to be enabled
+    enabled: true
+    # List of particles during a double jump
+    # Available particles: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Particle.html
+    # Available colors: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Color.html
+    particles:
+    - particle: NOTE
+      color: WHITE
+      size: 20
+      count: 3
+      offsetX: 2.0
+      offsetY: 0.0
+      offsetZ: 0.0
+      extra: 0.0
+    - particle: BUBBLE
+      color: WHITE
+      size: 40
+      count: 3
+      offsetX: 2.0
+      offsetY: 0.0
+      offsetZ: 0.0
+      extra: 0.0
+  #
+  # Jump restrictions settings
+  #
+  restrictionSettings:
+    # Restriction of regions where the player will not be able to double-jump
+    # The WorldGuard plugin is required for this feature to work
+    regionRestriction:
+      type: WHITELIST
+      list:
+      - example-region
+    # Restriction of worlds where the player will not be able to double-jump
+    worldRestriction:
+      type: BLACKLIST
+      list:
+      - example-world
+    # The restriction of the game modes during which the player will not be able to double-jump
+    gameModeRestriction:
+      type: BLACKLIST
+      list:
+      - CREATIVE
+    #
+    # Jump restriction notification settings
+    #
+    notificationSettings:
+      jumpDisabledRegion: "CHAT: <red>You are in disabled region"
+      jumpDisabledGameMode: "CHAT: <red>You cannot use double jump on this game mode"
+      jumpDisabledWorld: "CHAT: <red>You cannot use double jump in this world"
+      targetInDisabledRegion: "CHAT: <red>The player is in disabled region"
+      targetHasDisabledGameMode: "CHAT: <red>The player has a game mode that is disabled"
+      targetInDisabledWorld: "CHAT: <red>The player is in disabled world"
+  #
+  # Jump item settings
+  #
+  itemSettings:
+    # Specifies whether the item should be enabled
+    enabled: false
+    # Cancel jump item repair in anvil?
+    # If you allow it, the player will be able to repair the item, but will not be able to rename it (renaming will make the item inoperable)
+    cancelRepair: false
+    # Cancel enchant jump item in enchanting?
+    # If you disable this option, the plugin will start ignoring enchantments on items when checking if a player has a jump item
+    cancelEnchant: true
+    # Jump item
+    item:
+      material: DIAMOND_BOOTS
+      item-meta:
+        display-name: "<red>DOUBLE JUMP"
+        lore:
+        - ""
+        - "<red>This is double jump item!"
+        - ""
+        enchantments:
+          infinity: 10
+    # 
+    # Jump item usage settings
+    # 
+    usageSettings:
+      # This specifies the use of a double jump
+      # Available usages:
+      # HAVE_ITEM - The player must have the jump item in inventory
+      # HOLD_ITEM - The player must hold the jump item
+      # CLICK_ITEM - The player must right click item
+      # WEAR_ITEM - The player must wear item
+      usage: CLICK_ITEM
+      # Specifies whether to cancel the use of the item
+      cancel: false
+      # Specifies whether to remove an item after using it
+      delete: false
+      # Specifies whether to reduce the durability of an item after using it
+      # Example: 
+      # reduceDurability: 5
+      # The durability of the item will be reduced by 5
+      # To disable, set the value to 0
+      reduceDurability: 0
+      # Specifies whether to double jump after using a jump item
+      doubleJump: false
+      # Specifies whether to cancel double jump mode after using a jump item
+      disableDoubleJumpMode: false
+      # Specifies whether to toggle double jump mode after using a jump item
+      switchDoubleJumpMode: false
+    # 
+    # Jump item drop settings
+    # 
+    dropSettings:
+      # Specifies whether to cancel the item drop
+      cancel: false
+      # Specifies whether to remove the item after dropping it
+      delete: false
+      # Specifies whether to cancel double jump mode after dropping an item
+      disableDoubleJumpMode: false
+    #
+    # Jump item notification settings
+    #
+    notificationSettings:
+      jumpItemDisabled: "CHAT: <red>The jump item is disabled"
+      # {PLAYER} - The name of the player for whom the jump item was added
+      jumpItemAdded: "CHAT: <green>Added a jump item to player {PLAYER}"
+      # {PLAYER} - The name of the player for whom the jump item was removed
+      jumpItemRemoved: "CHAT: <green>Removed a jump item from player {PLAYER} inventory and ender chest"
+      targetHasNoJumpItem: "CHAT: <red>The player has no jump item in inventory and ender chest"
+      targetHasFullInventory: "CHAT: <red>The player has a full inventory"
+  # 
+  # Jump streak settings
+  # 
+  streakSettings:
+    # Specifies whether to enable double jump series reset
+    enabled: true
+    # Specifies whether the jump streak will be reset when the player touches the ground
+    resetOnGround: false
+    # Specifies whether the jump streak will be reset when the player dies
+    resetOnDeath: true
+    # 
+    # Jump streak notification settings
+    # 
+    notificationSettings:
+      # {STREAK} - New number of jump streak
+      jumpStreakIncreased: "ACTIONBAR: <green>Yeah! Current streak: <dark_green>{STREAK}"
+      jumpStreakHasBeenReset: "CHAT: <red>Ops! Your jump streak has been reset"
+  # 
+  # Jump delay settings
+  # 
+  delaySettings:
+    # Specifies whether double jump delay should be enabled
+    enabled: true
+    # Specifies the double jump delay
+    # Example value: 1s, 5s, 1m
+    delay: 2s
+  #
+  # Jump limit settings
+  #
+  limitSettings:
+    # Specifies whether the jump limit should be enabled
+    enabled: false
+    # The default value of the jump limit is if the player does not have permissions listed in limitsByPermission
+    limit: 1
+    # Jump limits by permissions
+    # Example:
+    # <PERMISSION: double-jump>: <LIMIT: 2>
+    # If a player has the "double-jump" permission, he will be assigned a jump limit of 2
+    # If not, he will be assigned a default jump limit value
+    limitsByPermissions:
+      triple-jump: 3
+      five-jump: 5
+      double-jump: 2
+    # Specifies the delay after which one jump is to be renewed for the player
+    # If you want to disable jump regeneration, set the value to 0s
+    regenerationDelay: 3s
+    #
+    # Jump limit notification settings
+    #
+    notificationSettings:
+      jumpLimit: "CHAT: <red>You have no more jumps"
+      jumpLimitReceived: "CHAT: <green>You received one jump"
+      # {TIME} - Time left until get one double jump
+      jumpLimitRegenerationDelay: "CHAT: <red>You must wait {TIME} to get next jump"
+  #
+  # Jump notification settings
+  #
+  notificationSettings:
+    # {TIME} - Time remaining until double jump can be used
+    jumpDelay: "CHAT: <red>You must wait {TIME} before next double jump"
+    jumpModeEnabled: "CHAT: <green>Enabled double jump mode!"
+    jumpModeDisabled: "CHAT: <red>Disabled double jump mode!"
+    # {PLAYER} - The name of the player for whom double jump mode has been enabled
+    jumpModeEnabledFor: "CHAT: <green>Enabled double jump mode for player {PLAYER}"
+    # {PLAYER} - The name of the player for whom double jump mode has been disabled
+    jumpModeDisabledFor: "CHAT: <red>Disabled double jump mode for player {PLAYER}"
+# 
+# Notification settings
+# 
+notificationSettings:
+  configurationReloaded: "CHAT: <green>The plugin configuration has been reloaded."
+  playerNotFound: "CHAT: <red>No player found with the given name"
+  # {PERMISSIONS} - Required permissions to use the command
+  missingPermissions: "CHAT: <red>Missing permissions: <dark_red>{PERMISSIONS}"
+  # {USAGE} - Correct use of the command
+  invalidUsage: "CHAT: <red>Invalid usage: <dark_red>{USAGE}"
+  # Used when there is more than one option for using a command
+  invalidUsageListFirst: "CHAT: <red>Invalid usage:"
+  # {USAGE} - Correct use of the command
+  # Used when there is more than one option for using a command
+  invalidUsageList: "CHAT: <dark_gray>- <red>{USAGE}"
+# 
+# Placeholder settings
+# 
+placeholderSettings:
+  # Message shown after using the placeholder if it returns true.
+  # Example:
+  # whenTrueMessage: 'Available'
+  # Placeholder 'jump-player-is-delay' will return 'Available' when player doesn't have delay
+  whenTrueMessage: 'yes'
+  # Message shown after using the placeholder if it returns false.
+  # Example:
+  # whenFalseMessage: 'Cooldown'
+  # Placeholder 'jump-player-is-delay' will return 'Cooldown' when player have delay
+  whenFalseMessage: 'no'

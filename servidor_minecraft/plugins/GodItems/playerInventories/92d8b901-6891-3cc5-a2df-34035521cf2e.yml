@@ -1,0 +1,69 @@
+armor:
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: IRON_CHESTPLATE
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: IRON_BOOTS
+  offhand:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SHIELD
+charms: {}
+contents:
+  slot_0:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: IRON_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 15
+  slot_1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: IRON_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 16
+  slot_2:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: COBBLESTONE
+    amount: 9
+  slot_3:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: CRAFTING_TABLE
+  slot_6:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: BREAD
+    amount: 2
+  slot_10:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: GOLD_INGOT
+    amount: 3
+  slot_11:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: STICK
+    amount: 2
+  slot_14:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: IRON_INGOT
+  slot_27:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: OAK_PLANKS
+    amount: 14
+  slot_33:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: APPLE
+    amount: 5
