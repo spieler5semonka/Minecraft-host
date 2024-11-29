@@ -57,7 +57,22 @@ armor:
     meta:
       ==: ItemMeta
       meta-type: ARMOR
-      Damage: 379
+      enchants:
+        minecraft:protection: 2
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: IRON_HELMET
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      enchants:
+        minecraft:blast_protection: 2
+        minecraft:unbreaking: 2
 charms: {}
 contents:
   slot_0:
@@ -71,12 +86,8 @@ contents:
   slot_1:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: DIAMOND_BOOTS
-    meta:
-      ==: ItemMeta
-      meta-type: ARMOR
-      enchants:
-        minecraft:protection: 2
+    type: BREAD
+    amount: 31
   slot_2:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -86,7 +97,7 @@ contents:
       meta-type: UNSPECIFIC
       enchants:
         minecraft:efficiency: 2
-      Damage: 894
+      Damage: 900
   slot_3:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -96,17 +107,17 @@ contents:
       meta-type: UNSPECIFIC
       enchants:
         minecraft:efficiency: 2
-      Damage: 454
+      Damage: 470
   slot_4:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: POWERED_RAIL
-    amount: 28
+    type: DEEPSLATE_TILES
+    amount: 3
   slot_5:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: COBBLESTONE
-    amount: 23
+    type: DIRT
+    amount: 5
   slot_6:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -124,18 +135,17 @@ contents:
   slot_7:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: RAIL
-    amount: 10
+    type: SPRUCE_LOG
+    amount: 2
   slot_8:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: MINECART
+  slot_9:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: GOLD_INGOT
     amount: 19
-  slot_9:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: BREAD
-    amount: 33
   slot_10:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -143,18 +153,18 @@ contents:
   slot_11:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: STICK
-    amount: 62
+    type: COBBLESTONE
+    amount: 25
   slot_12:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: DIRT
-    amount: 6
+    type: REDSTONE_TORCH
+    amount: 16
   slot_13:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: REDSTONE
-    amount: 15
+    amount: 7
   slot_14:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -163,8 +173,7 @@ contents:
   slot_15:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: REDSTONE_TORCH
-    amount: 7
+    type: WATER_BUCKET
   slot_24:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -178,16 +187,11 @@ contents:
     v: 3953
     type: LECTERN
     amount: 6
-  slot_28:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: EMERALD
-    amount: 15
   slot_29:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: TORCH
-    amount: 20
+    amount: 24
   slot_30:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -215,5 +219,47 @@ contents:
   slot_16:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
+    type: REDSTONE_TORCH
+    amount: 13
+  slot_17:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: COMPOSTER
+  slot_18:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: STICK
+    amount: 14
+  slot_19:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: EMERALD
+    amount: 14
+  slot_20:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      Damage: 379
+  slot_21:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: BREAD
+    amount: 6
+  slot_23:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: REDSTONE
+    amount: 31
+  slot_25:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
     type: RAIL
-    amount: 64
+    amount: 15
+  slot_34:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPRUCE_SLAB
+    amount: 57
