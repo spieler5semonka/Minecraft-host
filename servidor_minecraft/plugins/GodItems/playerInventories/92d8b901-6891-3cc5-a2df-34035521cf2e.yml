@@ -57,7 +57,7 @@ armor:
     meta:
       ==: ItemMeta
       meta-type: ARMOR
-      Damage: 212
+      Damage: 235
 charms: {}
 contents:
   slot_1:
@@ -69,7 +69,7 @@ contents:
       meta-type: UNSPECIFIC
       enchants:
         minecraft:efficiency: 2
-      Damage: 40
+      Damage: 121
   slot_3:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -78,8 +78,73 @@ contents:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: GOLDEN_CARROT
-    amount: 55
+    amount: 50
   slot_9:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPRUCE_PLANKS
+    amount: 64
+  slot_27:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ROTTEN_FLESH
+    amount: 4
+  slot_28:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: CARROT
+  slot_0:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        minecraft:efficiency: 2
+      Damage: 104
+  slot_2:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: RAIL
+    amount: 10
+  slot_18:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SHEARS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 37
+  slot_5:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: POWERED_RAIL
+    amount: 6
+  slot_11:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPRUCE_SLAB
+    amount: 64
+  slot_13:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: TORCH
+  slot_15:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: BOOK
+    amount: 11
+  slot_4:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ARROW
+  slot_14:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: LECTERN
+    amount: 4
+  slot_16:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: PLAYER_HEAD
@@ -93,17 +158,11 @@ contents:
         properties:
         - name: textures
           value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0=
-  slot_27:
+  slot_17:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: BOW
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      enchants:
-        minecraft:power: 2
-      Damage: 2
-  slot_28:
+    type: DEEPSLATE_TILES
+  slot_19:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: DIAMOND_SHOVEL
@@ -114,22 +173,12 @@ contents:
         minecraft:efficiency: 1
         minecraft:unbreaking: 1
       Damage: 170
-  slot_0:
+  slot_26:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: DIAMOND_AXE
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      enchants:
-        minecraft:efficiency: 2
-      Damage: 81
-  slot_2:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: LECTERN
-    amount: 4
-  slot_18:
+    type: EMERALD
+    amount: 52
+  slot_31:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: DIAMOND_SWORD
@@ -137,77 +186,54 @@ contents:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 376
-  slot_5:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: MINECART
-  slot_11:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: GUNPOWDER
-  slot_13:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: CARROT
-  slot_15:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: SPRUCE_SLAB
-    amount: 64
-  slot_4:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: RAIL
-    amount: 2
-  slot_14:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: ROTTEN_FLESH
-    amount: 3
-  slot_16:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: STICK
-    amount: 11
-  slot_17:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: BOOK
-    amount: 11
-  slot_19:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: SHEARS
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      Damage: 37
-  slot_25:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: SPRUCE_PLANKS
-    amount: 64
-  slot_26:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: SPRUCE_PLANKS
-    amount: 30
-  slot_35:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: SPRUCE_PLANKS
-    amount: 64
-  slot_30:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: BONE
-    amount: 2
-  slot_31:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: DEEPSLATE_TILES
   slot_34:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: EMERALD
-    amount: 52
+    type: REDSTONE_TORCH
+    amount: 2
+  slot_7:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIRT
+  slot_10:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPRUCE_PLANKS
+    amount: 31
+  slot_12:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: STICK
+    amount: 10
+  slot_20:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        minecraft:power: 2
+      Damage: 2
+  slot_21:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: COBBLESTONE
+  slot_22:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPIDER_EYE
+  slot_23:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: STRING
+    amount: 2
+  slot_29:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: BONE
+    amount: 4
+  slot_33:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: GUNPOWDER
