@@ -1532,3 +1532,37 @@ java.lang.ClassCastException: null
 [23:27:10] [Async Chat Thread - #82/INFO]: [Not Secure] <Spieler_semonka> lo estoy buscando y no esta
 [23:27:18] [Async Chat Thread - #82/INFO]: [Not Secure] <Spieler_semonka> y ni aldeano zombi hay
 [23:27:20] [Async Chat Thread - #83/INFO]: [Not Secure] <_Livic_> xd
+[23:29:36] [Server thread/ERROR]: Could not pass event InventoryOpenEvent to GodItems v3.0.1
+java.lang.ClassCastException: null
+[23:29:37] [Server thread/ERROR]: Could not pass event InventoryOpenEvent to GodItems v3.0.1
+java.lang.ClassCastException: null
+[23:30:38] [Server thread/INFO]: Villager Villager['Villager'/18213, uuid='4f67b7c2-7c67-4941-b983-de4a051ace49', l='ServerLevel[world]', x=-1322.38, y=63.00, z=-856.69, cpos=[-83, -54], tl=89205, v=true] died, message: 'Villager was slain by Zombie'
+[23:31:51] [Async Chat Thread - #84/INFO]: [Not Secure] <Spieler_semonka> voy a tradear esmeraldas
+[23:32:16] [Async Chat Thread - #84/INFO]: [Not Secure] <Spieler_semonka> mejor voy buscando materiale para la granja de hierro
+[23:32:57] [Async Chat Thread - #84/INFO]: [Not Secure] <Spieler_semonka> luego de hacer la granja de hierro y esmeraldas hacemos la base
+[23:32:59] [Async Chat Thread - #85/INFO]: [Not Secure] <Spieler_semonka> una sencilla
+[23:33:08] [Server thread/ERROR]: Could not pass event InventoryOpenEvent to GodItems v3.0.1
+java.lang.ClassCastException: null
+[23:34:42] [Server thread/INFO]: morphing because duration expired
+[23:35:47] [Server thread/INFO]: morphing because duration expired
+[23:36:10] [Server thread/INFO]: _Livic_ issued server command: /hero select Speedster
+[23:36:54] [Async Chat Thread - #86/INFO]: [Not Secure] <Spieler_semonka> 35 stacks de bloques necesitamos
+[23:37:01] [Async Chat Thread - #86/INFO]: [Not Secure] <Spieler_semonka> mino con eso de picar un area?
+[23:37:12] [Async Chat Thread - #86/INFO]: [Not Secure] <_Livic_> oka
+[23:37:14] [Async Chat Thread - #86/INFO]: [Not Secure] <Spieler_semonka> y ese interney? XD
+[23:37:18] [Async Chat Thread - #86/INFO]: [Not Secure] <_Livic_> pero lejos de la base
+[23:37:27] [Server thread/ERROR]: Could not pass event InventoryOpenEvent to GodItems v3.0.1
+java.lang.ClassCastException: null
+[23:37:36] [Async Chat Thread - #86/INFO]: [Not Secure] <Spieler_semonka> es pequeña la granja
+[23:37:44] [Async Chat Thread - #86/INFO]: [Not Secure] <Spieler_semonka> le hare algo lejos
+[23:37:50] [Server thread/ERROR]: Could not pass event InventoryOpenEvent to GodItems v3.0.1
+java.lang.ClassCastException: null
+[23:37:53] [Async Chat Thread - #86/INFO]: [Not Secure] <Spieler_semonka> pero tendre los chunks a 32 y la cargaré
+[23:37:57] [Server thread/INFO]: Spieler_semonka issued server command: /tp _Livic_
+[23:37:57] [Server thread/INFO]: [Spieler_semonka: Teleported Spieler_semonka to _Livic_]
+[23:38:19] [Async Chat Thread - #86/INFO]: [Not Secure] <_Livic_> mira este cofre
+[23:38:27] [Server thread/INFO]: Spieler_semonka issued server command: /tp _Livic_
+[23:38:27] [Server thread/INFO]: [Spieler_semonka: Teleported Spieler_semonka to _Livic_]
+[23:38:31] [Async Chat Thread - #86/INFO]: [Not Secure] <Spieler_semonka> fua
+[23:38:48] [Async Chat Thread - #86/INFO]: [Not Secure] <Spieler_semonka> quieres llevar un aldeanos mas a la granja de aldeanos
+[23:39:01] [Async Chat Thread - #86/INFO]: [Not Secure] <Spieler_semonka> y ponerle un composter y tradearla una sola vez
