@@ -1412,3 +1412,41 @@ java.lang.ClassCastException: null
 [22:56:54] [Async Chat Thread - #66/INFO]: [Not Secure] <_Livic_> veni a ponerle el atril a este
 [22:57:06] [Async Chat Thread - #66/INFO]: [Not Secure] <Spieler_semonka> p que yo
 [22:57:20] [Async Chat Thread - #66/INFO]: [Not Secure] <_Livic_> pq conmigo no kieren
+[22:59:47] [Async Chat Thread - #68/INFO]: [Not Secure] <_Livic_> sin speed
+[22:59:56] [Server thread/INFO]: Spieler_semonka issued server command: /hero reroll
+[23:00:05] [Server thread/INFO]: _Livic_ issued server command: /hero select
+[23:00:06] [Server thread/INFO]: Spieler_semonka issued server command: /hero select
+[23:00:30] [Async Chat Thread - #68/INFO]: [Not Secure] <_Livic_> aca
+[23:01:05] [Server thread/INFO]: _Livic_ issued server command: /hero select
+[23:01:23] [Async Chat Thread - #68/INFO]: [Not Secure] <_Livic_> toma
+[23:01:32] [Async Chat Thread - #68/INFO]: [Not Secure] <Spieler_semonka> toma
+[23:01:38] [Async Chat Thread - #68/INFO]: [Not Secure] <Spieler_semonka> XD
+[23:01:45] [Async Chat Thread - #68/INFO]: [Not Secure] <_Livic_> go?
+[23:01:45] [Async Chat Thread - #68/INFO]: [Not Secure] <Spieler_semonka> wtf
+[23:01:48] [Async Chat Thread - #68/INFO]: [Not Secure] <Spieler_semonka> y eso?
+[23:01:51] [Async Chat Thread - #68/INFO]: [Not Secure] <_Livic_> qe
+[23:01:54] [Async Chat Thread - #68/INFO]: [Not Secure] <_Livic_> no c
+[23:01:57] [Async Chat Thread - #68/INFO]: [Not Secure] <Spieler_semonka> tengo absorcion
+[23:05:07] [Async Chat Thread - #70/INFO]: [Not Secure] <Spieler_semonka> XD
+[23:05:07] [Async Chat Thread - #70/INFO]: [Not Secure] <_Livic_> XDD
+[23:05:30] [Async Chat Thread - #70/INFO]: [Not Secure] <_Livic_> por esto no nos dura nd el armor
+[23:05:34] [Async Chat Thread - #70/INFO]: [Not Secure] <Spieler_semonka> XD
+[23:05:41] [Async Chat Thread - #70/INFO]: [Not Secure] <Spieler_semonka> rial
+[23:05:45] [Async Chat Thread - #70/INFO]: [Not Secure] <_Livic_> ya tengo todo a la mitad
+[23:05:52] [Async Chat Thread - #70/INFO]: [Not Secure] <Spieler_semonka> yo todo roto
+[23:05:56] [Async Chat Thread - #70/INFO]: [Not Secure] <_Livic_> XD
+[23:05:59] [Async Chat Thread - #70/INFO]: [Not Secure] <Spieler_semonka> ya se me rompio el patalon
+[23:06:09] [Async Chat Thread - #70/INFO]: [Not Secure] <Spieler_semonka> por esto no temrinamso la granjas
+[23:06:11] [Async Chat Thread - #70/INFO]: [Not Secure] <Spieler_semonka> XD
+[23:06:24] [Server thread/INFO]: Spieler_semonka issued server command: /tp _Livic_
+[23:06:24] [Server thread/INFO]: [Spieler_semonka: Teleported Spieler_semonka to _Livic_]
+[23:06:57] [Server thread/INFO]: Spieler_semonka issued server command: /gamemode spectator
+[23:06:57] [Server thread/INFO]: [Spieler_semonka: Set own game mode to Spectator Mode]
+[23:07:07] [Server thread/INFO]: Spieler_semonka issued server command: /gamemode survival
+[23:07:07] [Server thread/INFO]: [Spieler_semonka: Set own game mode to Survival Mode]
+[23:07:26] [Async Chat Thread - #72/INFO]: [Not Secure] <Spieler_semonka> me ayudas a hacer la salida del almacen?
+[23:07:55] [Server thread/INFO]: Spieler_semonka issued server command: /gamemode spectator
+[23:07:55] [Server thread/INFO]: [Spieler_semonka: Set own game mode to Spectator Mode]
+[23:08:09] [Server thread/INFO]: Spieler_semonka issued server command: /gamemode survival
+[23:08:09] [Server thread/INFO]: [Spieler_semonka: Set own game mode to Survival Mode]
+[23:08:49] [Async Chat Thread - #74/INFO]: [Not Secure] <Spieler_semonka> wtf
