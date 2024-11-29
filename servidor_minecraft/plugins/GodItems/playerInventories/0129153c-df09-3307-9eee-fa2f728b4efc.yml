@@ -14,7 +14,7 @@ armor:
       enchants:
         minecraft:fire_protection: 4
         minecraft:unbreaking: 3
-      Damage: 334
+      Damage: 388
   helmet:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -22,7 +22,7 @@ armor:
     meta:
       ==: ItemMeta
       meta-type: ARMOR
-      Damage: 137
+      Damage: 214
   boots:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -30,7 +30,7 @@ armor:
     meta:
       ==: ItemMeta
       meta-type: ARMOR
-      Damage: 146
+      Damage: 225
   chestplate:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -86,7 +86,7 @@ contents:
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
-      Damage: 36
+      Damage: 59
   slot_2:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -96,7 +96,7 @@ contents:
       meta-type: UNSPECIFIC
       enchants:
         minecraft:efficiency: 2
-      Damage: 460
+      Damage: 708
   slot_3:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -104,7 +104,9 @@ contents:
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
-      Damage: 1334
+      enchants:
+        minecraft:efficiency: 2
+      Damage: 315
   slot_6:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -119,41 +121,16 @@ contents:
         properties:
         - name: textures
           value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0=
-  slot_34:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: CRAFTING_TABLE
-    amount: 3
-  slot_22:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: SHIELD
-    meta:
-      ==: ItemMeta
-      meta-type: SHIELD
-      Damage: 65
-  slot_26:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: BUCKET
-  slot_31:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: TORCH
-    amount: 4
   slot_4:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: BREAD
-    amount: 53
+    amount: 30
   slot_8:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: DIAMOND_HOE
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      Damage: 757
+    type: DEEPSLATE_TILES
+    amount: 2
   slot_1:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -164,104 +141,14 @@ contents:
       enchants:
         minecraft:efficiency: 1
         minecraft:unbreaking: 1
-      Damage: 302
+      Damage: 371
   slot_5:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: SPRUCE_PLANKS
-    amount: 64
-  slot_10:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: SHEARS
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      Damage: 12
-  slot_11:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: SPRUCE_PLANKS
-    amount: 20
-  slot_12:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: GLASS
-    amount: 4
-  slot_15:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: SPRUCE_SLAB
-    amount: 64
-  slot_16:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: ENCHANTED_BOOK
-    meta:
-      ==: ItemMeta
-      meta-type: ENCHANTED
-      stored-enchants:
-        minecraft:feather_falling: 3
-  slot_9:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: DIRT
+    type: EMERALD
     amount: 17
-  slot_13:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: SPRUCE_SLAB
-    amount: 64
-  slot_14:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: GRAY_BED
-  slot_17:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: GRAY_BED
-  slot_18:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: SPRUCE_SLAB
-    amount: 4
-  slot_20:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: CARROT
-    amount: 2
-  slot_23:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: DEEPSLATE_TILES
-    amount: 58
-  slot_24:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: SPRUCE_PLANKS
-    amount: 64
-  slot_25:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: SPRUCE_SLAB
-    amount: 64
-  slot_32:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: SPRUCE_PLANKS
-    amount: 64
   slot_7:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: SPRUCE_SLAB
-    amount: 29
-  slot_21:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: SPRUCE_SLAB
-    amount: 25
-  slot_19:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: SPRUCE_STAIRS
-    amount: 2
+    type: SPRUCE_PLANKS
+    amount: 12
