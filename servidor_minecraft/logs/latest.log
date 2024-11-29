@@ -1234,3 +1234,4 @@ java.lang.ClassCastException: class org.bukkit.craftbukkit.inventory.CraftItemSt
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
 [21:57:16] [Server thread/ERROR]: Could not pass event InventoryOpenEvent to GodItems v3.0.1
 java.lang.ClassCastException: null
+[22:06:16] [Async Chat Thread - #38/INFO]: [Not Secure] <Spieler_semonka> XD
