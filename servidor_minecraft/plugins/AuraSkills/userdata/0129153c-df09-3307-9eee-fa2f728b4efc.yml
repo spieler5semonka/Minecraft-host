@@ -1,8 +1,8 @@
 uuid: 0129153c-df09-3307-9eee-fa2f728b4efc
 skills:
   auraskills/mining:
-    level: 5
-    xp: 2514.8700000000226
+    level: 6
+    xp: 30.039999999991945
   auraskills/fishing:
     level: 0
     xp: 0.0
@@ -23,27 +23,32 @@ skills:
     xp: 852.7200000000296
   auraskills/agility:
     level: 6
-    xp: 524.7723999999989
+    xp: 669.149799999999
   auraskills/excavation:
     level: 2
-    xp: 475.9399999999957
+    xp: 489.2499999999954
   auraskills/defense:
     level: 4
-    xp: 1268.4178763747227
+    xp: 1272.8178763747228
   auraskills/farming:
     level: 2
     xp: 59.750000000000014
 mana: 26.0
 action_bar:
   idle: true
+stat_modifiers:
+  '0':
+    name: mining-stamina
+    stat: auraskills/toughness
+    value: 1.0
 trait_modifiers:
   '0':
-    name: mining_luck_ability
-    trait: auraskills/mining_luck
-    value: 5.0
-  '1':
     name: excavation_luck_ability
     trait: auraskills/excavation_luck
+    value: 10.0
+  '1':
+    name: mining_luck_ability
+    trait: auraskills/mining_luck
     value: 10.0
   '2':
     name: foraging_luck_ability
@@ -53,3 +58,6 @@ trait_modifiers:
     name: farming_luck_ability
     trait: auraskills/farming_luck
     value: 10.0
+ability_data:
+  auraskills/speed_mine:
+    cooldown: 670

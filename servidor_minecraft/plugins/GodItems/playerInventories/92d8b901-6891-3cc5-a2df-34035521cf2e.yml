@@ -57,7 +57,7 @@ armor:
     meta:
       ==: ItemMeta
       meta-type: ARMOR
-      Damage: 235
+      Damage: 237
 charms: {}
 contents:
   slot_1:
@@ -69,7 +69,7 @@ contents:
       meta-type: UNSPECIFIC
       enchants:
         minecraft:efficiency: 2
-      Damage: 121
+      Damage: 204
   slot_3:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -96,18 +96,14 @@ contents:
   slot_0:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: DIAMOND_AXE
+    type: DIAMOND_SHOVEL
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       enchants:
-        minecraft:efficiency: 2
-      Damage: 104
-  slot_2:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: RAIL
-    amount: 10
+        minecraft:efficiency: 1
+        minecraft:unbreaking: 1
+      Damage: 188
   slot_18:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -138,7 +134,13 @@ contents:
   slot_4:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: ARROW
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        minecraft:efficiency: 2
+      Damage: 169
   slot_14:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -165,14 +167,7 @@ contents:
   slot_19:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: DIAMOND_SHOVEL
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      enchants:
-        minecraft:efficiency: 1
-        minecraft:unbreaking: 1
-      Damage: 170
+    type: ARROW
   slot_26:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -194,12 +189,13 @@ contents:
   slot_7:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: DIRT
+    type: GRAVEL
+    amount: 7
   slot_10:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: SPRUCE_PLANKS
-    amount: 31
+    amount: 64
   slot_12:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -219,6 +215,7 @@ contents:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: COBBLESTONE
+    amount: 64
   slot_22:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -237,3 +234,27 @@ contents:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: GUNPOWDER
+  slot_8:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPRUCE_PLANKS
+    amount: 23
+  slot_24:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: RAIL
+    amount: 10
+  slot_25:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: FLINT
+  slot_30:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIRT
+    amount: 9
+  slot_32:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: COAL
+    amount: 7
