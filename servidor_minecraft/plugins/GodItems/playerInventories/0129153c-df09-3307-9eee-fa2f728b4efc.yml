@@ -59,10 +59,15 @@ armor:
       meta-type: ARMOR
       enchants:
         minecraft:protection: 2
+      Damage: 30
   helmet:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: IRON_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      Damage: 32
   leggings:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -73,6 +78,7 @@ armor:
       enchants:
         minecraft:blast_protection: 2
         minecraft:unbreaking: 2
+      Damage: 25
 charms: {}
 contents:
   slot_0:
@@ -82,7 +88,7 @@ contents:
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
-      Damage: 60
+      Damage: 71
   slot_1:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -97,7 +103,7 @@ contents:
       meta-type: UNSPECIFIC
       enchants:
         minecraft:efficiency: 2
-      Damage: 900
+      Damage: 935
   slot_3:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -107,17 +113,12 @@ contents:
       meta-type: UNSPECIFIC
       enchants:
         minecraft:efficiency: 2
-      Damage: 470
-  slot_4:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: DEEPSLATE_TILES
-    amount: 3
+      Damage: 1346
   slot_5:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: DIRT
-    amount: 5
+    type: TORCH
+    amount: 2
   slot_6:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -135,8 +136,7 @@ contents:
   slot_7:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: SPRUCE_LOG
-    amount: 2
+    type: SPRUCE_PLANKS
   slot_8:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -144,122 +144,15 @@ contents:
   slot_9:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: GOLD_INGOT
-    amount: 19
-  slot_10:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: ARROW
-  slot_11:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: COBBLESTONE
+    type: EMERALD
     amount: 25
-  slot_12:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: REDSTONE_TORCH
-    amount: 16
-  slot_13:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: REDSTONE
-    amount: 7
-  slot_14:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: ROTTEN_FLESH
-    amount: 6
-  slot_15:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: WATER_BUCKET
   slot_24:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: DIAMOND_HOE
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      Damage: 760
-  slot_27:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: LECTERN
-    amount: 6
-  slot_29:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: TORCH
-    amount: 24
-  slot_30:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: BLAST_FURNACE
-  slot_31:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: OAK_PLANKS
-    amount: 29
-  slot_33:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: DIAMOND_SHOVEL
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      enchants:
-        minecraft:efficiency: 1
-        minecraft:unbreaking: 1
-      Damage: 648
-  slot_35:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: OXEYE_DAISY
-  slot_16:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: REDSTONE_TORCH
-    amount: 13
-  slot_17:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: COMPOSTER
-  slot_18:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: STICK
     amount: 14
-  slot_19:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: EMERALD
-    amount: 14
-  slot_20:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: DIAMOND_BOOTS
-    meta:
-      ==: ItemMeta
-      meta-type: ARMOR
-      Damage: 379
   slot_21:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: BREAD
-    amount: 6
-  slot_23:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: REDSTONE
-    amount: 31
-  slot_25:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: RAIL
-    amount: 15
-  slot_34:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: SPRUCE_SLAB
-    amount: 57
+    type: ARROW
+    amount: 2
