@@ -1,69 +1,201 @@
 armor:
-  chestplate:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: IRON_CHESTPLATE
-  boots:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: IRON_BOOTS
   offhand:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: SHIELD
-charms: {}
-contents:
-  slot_0:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: IRON_AXE
     meta:
       ==: ItemMeta
-      meta-type: UNSPECIFIC
-      Damage: 15
+      meta-type: SHIELD
+      Damage: 288
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      display-name: '{"text":"","extra":[{"text":"Dracula''s armor","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"dark_red","bold":true}]}'
+      lore:
+      - '""'
+      - '{"text":"","extra":[{"text":"A This armor once belonged to Vlad the Impaler","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      - '""'
+      - '{"text":"","extra":[{"text":"(Sneak + Jump to morph)","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      - '""'
+      - '{"text":"","extra":[{"text":"Item Ability: ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"ON","italic":false,"color":"green"}]}'
+      custom-model-data: 1000020
+      enchants:
+        minecraft:protection: 5
+        minecraft:thorns: 4
+        minecraft:unbreaking: 3
+      attribute-modifiers:
+        minecraft:generic.armor:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 6.0
+          slot: chest
+          operation: 0
+          key: minecraft:a48331cd-a05f-4e4c-9c75-c47322c7d0fa
+        minecraft:generic.armor_toughness:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 1.0
+          slot: chest
+          operation: 0
+          key: minecraft:648b239a-d4ef-4b82-8d49-d4e3a3125cd0
+        minecraft:generic.knockback_resistance:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.0
+          slot: chest
+          operation: 0
+          key: minecraft:9b049782-3e26-469e-9ac9-0d92a9a42ff8
+      ItemFlags:
+      - HIDE_ENCHANTS
+      Unbreakable: true
+      PublicBukkitValues: |-
+        {
+            "goditems:code_name": "draculas_armor"
+        }
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      Damage: 160
+charms: {}
+contents:
   slot_1:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: IRON_PICKAXE
+    type: DIAMOND_PICKAXE
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
-      Damage: 16
-  slot_2:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: COBBLESTONE
-    amount: 9
+      enchants:
+        minecraft:efficiency: 2
+      Damage: 8
   slot_3:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: CRAFTING_TABLE
+    type: WATER_BUCKET
+  slot_4:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        minecraft:efficiency: 2
+      Damage: 1022
   slot_6:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: BREAD
-    amount: 2
+    amount: 56
+  slot_8:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ENDER_PEARL
+  slot_9:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: BONE
+    amount: 4
   slot_10:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: GOLD_INGOT
-    amount: 3
+    type: ARROW
+    amount: 4
   slot_11:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: STICK
+    type: ROTTEN_FLESH
     amount: 2
-  slot_14:
+  slot_12:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: IRON_INGOT
+    type: COBBLESTONE
+    amount: 57
+  slot_16:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: EMERALD
+    amount: 18
+  slot_17:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: EMERALD
+    amount: 64
+  slot_23:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: LECTERN
+    amount: 2
+  slot_24:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: BOOK
+    amount: 4
+  slot_26:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        minecraft:infinity: 1
   slot_27:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: OAK_PLANKS
-    amount: 14
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 310
+  slot_28:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SHEARS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 37
   slot_33:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: APPLE
-    amount: 5
+    type: BREAD
+    amount: 64
+  slot_35:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SUGAR_CANE
+    amount: 2
+  slot_25:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        minecraft:flame: 1
+  slot_5:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIAMOND_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        minecraft:efficiency: 1
+        minecraft:unbreaking: 1
+      Damage: 92
+  slot_0:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 362

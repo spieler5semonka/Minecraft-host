@@ -2,7 +2,190 @@ armor:
   offhand:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: AIR
-    amount: 0
+    type: SHIELD
+    meta:
+      ==: ItemMeta
+      meta-type: SHIELD
+      Damage: 59
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      enchants:
+        minecraft:fire_protection: 4
+        minecraft:unbreaking: 3
+      Damage: 302
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      Damage: 92
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      Damage: 100
 charms: {}
-contents: {}
+contents:
+  slot_0:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 19
+  slot_1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIAMOND_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        minecraft:efficiency: 1
+        minecraft:unbreaking: 1
+      Damage: 1
+  slot_2:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        minecraft:efficiency: 2
+      Damage: 307
+  slot_3:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        minecraft:efficiency: 2
+      Damage: 47
+  slot_5:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPRUCE_PLANKS
+    amount: 59
+  slot_8:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPRUCE_LOG
+    amount: 63
+  slot_9:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: STICK
+    amount: 28
+  slot_10:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: LEVER
+  slot_11:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPRUCE_PLANKS
+    amount: 54
+  slot_12:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        minecraft:sharpness: 4
+  slot_13:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: EMERALD
+    amount: 10
+  slot_14:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: BOOK
+    amount: 8
+  slot_15:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: IRON_INGOT
+    amount: 5
+  slot_29:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPRUCE_LOG
+    amount: 64
+  slot_30:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPRUCE_PLANKS
+    amount: 50
+  slot_32:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: RAIL
+    amount: 21
+  slot_33:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPRUCE_LOG
+    amount: 64
+  slot_34:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPRUCE_LOG
+    amount: 64
+  slot_35:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPRUCE_LOG
+    amount: 64
+  slot_6:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: LECTERN
+    amount: 5
+  slot_16:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 274
+  slot_4:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: BREAD
+    amount: 12
+  slot_7:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: MINECART
+  slot_17:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ROTTEN_FLESH
+    amount: 5
+  slot_24:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: OBSIDIAN
+  slot_25:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ARROW
+    amount: 10
