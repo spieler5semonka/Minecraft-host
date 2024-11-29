@@ -14,7 +14,7 @@ armor:
       enchants:
         minecraft:fire_protection: 4
         minecraft:unbreaking: 3
-      Damage: 322
+      Damage: 330
   helmet:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -22,7 +22,7 @@ armor:
     meta:
       ==: ItemMeta
       meta-type: ARMOR
-      Damage: 117
+      Damage: 129
   boots:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -30,7 +30,7 @@ armor:
     meta:
       ==: ItemMeta
       meta-type: ARMOR
-      Damage: 125
+      Damage: 137
   chestplate:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -100,16 +100,8 @@ contents:
   slot_3:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: DIAMOND_PICKAXE
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      Damage: 1248
-  slot_9:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: LECTERN
-    amount: 6
+    type: COBBLESTONE
+    amount: 2
   slot_33:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -147,20 +139,11 @@ contents:
     v: 3953
     type: STRING
     amount: 6
-  slot_1:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: COBBLESTONE
-    amount: 2
   slot_20:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: STICK
     amount: 9
-  slot_21:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: COOKED_BEEF
   slot_22:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -219,3 +202,24 @@ contents:
     v: 3953
     type: TRIPWIRE_HOOK
     amount: 6
+  slot_4:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 1250
+  slot_8:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIAMOND_HOE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 429
+  slot_1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: LECTERN
+    amount: 5
