@@ -2,8 +2,11 @@ armor:
   offhand:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: AIR
-    amount: 0
+    type: SHIELD
+    meta:
+      ==: ItemMeta
+      meta-type: SHIELD
+      Damage: 65
   leggings:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -14,7 +17,7 @@ armor:
       enchants:
         minecraft:fire_protection: 4
         minecraft:unbreaking: 3
-      Damage: 330
+      Damage: 333
   helmet:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -22,7 +25,7 @@ armor:
     meta:
       ==: ItemMeta
       meta-type: ARMOR
-      Damage: 129
+      Damage: 133
   boots:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -30,7 +33,7 @@ armor:
     meta:
       ==: ItemMeta
       meta-type: ARMOR
-      Damage: 137
+      Damage: 142
   chestplate:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -86,7 +89,7 @@ contents:
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
-      Damage: 31
+      Damage: 32
   slot_2:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -96,7 +99,7 @@ contents:
       meta-type: UNSPECIFIC
       enchants:
         minecraft:efficiency: 2
-      Damage: 410
+      Damage: 424
   slot_3:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -126,14 +129,6 @@ contents:
     v: 3953
     type: IRON_INGOT
     amount: 14
-  slot_24:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: SHIELD
-    meta:
-      ==: ItemMeta
-      meta-type: SHIELD
-      Damage: 65
   slot_34:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -143,11 +138,11 @@ contents:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: STICK
-    amount: 9
+    amount: 13
   slot_22:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: DEEPSLATE_TILES
+    type: DIRT
     amount: 59
   slot_25:
     ==: org.bukkit.inventory.ItemStack
@@ -157,18 +152,8 @@ contents:
   slot_26:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: WATER_BUCKET
-  slot_27:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: DIAMOND_SHOVEL
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      enchants:
-        minecraft:efficiency: 1
-        minecraft:unbreaking: 1
-      Damage: 56
+    type: DEEPSLATE_TILES
+    amount: 52
   slot_28:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -195,13 +180,8 @@ contents:
   slot_32:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: DIRT
+    type: BREAD
     amount: 56
-  slot_35:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: TRIPWIRE_HOOK
-    amount: 6
   slot_4:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -217,9 +197,58 @@ contents:
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
-      Damage: 429
+      Damage: 499
   slot_1:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: LECTERN
     amount: 5
+  slot_5:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIAMOND_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        minecraft:efficiency: 1
+        minecraft:unbreaking: 1
+      Damage: 224
+  slot_7:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: BUCKET
+  slot_9:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: BIRCH_LOG
+    amount: 12
+  slot_10:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ROTTEN_FLESH
+  slot_11:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIRT
+    amount: 64
+  slot_12:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: GRAVEL
+    amount: 3
+  slot_13:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIRT
+    amount: 56
+  slot_14:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIRT
+    amount: 25
+  slot_15:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: OAK_PLANKS
+    amount: 3
