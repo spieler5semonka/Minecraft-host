@@ -1371,3 +1371,44 @@ java.lang.ClassCastException: null
 [22:47:08] [Async Chat Thread - #62/INFO]: [Not Secure] <_Livic_> pasa una cubeta
 [22:48:02] [Async Chat Thread - #62/INFO]: [Not Secure] <Spieler_semonka> nunca mas hicimos eso del dedsafio
 [22:48:10] [Async Chat Thread - #62/INFO]: [Not Secure] <_Livic_> XD
+[22:48:59] [Async Chat Thread - #62/INFO]: [Not Secure] <Spieler_semonka> despues hacemos la de iron?
+[22:49:11] [Async Chat Thread - #62/INFO]: [Not Secure] <Spieler_semonka> encontre un que es muy buena para ser sencilla
+[22:49:27] [Async Chat Thread - #62/INFO]: [Not Secure] <_Livic_> okei
+[22:52:05] [Async Chat Thread - #64/INFO]: [Not Secure] <Spieler_semonka> despues de hacer las granjas iniciales, hacemos uns buena granja de raids?
+[22:52:10] [Async Chat Thread - #64/INFO]: [Not Secure] <Spieler_semonka> una industrial
+[22:52:14] [Async Chat Thread - #64/INFO]: [Not Secure] <_Livic_> qe
+[22:52:19] [Async Chat Thread - #64/INFO]: [Not Secure] <_Livic_> primero la armor we
+[22:52:22] [Server thread/INFO]: _Livic_ issued server command: /gamemode survival
+[22:52:27] [Server thread/INFO]: _Livic_ issued server command: /gamemode spectator
+[22:52:27] [Server thread/INFO]: [_Livic_: Set own game mode to Spectator Mode]
+[22:52:28] [Async Chat Thread - #64/INFO]: [Not Secure] <Spieler_semonka> luego de las granjas iniciales
+[22:52:37] [Async Chat Thread - #64/INFO]: [Not Secure] <_Livic_> okei
+[22:53:04] [Server thread/INFO]: _Livic_ issued server command: /gamemode survival
+[22:53:04] [Server thread/INFO]: [_Livic_: Set own game mode to Survival Mode]
+[22:53:06] [Server thread/INFO]: _Livic_ fell from a high place
+[22:53:06] [Async Chat Thread - #64/INFO]: [Not Secure] <Spieler_semonka> haremos al god armor?
+[22:53:08] [Async Chat Thread - #64/INFO]: [Not Secure] <Spieler_semonka> XD
+[22:53:14] [Server thread/INFO]: _Livic_ issued server command: /gamemode survival
+[22:53:14] [Server thread/INFO]: [_Livic_: Set own game mode to Survival Mode]
+[22:53:20] [Server thread/INFO]: _Livic_ issued server command: /gamemode survival
+[22:53:25] [Server thread/INFO]: _Livic_ issued server command: /tp Spieler_semonka
+[22:53:25] [Server thread/INFO]: [_Livic_: Teleported _Livic_ to Spieler_semonka]
+[22:54:37] [Async Chat Thread - #66/INFO]: [Not Secure] <_Livic_> ya t dije q la god armor no
+[22:54:42] [Async Chat Thread - #66/INFO]: [Not Secure] <_Livic_> tryhard puto
+[22:54:45] [Async Chat Thread - #66/INFO]: [Not Secure] <Spieler_semonka> por k
+[22:54:47] [Async Chat Thread - #66/INFO]: [Not Secure] <Spieler_semonka> :C
+[22:54:49] [Async Chat Thread - #66/INFO]: [Not Secure] <Spieler_semonka> XD
+[22:55:16] [Async Chat Thread - #66/INFO]: [Not Secure] <Spieler_semonka> bueno, una armor con todos los encantamientos de los plugins (hay como 50)
+[22:55:22] [Async Chat Thread - #66/INFO]: [Not Secure] <_Livic_> XD
+[22:55:42] [Async Chat Thread - #66/INFO]: [Not Secure] <Spieler_semonka> y de base hacemos un castillo?
+[22:55:48] [Async Chat Thread - #66/INFO]: [Not Secure] <Spieler_semonka> pero uno pequeño
+[22:55:49] [Async Chat Thread - #66/INFO]: [Not Secure] <_Livic_> okei
+[22:55:58] [Async Chat Thread - #66/INFO]: [Not Secure] <Spieler_semonka> hasta lo podemos hacer ahora
+[22:56:14] [Async Chat Thread - #66/INFO]: [Not Secure] <_Livic_> ni mi nacimiento fue tan planeado
+[22:56:18] [Async Chat Thread - #66/INFO]: [Not Secure] <Spieler_semonka> XD
+[22:56:23] [Async Chat Thread - #66/INFO]: [Not Secure] <Spieler_semonka> io
+[22:56:38] [Server thread/ERROR]: Could not pass event InventoryOpenEvent to GodItems v3.0.1
+java.lang.ClassCastException: null
+[22:56:54] [Async Chat Thread - #66/INFO]: [Not Secure] <_Livic_> veni a ponerle el atril a este
+[22:57:06] [Async Chat Thread - #66/INFO]: [Not Secure] <Spieler_semonka> p que yo
+[22:57:20] [Async Chat Thread - #66/INFO]: [Not Secure] <_Livic_> pq conmigo no kieren
