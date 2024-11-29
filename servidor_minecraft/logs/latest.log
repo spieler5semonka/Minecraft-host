@@ -675,3 +675,89 @@ java.lang.ClassCastException: class org.bukkit.craftbukkit.inventory.CraftItemSt
 [20:47:13] [Async Chat Thread - #8/INFO]: [Not Secure] <Spieler_semonka> es por eso del hilo
 [20:47:22] [Async Chat Thread - #8/INFO]: [Not Secure] <_Livic_> uh
 [20:47:36] [Async Chat Thread - #8/INFO]: [Not Secure] <_Livic_> pasa carriles
+[20:48:08] [Async Chat Thread - #8/INFO]: [Not Secure] <Spieler_semonka> viste la nueva mochila?
+[20:48:13] [Async Chat Thread - #8/INFO]: [Not Secure] <_Livic_> so
+[20:48:14] [Async Chat Thread - #8/INFO]: [Not Secure] <_Livic_> si
+[20:48:15] [Async Chat Thread - #8/INFO]: [Not Secure] <_Livic_> XD
+[20:48:28] [Async Chat Thread - #8/INFO]: [Not Secure] <Spieler_semonka> necesitamos aldeanos
+[20:48:33] [Async Chat Thread - #8/INFO]: [Not Secure] <Spieler_semonka> que cojan mas
+[20:48:57] [Async Chat Thread - #8/INFO]: [Not Secure] <Spieler_semonka> wtf
+[20:49:02] [Async Chat Thread - #8/INFO]: [Not Secure] <Spieler_semonka> me puedo golpear a mi mismo
+[20:49:13] [Async Chat Thread - #8/INFO]: [Not Secure] <Spieler_semonka> tengo una idea
+[20:49:30] [Async Chat Thread - #8/INFO]: [Not Secure] <Spieler_semonka> hacemos una granja de aldeanos con una granja de hierro?
+[20:49:37] [Async Chat Thread - #8/INFO]: [Not Secure] <Spieler_semonka> produce aldeanos y hierro
+[20:49:42] [Async Chat Thread - #8/INFO]: [Not Secure] <_Livic_> uff
+[20:49:44] [Async Chat Thread - #8/INFO]: [Not Secure] <_Livic_> va
+[20:49:58] [Async Chat Thread - #8/INFO]: [Not Secure] <_Livic_> ez
+[20:49:59] [Async Chat Thread - #8/INFO]: [Not Secure] <Spieler_semonka> ZZZ
+[20:50:10] [Server thread/INFO]: Spieler_semonka died
+[20:50:10] [Server thread/INFO]: Named entity Bat['Spieler_semonka'/4938, uuid='273defd6-a224-49e2-9cda-65e829d1c079', l='ServerLevel[world]', x=-1357.41, y=66.60, z=-794.90, cpos=[-85, -50], tl=145, v=false, removed=DISCARDED] died: Spieler_semonka was slain by Spieler_semonka
+[20:50:19] [Async Chat Thread - #8/INFO]: [Not Secure] <Spieler_semonka> me mate yo solo
+[20:50:21] [Async Chat Thread - #8/INFO]: [Not Secure] <Spieler_semonka> literal
+[20:50:22] [Async Chat Thread - #8/INFO]: [Not Secure] <_Livic_> XDD
+[20:50:31] [Server thread/INFO]: Spieler_semonka issued server command: /gamemode survival
+[20:50:31] [Server thread/INFO]: [Spieler_semonka: Set own game mode to Survival Mode]
+[20:50:41] [Async Chat Thread - #8/INFO]: [Not Secure] <Spieler_semonka> te puedes golpear mientras te transformas
+[20:50:55] [Server thread/INFO]: Named entity Bat['_Livic_'/5016, uuid='23694cd1-5368-439f-9701-23bb9c26ac20', l='ServerLevel[world]', x=-1352.16, y=67.75, z=-787.71, cpos=[-85, -50], tl=113, v=false, removed=DISCARDED] died: _Livic_ was slain by _Livic_
+[20:50:58] [Async Chat Thread - #8/INFO]: [Not Secure] <_Livic_> ai
+[20:51:01] [Async Chat Thread - #8/INFO]: [Not Secure] <_Livic_> wtf
+[20:51:12] [Async Chat Thread - #8/INFO]: [Not Secure] <Spieler_semonka> q
+[20:51:29] [Async Chat Thread - #8/INFO]: [Not Secure] <_Livic_> ya se pq no cojen
+[20:51:34] [Async Chat Thread - #8/INFO]: [Not Secure] <Spieler_semonka> las camas
+[20:51:39] [Async Chat Thread - #8/INFO]: [Not Secure] <_Livic_> los otros aldeanos siguen vinculados con la cama
+[20:51:50] [Async Chat Thread - #8/INFO]: [Not Secure] <Spieler_semonka> aleja mas a esto
+[20:51:58] [Async Chat Thread - #9/INFO]: [Not Secure] <Spieler_semonka> ahora cuando hagsmos la granja
+[20:52:16] [Async Chat Thread - #9/INFO]: [Not Secure] <Spieler_semonka> buscare la granja
+[20:52:32] [Async Chat Thread - #9/INFO]: [Not Secure] <_Livic_> dormis?
+[20:54:40] [Async Chat Thread - #10/INFO]: [Not Secure] <Spieler_semonka> no
+[20:54:42] [Async Chat Thread - #10/INFO]: [Not Secure] <Spieler_semonka> va
+[20:54:54] [Async Chat Thread - #10/INFO]: [Not Secure] <Spieler_semonka> se mando no solo XD
+[20:55:16] [Server thread/INFO]: morphing because duration expired
+[20:55:30] [Async Chat Thread - #10/INFO]: [Not Secure] <Spieler_semonka> no es muy eficiente la granja de aldeanos y hierro
+[20:55:35] [Async Chat Thread - #10/INFO]: [Not Secure] <Spieler_semonka> es mejor una de cad auna
+[20:55:46] [Async Chat Thread - #11/INFO]: [Not Secure] <Spieler_semonka> hacemos una de aldeanos primero
+[20:55:49] [Server thread/ERROR]: Could not pass event InventoryOpenEvent to GodItems v3.0.1
+java.lang.ClassCastException: class org.bukkit.craftbukkit.inventory.CraftItemStack cannot be cast to class GodItems.items.GodItem (org.bukkit.craftbukkit.inventory.CraftItemStack is in unnamed module of loader java.net.URLClassLoader @7591083d; GodItems.items.GodItem is in unnamed module of loader 'GodItems-3.0.1.jar' @54569117)
+	at GodItems-3.0.1.jar/GodItems.subsystems.saveInventory.InventoryUpdater.updateItem(InventoryUpdater.java:112) ~[GodItems-3.0.1.jar:?]
+	at GodItems-3.0.1.jar/GodItems.subsystems.saveInventory.ChestInventories.updateInventory(ChestInventories.java:11) ~[GodItems-3.0.1.jar:?]
+	at GodItems-3.0.1.jar/GodItems.listeners.InventoryEvents.onOpenInv(InventoryEvents.java:36) ~[GodItems-3.0.1.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor112.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:1.21-130-b1b5d4c]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callInventoryOpenEventWithTitle(CraftEventFactory.java:1437) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerPlayer.openMenu(ServerPlayer.java:1703) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.block.ChestBlock.useWithoutItem(ChestBlock.java:257) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.useWithoutItem(BlockBehaviour.java:1247) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:590) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1871) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:44) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:11) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:56) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:56:25] [Async Chat Thread - #11/INFO]: [Not Secure] <Spieler_semonka> 8 aldeanos necesitamos para la de aldeanos
+[20:56:37] [Async Chat Thread - #11/INFO]: [Not Secure] <Spieler_semonka> pero produce 4-8 aldeanos por dia
+[20:57:08] [Async Chat Thread - #11/INFO]: [Not Secure] <_Livic_> el otro diciendo con su cabeza q si
+[20:57:09] [Async Chat Thread - #11/INFO]: [Not Secure] <_Livic_> XD
+[20:57:21] [Async Chat Thread - #11/INFO]: [Not Secure] <_Livic_> dame mending a 9 esmeraldas
+[20:57:27] [Async Chat Thread - #11/INFO]: [Not Secure] <Spieler_semonka> QUIERO VER MI FAMILIA
+[20:57:31] [Async Chat Thread - #11/INFO]: [Not Secure] <Spieler_semonka> NO!
+[20:57:34] [Async Chat Thread - #11/INFO]: [Not Secure] <_Livic_> dame mending
+[20:57:40] [Async Chat Thread - #11/INFO]: [Not Secure] <Spieler_semonka> NO
+[20:57:48] [Async Chat Thread - #11/INFO]: [Not Secure] <Spieler_semonka> HACE DIAS QUE NO VEO EL SOL
