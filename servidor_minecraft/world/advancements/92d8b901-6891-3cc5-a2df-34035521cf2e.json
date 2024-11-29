@@ -2245,15 +2245,45 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2024-11-29 01:37:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2024-11-29 01:37:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2024-11-29 01:37:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2024-11-29 01:44:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2024-11-29 01:46:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/flower_banner_pattern": {
     "criteria": {
       "has_oxeye_daisy": "2024-11-29 02:19:56 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/chest_minecart": {
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
     "criteria": {
-      "has_minecart": "2024-11-29 03:28:41 +0000"
+      "has_oxeye_daisy": "2024-11-29 02:19:56 +0000"
     },
     "done": true
   },
@@ -2263,9 +2293,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/fermented_spider_eye": {
+  "minecraft:recipes/transportation/chest_minecart": {
     "criteria": {
-      "has_spider_eye": "2024-11-29 01:46:30 +0000"
+      "has_minecart": "2024-11-29 03:28:41 +0000"
     },
     "done": true
   },
@@ -2281,39 +2311,9 @@
     },
     "done": true
   },
-  "minecraft:nether/obtain_blaze_rod": {
-    "criteria": {
-      "blaze_rod": "2024-11-29 01:37:11 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/blaze_powder": {
-    "criteria": {
-      "has_blaze_rod": "2024-11-29 01:37:11 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/tnt_minecart": {
     "criteria": {
       "has_minecart": "2024-11-29 03:28:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
-    "criteria": {
-      "has_oxeye_daisy": "2024-11-29 02:19:56 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/trade": {
-    "criteria": {
-      "traded": "2024-11-29 01:44:54 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/brewing_stand": {
-    "criteria": {
-      "has_blaze_rod": "2024-11-29 01:37:11 +0000"
     },
     "done": true
   },

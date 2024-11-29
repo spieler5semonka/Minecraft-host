@@ -625,3 +625,53 @@ java.lang.ClassCastException: class org.bukkit.craftbukkit.inventory.CraftItemSt
 [20:37:28] [Server thread/INFO]: _Livic_ issued server command: /skin ElRichMC
 [20:37:32] [Async Chat Thread - #2/INFO]: [Not Secure] <_Livic_> so
 [20:37:32] [Async Chat Thread - #2/INFO]: [Not Secure] <Spieler_semonka> puse un plugin de eso
+[20:38:04] [Async Chat Thread - #2/INFO]: [Not Secure] <Spieler_semonka> ey ey ey, aqui el rich
+[20:38:06] [Async Chat Thread - #2/INFO]: [Not Secure] <Spieler_semonka> XD
+[20:38:49] [Async Chat Thread - #2/INFO]: [Not Secure] <_Livic_> dormis?
+[20:38:56] [Async Chat Thread - #2/INFO]: [Not Secure] <Spieler_semonka> va
+[20:40:05] [Async Chat Thread - #4/INFO]: [Not Secure] <_Livic_> hay un mod para ponerme capas¡
+[20:40:06] [Async Chat Thread - #4/INFO]: [Not Secure] <_Livic_> ?
+[20:40:11] [Async Chat Thread - #4/INFO]: [Not Secure] <Spieler_semonka> no c
+[20:40:13] [Async Chat Thread - #4/INFO]: [Not Secure] <Spieler_semonka> hay que ver
+[20:41:01] [Server thread/ERROR]: Could not pass event InventoryOpenEvent to GodItems v3.0.1
+java.lang.ClassCastException: class org.bukkit.craftbukkit.inventory.CraftItemStack cannot be cast to class GodItems.items.GodItem (org.bukkit.craftbukkit.inventory.CraftItemStack is in unnamed module of loader java.net.URLClassLoader @7591083d; GodItems.items.GodItem is in unnamed module of loader 'GodItems-3.0.1.jar' @54569117)
+	at GodItems-3.0.1.jar/GodItems.subsystems.saveInventory.InventoryUpdater.updateItem(InventoryUpdater.java:112) ~[GodItems-3.0.1.jar:?]
+	at GodItems-3.0.1.jar/GodItems.subsystems.saveInventory.ChestInventories.updateInventory(ChestInventories.java:11) ~[GodItems-3.0.1.jar:?]
+	at GodItems-3.0.1.jar/GodItems.listeners.InventoryEvents.onOpenInv(InventoryEvents.java:36) ~[GodItems-3.0.1.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor112.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:1.21-130-b1b5d4c]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callInventoryOpenEventWithTitle(CraftEventFactory.java:1437) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerPlayer.openMenu(ServerPlayer.java:1703) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.block.ChestBlock.useWithoutItem(ChestBlock.java:257) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.useWithoutItem(BlockBehaviour.java:1247) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:590) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1871) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:44) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:11) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:56) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:43:19] [Async Chat Thread - #6/INFO]: [Not Secure] <_Livic_> la vagoneta?
+[20:47:03] [Async Chat Thread - #8/INFO]: [Not Secure] <_Livic_> bro?
+[20:47:05] [Async Chat Thread - #8/INFO]: [Not Secure] <Spieler_semonka> q
+[20:47:09] [Async Chat Thread - #8/INFO]: [Not Secure] <Spieler_semonka> no funciona
+[20:47:13] [Async Chat Thread - #8/INFO]: [Not Secure] <Spieler_semonka> es por eso del hilo
+[20:47:22] [Async Chat Thread - #8/INFO]: [Not Secure] <_Livic_> uh
+[20:47:36] [Async Chat Thread - #8/INFO]: [Not Secure] <_Livic_> pasa carriles

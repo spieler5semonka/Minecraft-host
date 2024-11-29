@@ -60,7 +60,7 @@ armor:
     meta:
       ==: ItemMeta
       meta-type: ARMOR
-      Damage: 160
+      Damage: 170
 charms: {}
 contents:
   slot_1:
@@ -72,7 +72,7 @@ contents:
       meta-type: UNSPECIFIC
       enchants:
         minecraft:efficiency: 2
-      Damage: 8
+      Damage: 10
   slot_3:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -86,12 +86,12 @@ contents:
       meta-type: UNSPECIFIC
       enchants:
         minecraft:efficiency: 2
-      Damage: 1022
+      Damage: 1024
   slot_6:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: BREAD
-    amount: 56
+    amount: 64
   slot_8:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -99,23 +99,22 @@ contents:
   slot_9:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: BONE
-    amount: 4
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '"§eBackpack"'
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: ed57ebc5-704e-3ba1-8e1a-1e774d884533
+        properties:
+        - name: textures
+          value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0=
   slot_10:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: ARROW
-    amount: 4
-  slot_11:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: ROTTEN_FLESH
-    amount: 2
-  slot_12:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: COBBLESTONE
-    amount: 57
+    amount: 3
   slot_16:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -126,25 +125,6 @@ contents:
     v: 3953
     type: EMERALD
     amount: 64
-  slot_23:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: LECTERN
-    amount: 2
-  slot_24:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: BOOK
-    amount: 4
-  slot_26:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: ENCHANTED_BOOK
-    meta:
-      ==: ItemMeta
-      meta-type: ENCHANTED
-      stored-enchants:
-        minecraft:infinity: 1
   slot_27:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -152,35 +132,8 @@ contents:
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
-      Damage: 310
+      Damage: 311
   slot_28:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: SHEARS
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      Damage: 37
-  slot_33:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: BREAD
-    amount: 64
-  slot_35:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: SUGAR_CANE
-    amount: 2
-  slot_25:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: ENCHANTED_BOOK
-    meta:
-      ==: ItemMeta
-      meta-type: ENCHANTED
-      stored-enchants:
-        minecraft:flame: 1
-  slot_5:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: DIAMOND_SHOVEL
@@ -191,6 +144,11 @@ contents:
         minecraft:efficiency: 1
         minecraft:unbreaking: 1
       Damage: 92
+  slot_33:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: BREAD
+    amount: 4
   slot_0:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -198,4 +156,17 @@ contents:
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
-      Damage: 362
+      Damage: 369
+  slot_2:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: COBBLESTONE
+    amount: 53
+  slot_18:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SHEARS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 37
