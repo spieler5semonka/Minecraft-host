@@ -1450,3 +1450,73 @@ java.lang.ClassCastException: null
 [23:08:09] [Server thread/INFO]: Spieler_semonka issued server command: /gamemode survival
 [23:08:09] [Server thread/INFO]: [Spieler_semonka: Set own game mode to Survival Mode]
 [23:08:49] [Async Chat Thread - #74/INFO]: [Not Secure] <Spieler_semonka> wtf
+[23:08:54] [Async Chat Thread - #74/INFO]: [Not Secure] <Spieler_semonka> me estoy muriendo
+[23:09:00] [Async Chat Thread - #74/INFO]: [Not Secure] <_Livic_> qe
+[23:09:04] [Server thread/INFO]: Spieler_semonka died
+[23:09:15] [Server thread/INFO]: Spieler_semonka issued server command: /gamemode survival
+[23:09:15] [Server thread/INFO]: [Spieler_semonka: Set own game mode to Survival Mode]
+[23:09:20] [Async Chat Thread - #74/INFO]: [Not Secure] <Spieler_semonka> WTF
+[23:09:22] [Async Chat Thread - #74/INFO]: [Not Secure] <Spieler_semonka> mira
+[23:09:34] [Server thread/INFO]: Spieler_semonka died
+[23:09:37] [Async Chat Thread - #74/INFO]: [Not Secure] <_Livic_> wtf
+[23:09:43] [Server thread/INFO]: Spieler_semonka issued server command: /gamemode survival
+[23:09:43] [Server thread/INFO]: [Spieler_semonka: Set own game mode to Survival Mode]
+[23:09:54] [Server thread/INFO]: Spieler_semonka issued server command: /hero
+[23:09:54] [Async Chat Thread - #74/INFO]: [Not Secure] <_Livic_> sali i metete
+[23:09:57] [Server thread/INFO]: Spieler_semonka lost connection: Disconnected
+[23:09:57] [Server thread/INFO]: Spieler_semonka left the game
+[23:10:00] [User Authenticator #2/INFO]: UUID of player Spieler_semonka is 0129153c-df09-3307-9eee-fa2f728b4efc
+[23:10:01] [Server thread/INFO]: Spieler_semonka joined the game
+[23:10:01] [Server thread/INFO]: Spieler_semonka[/127.142.138.174:50931] logged in with entity id 26660 at ([world]-1300.9881497769907, 63.0, -773.6888928796275)
+[23:10:06] [Async Chat Thread - #74/INFO]: [Not Secure] <Spieler_semonka> XD
+[23:10:10] [Async Chat Thread - #74/INFO]: [Not Secure] <_Livic_> XD
+[23:10:10] [Server thread/INFO]: Spieler_semonka died
+[23:10:21] [Server thread/INFO]: Spieler_semonka issued server command: /hero select
+[23:10:30] [Async Chat Thread - #74/INFO]: [Not Secure] <_Livic_> vro
+[23:10:31] [Async Chat Thread - #74/INFO]: [Not Secure] <_Livic_> tu xp
+[23:10:33] [Async Chat Thread - #74/INFO]: [Not Secure] <_Livic_> i cosas
+[23:10:33] [Server thread/INFO]: Spieler_semonka issued server command: /gamemode survival
+[23:10:33] [Server thread/INFO]: [Spieler_semonka: Set own game mode to Survival Mode]
+[23:10:48] [Async Chat Thread - #74/INFO]: [Not Secure] <Spieler_semonka> la tenngo
+[23:10:50] [Async Chat Thread - #74/INFO]: [Not Secure] <Spieler_semonka> wtf
+[23:10:54] [Async Chat Thread - #74/INFO]: [Not Secure] <_Livic_> okei
+[23:10:58] [Async Chat Thread - #74/INFO]: [Not Secure] <Spieler_semonka> tengo un corazon mas
+[23:11:09] [Async Chat Thread - #74/INFO]: [Not Secure] <Spieler_semonka> cuantos tenes vos?
+[23:11:16] [Async Chat Thread - #74/INFO]: [Not Secure] <_Livic_> 15
+[23:11:22] [Async Chat Thread - #74/INFO]: [Not Secure] <Spieler_semonka> 15?
+[23:11:29] [Async Chat Thread - #74/INFO]: [Not Secure] <Spieler_semonka> yo 22
+[23:11:29] [Async Chat Thread - #74/INFO]: [Not Secure] <_Livic_> es por el nivel de defensa
+[23:11:32] [Async Chat Thread - #74/INFO]: [Not Secure] <Spieler_semonka> aaa
+[23:11:47] [Async Chat Thread - #74/INFO]: [Not Secure] <Spieler_semonka> fotito
+[23:12:00] [Async Chat Thread - #74/INFO]: [Not Secure] <Spieler_semonka> caia un rayo XD
+[23:12:18] [Async Chat Thread - #74/INFO]: [Not Secure] <Spieler_semonka> XD
+[23:12:45] [Server thread/INFO]: Spieler_semonka issued server command: /tp _Livic_
+[23:12:45] [Server thread/INFO]: [Spieler_semonka: Teleported Spieler_semonka to _Livic_]
+[23:12:50] [Async Chat Thread - #74/INFO]: [Not Secure] <_Livic_> en un cofre hay armor
+[23:12:58] [Async Chat Thread - #74/INFO]: [Not Secure] <Spieler_semonka> completamos la granja?
+[23:13:03] [Async Chat Thread - #74/INFO]: [Not Secure] <Spieler_semonka> faltan aldeanos
+[23:13:10] [Server thread/ERROR]: Could not pass event InventoryOpenEvent to GodItems v3.0.1
+java.lang.ClassCastException: null
+[23:13:16] [Server thread/ERROR]: Could not pass event InventoryOpenEvent to GodItems v3.0.1
+java.lang.ClassCastException: null
+[23:13:25] [Server thread/INFO]: _Livic_ issued server command: /gamemode spectator
+[23:13:25] [Server thread/INFO]: [_Livic_: Set own game mode to Spectator Mode]
+[23:13:34] [Async Chat Thread - #74/INFO]: [Not Secure] <Spieler_semonka> tenes raileS?
+[23:13:35] [Async Chat Thread - #74/INFO]: [Not Secure] <_Livic_> apenas hay 2 aldeanos
+[23:13:51] [Server thread/INFO]: _Livic_ issued server command: /gamemode survival
+[23:13:51] [Server thread/INFO]: [_Livic_: Set own game mode to Survival Mode]
+[23:13:59] [Server thread/ERROR]: Could not pass event InventoryOpenEvent to GodItems v3.0.1
+java.lang.ClassCastException: null
+[23:14:42] [Async Chat Thread - #76/INFO]: [Not Secure] <Spieler_semonka> grax
+[23:15:42] [Async Chat Thread - #76/INFO]: [Not Secure] <Spieler_semonka> queres hacer railes de los normales?
+[23:15:56] [Async Chat Thread - #76/INFO]: [Not Secure] <_Livic_> tenemos suficiente hierro?¡
+[23:16:00] [Async Chat Thread - #76/INFO]: [Not Secure] <Spieler_semonka> no c
+[23:16:05] [Async Chat Thread - #76/INFO]: [Not Secure] <_Livic_> voi a ir a minar
+[23:16:13] [Async Chat Thread - #76/INFO]: [Not Secure] <Spieler_semonka> ok
+[23:16:46] [Async Chat Thread - #76/INFO]: [Not Secure] <Spieler_semonka> trae redstone si podes
+[23:17:22] [Server thread/ERROR]: Could not pass event InventoryOpenEvent to GodItems v3.0.1
+java.lang.ClassCastException: null
+[23:17:37] [Server thread/INFO]: _Livic_ issued server command: /hero select Dolphin
+[23:17:42] [Server thread/INFO]: Spieler_semonka issued server command: /hero select
+[23:18:32] [Async Chat Thread - #78/INFO]: [Not Secure] <Spieler_semonka> tengo vias
+[23:18:41] [Async Chat Thread - #78/INFO]: [Not Secure] <Spieler_semonka> ni idea de donde salieron

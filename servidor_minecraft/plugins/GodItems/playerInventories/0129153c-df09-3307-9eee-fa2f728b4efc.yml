@@ -4,22 +4,6 @@ armor:
     v: 3953
     type: AIR
     amount: 0
-  helmet:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: DIAMOND_HELMET
-    meta:
-      ==: ItemMeta
-      meta-type: ARMOR
-      Damage: 360
-  boots:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: DIAMOND_BOOTS
-    meta:
-      ==: ItemMeta
-      meta-type: ARMOR
-      Damage: 373
   chestplate:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -66,12 +50,43 @@ armor:
         {
             "goditems:code_name": "draculas_armor"
         }
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      Damage: 379
 charms: {}
 contents:
   slot_0:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: POPPY
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 60
+  slot_1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      enchants:
+        minecraft:protection: 2
+  slot_2:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        minecraft:efficiency: 2
+      Damage: 894
   slot_3:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -81,7 +96,17 @@ contents:
       meta-type: UNSPECIFIC
       enchants:
         minecraft:efficiency: 2
-      Damage: 420
+      Damage: 454
+  slot_4:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: POWERED_RAIL
+    amount: 28
+  slot_5:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: COBBLESTONE
+    amount: 23
   slot_6:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -96,40 +121,51 @@ contents:
         properties:
         - name: textures
           value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0=
-  slot_4:
+  slot_7:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: BREAD
-    amount: 35
+    type: RAIL
+    amount: 10
   slot_8:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: LECTERN
-    amount: 6
-  slot_1:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: ARROW
-  slot_5:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: OAK_PLANKS
-    amount: 29
+    type: GOLD_INGOT
+    amount: 19
   slot_9:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: BLAST_FURNACE
+    type: BREAD
+    amount: 33
   slot_10:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: TORCH
-    amount: 20
+    type: ARROW
   slot_11:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: EMERALD
-    amount: 15
+    type: STICK
+    amount: 62
   slot_12:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIRT
+    amount: 6
+  slot_13:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: REDSTONE
+    amount: 15
+  slot_14:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ROTTEN_FLESH
+    amount: 6
+  slot_15:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: REDSTONE_TORCH
+    amount: 7
+  slot_24:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: DIAMOND_HOE
@@ -137,7 +173,31 @@ contents:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 760
-  slot_7:
+  slot_27:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: LECTERN
+    amount: 6
+  slot_28:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: EMERALD
+    amount: 15
+  slot_29:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: TORCH
+    amount: 20
+  slot_30:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: BLAST_FURNACE
+  slot_31:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: OAK_PLANKS
+    amount: 29
+  slot_33:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: DIAMOND_SHOVEL
@@ -147,40 +207,13 @@ contents:
       enchants:
         minecraft:efficiency: 1
         minecraft:unbreaking: 1
-      Damage: 645
-  slot_2:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: BONE
-    amount: 2
-  slot_13:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: CARROT
-  slot_14:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: ROTTEN_FLESH
-    amount: 4
-  slot_15:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: DIAMOND_SWORD
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      Damage: 60
-  slot_16:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: DIAMOND_AXE
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      enchants:
-        minecraft:efficiency: 2
-      Damage: 894
-  slot_17:
+      Damage: 648
+  slot_35:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: OXEYE_DAISY
+  slot_16:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: RAIL
+    amount: 64
