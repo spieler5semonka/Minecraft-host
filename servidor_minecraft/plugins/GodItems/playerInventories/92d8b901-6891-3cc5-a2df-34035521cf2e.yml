@@ -2,8 +2,8 @@ armor:
   offhand:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: NETHERRACK
-    amount: 19
+    type: DIRT
+    amount: 45
   chestplate:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -30,19 +30,19 @@ armor:
           amount: 6.0
           slot: chest
           operation: 0
-          key: minecraft:6170e3e7-b1d7-47ed-8e19-810c0fb982aa
+          key: minecraft:a9ff205a-964f-42d6-91df-60481627099c
         minecraft:generic.armor_toughness:
         - ==: org.bukkit.attribute.AttributeModifier
           amount: 1.0
           slot: chest
           operation: 0
-          key: minecraft:ff717191-2fcd-4579-a457-46f0d8a7f2c0
+          key: minecraft:7d379721-08fd-4409-b0c5-824bca918653
         minecraft:generic.knockback_resistance:
         - ==: org.bukkit.attribute.AttributeModifier
           amount: 0.0
           slot: chest
           operation: 0
-          key: minecraft:4adf027f-ecda-4b04-bb11-e557065daeac
+          key: minecraft:b29fc3c1-8250-446c-9fee-84474cc53285
       ItemFlags:
       - HIDE_ENCHANTS
       Unbreakable: true
@@ -60,7 +60,7 @@ armor:
       enchants:
         minecraft:blast_protection: 2
         minecraft:unbreaking: 2
-      Damage: 354
+      Damage: 375
 charms: {}
 contents:
   slot_9:
@@ -95,16 +95,6 @@ contents:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 37
-  slot_4:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: DIAMOND_AXE
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      enchants:
-        minecraft:efficiency: 2
-      Damage: 364
   slot_16:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -122,20 +112,16 @@ contents:
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
-      Damage: 493
+      Damage: 495
   slot_15:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: BOOK
     amount: 11
-  slot_6:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: GOLDEN_CARROT
   slot_3:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: BUCKET
+    type: WATER_BUCKET
   slot_19:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -146,18 +132,13 @@ contents:
       enchants:
         minecraft:efficiency: 1
         minecraft:unbreaking: 1
-      Damage: 890
+      Damage: 1061
   slot_14:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: OAK_PLANKS
     amount: 64
-  slot_2:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: COBBLESTONE
-    amount: 15
-  slot_1:
+  slot_4:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: DIAMOND_PICKAXE
@@ -166,8 +147,44 @@ contents:
       meta-type: UNSPECIFIC
       enchants:
         minecraft:efficiency: 2
-      Damage: 955
-  slot_5:
+      Damage: 1220
+  slot_10:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: RED_MUSHROOM
+    type: ARROW
+    amount: 3
+  slot_6:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: BREAD
+    amount: 62
+  slot_7:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: IRON_INGOT
+    amount: 3
+  slot_12:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        minecraft:efficiency: 2
+      Damage: 412
+  slot_26:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: RAW_COPPER
+    amount: 21
+  slot_34:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: POWERED_RAIL
+    amount: 11
+  slot_35:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: REDSTONE_TORCH
+    amount: 11
