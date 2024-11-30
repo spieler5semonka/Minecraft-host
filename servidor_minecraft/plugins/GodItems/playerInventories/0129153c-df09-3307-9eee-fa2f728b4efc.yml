@@ -30,19 +30,19 @@ armor:
           amount: 6.0
           slot: chest
           operation: 0
-          key: minecraft:ec9c1edd-cee5-410b-a3fe-9eb4116028bc
+          key: minecraft:dc92a467-8705-4b1a-8f6f-6a09b0c45007
         minecraft:generic.armor_toughness:
         - ==: org.bukkit.attribute.AttributeModifier
           amount: 1.0
           slot: chest
           operation: 0
-          key: minecraft:3f1660d4-ee15-42c6-b8b1-27e323bea295
+          key: minecraft:d7c62713-9181-4209-b6f7-8810df11ca5c
         minecraft:generic.knockback_resistance:
         - ==: org.bukkit.attribute.AttributeModifier
           amount: 0.0
           slot: chest
           operation: 0
-          key: minecraft:f4324d2b-67f6-46aa-b4d2-931299f63e4f
+          key: minecraft:f39a1e52-1e97-44a6-8d5f-c98e007d355d
       ItemFlags:
       - HIDE_ENCHANTS
       Unbreakable: true
@@ -59,7 +59,7 @@ armor:
       meta-type: ARMOR
       enchants:
         minecraft:protection: 2
-      Damage: 30
+      Damage: 46
   helmet:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -67,7 +67,7 @@ armor:
     meta:
       ==: ItemMeta
       meta-type: ARMOR
-      Damage: 32
+      Damage: 49
   leggings:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -78,7 +78,7 @@ armor:
       enchants:
         minecraft:blast_protection: 2
         minecraft:unbreaking: 2
-      Damage: 25
+      Damage: 36
 charms: {}
 contents:
   slot_0:
@@ -89,11 +89,6 @@ contents:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       Damage: 71
-  slot_1:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: BREAD
-    amount: 31
   slot_2:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -103,7 +98,7 @@ contents:
       meta-type: UNSPECIFIC
       enchants:
         minecraft:efficiency: 2
-      Damage: 935
+      Damage: 937
   slot_3:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -156,3 +151,8 @@ contents:
     v: 3953
     type: ARROW
     amount: 2
+  slot_4:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: BREAD
+    amount: 31

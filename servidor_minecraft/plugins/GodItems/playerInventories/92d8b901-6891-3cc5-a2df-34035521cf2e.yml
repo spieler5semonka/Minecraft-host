@@ -30,19 +30,19 @@ armor:
           amount: 6.0
           slot: chest
           operation: 0
-          key: minecraft:ec9c1edd-cee5-410b-a3fe-9eb4116028bc
+          key: minecraft:dc92a467-8705-4b1a-8f6f-6a09b0c45007
         minecraft:generic.armor_toughness:
         - ==: org.bukkit.attribute.AttributeModifier
           amount: 1.0
           slot: chest
           operation: 0
-          key: minecraft:3f1660d4-ee15-42c6-b8b1-27e323bea295
+          key: minecraft:d7c62713-9181-4209-b6f7-8810df11ca5c
         minecraft:generic.knockback_resistance:
         - ==: org.bukkit.attribute.AttributeModifier
           amount: 0.0
           slot: chest
           operation: 0
-          key: minecraft:f4324d2b-67f6-46aa-b4d2-931299f63e4f
+          key: minecraft:f39a1e52-1e97-44a6-8d5f-c98e007d355d
       ItemFlags:
       - HIDE_ENCHANTS
       Unbreakable: true
@@ -60,7 +60,7 @@ armor:
       enchants:
         minecraft:blast_protection: 2
         minecraft:unbreaking: 2
-      Damage: 184
+      Damage: 200
   helmet:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -70,7 +70,7 @@ armor:
       meta-type: ARMOR
       enchants:
         minecraft:projectile_protection: 2
-      Damage: 247
+      Damage: 267
   boots:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -80,7 +80,7 @@ armor:
       meta-type: ARMOR
       enchants:
         minecraft:protection: 2
-      Damage: 247
+      Damage: 266
 charms: {}
 contents:
   slot_1:
@@ -97,11 +97,6 @@ contents:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: WATER_BUCKET
-  slot_6:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: GOLDEN_CARROT
-    amount: 24
   slot_9:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -187,8 +182,8 @@ contents:
   slot_14:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: IRON_INGOT
-    amount: 7
+    type: OAK_SLAB
+    amount: 6
   slot_0:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -196,31 +191,26 @@ contents:
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
-      Damage: 446
+      Damage: 447
   slot_7:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: MINECART
-  slot_13:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: ROTTEN_FLESH
-    amount: 2
   slot_15:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: DIRT
     amount: 2
-  slot_23:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: OAK_SLAB
-    amount: 6
-  slot_2:
+  slot_34:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: DIAMOND_HORSE_ARMOR
-  slot_5:
+  slot_35:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: SADDLE
+  slot_2:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: GOLDEN_CARROT
+    amount: 23

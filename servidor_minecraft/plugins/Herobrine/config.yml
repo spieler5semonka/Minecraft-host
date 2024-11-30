@@ -1,0 +1,114 @@
+Herobrine:
+  
+  # What items are we allowed to put into randomly created chests?
+  allowedItems:  
+    - TORCH
+    - FLINT_AND_STEEL
+    - ROTTEN_FLESH
+   
+  # What sounds are allowed to be played?
+  allowedSounds:
+    - AMBIENCE_CAVE
+    - AMBIENCE_RAIN
+    - AMBIENCE_THUNDER
+    - BREATH
+    - CAT_HISS
+    - CREEPER_HISS
+    - DOOR_CLOSE
+    - DOOR_OPEN
+    - ENDERDRAGON_GROWL
+    - GHAST_MOAN
+    - GHAST_SCREAM
+    - GHAST_SCREAM2
+  
+  # What mobs is he allowed to spawn in his various attacks?
+  allowedMobs:
+    - BAT
+    - BLAZE
+    - CAVE_SPIDER
+    - CREEPER
+    - SKELETON
+    - SPIDER
+    - WITCH
+    - ZOMBIE
+
+  # What is the max number of custom entities (bosses) that can be spawned at one time?
+  maxCustomEntities: 10
+
+  # What is the max infection size?
+  infectionSize: 8
+  
+  # What is the size of a hotspot (areas where activity is more common to happen, randomly generated)?
+  hotspotSize: 40
+  
+  # Are we able to create hotspots (see above)?
+  allowHotspots: true
+  
+  # What is the chance that a custom item is dropped by a boss? (1 in X).
+  customItemDropChance: 3
+
+  # How much health should a Hell's Guardian have?
+  hellsGuardianHealth: 50
+  
+  # How much health should a Religious Follower have?
+  religiousFollowerHealth: 20
+  
+  # How much health should a Fallen Angel have?
+  fallenAngelHealth: 35
+  
+  # How much health should a Unknown Demon have?
+  unknownDemonHealth: 40
+  
+  # Should we stop events that are inside protected regions? (GriefPrevention and Residence).
+  ignoreProtectedRegions: false
+  
+  # Should we ignore players not in survival mode?
+  survivalOnly: true
+  
+  # What is the chance something should happen? (1 in X every 100 milliseconds).
+  actionChance: 150000
+  
+  # This is a more advanced equation to choose events, it may cause lag.
+  heavierEquation: false
+
+  # What should his name be?
+  entityName: Herobrine
+  
+  # What should the title of his books be?
+  bookTitle: Story of Your Life
+  
+  # Who should the author of his books be?
+  bookAuthor: Herobrine
+ 
+  # What messages can he put on the signs he places?
+  signMessages:
+    - I'm watching.
+    - Stop.
+    - I'm here.
+    - Never forget.
+    - Brightness.
+    
+  # What messages should he say when an altar is lit?
+  altarMessages:
+    - I am your God!
+    - I will always prevail!
+    - Never doubt my power!
+    - Where is your God now?
+    - Water, water, water...
+    - Look, look into my eyes!
+    
+  # What can he write in the books?
+  bookMessages:
+    - You.
+    - Expect me.
+    - You'll just be another victim...
+    - One more name on the list.
+    - Start praying.
+
+  # What actions aren't allowed? (Type /hb help ingame to view all actions).
+  disallowedActions:
+    - ExampleAction
+    
+  # What worlds are off limits to the plugin?
+  disallowedWorlds:
+    - ExampleWorld

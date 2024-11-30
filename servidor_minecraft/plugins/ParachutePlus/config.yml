@@ -1,0 +1,39 @@
+Update: true
+Parachute:
+  time: -1
+  fallspeed: 0.3
+  speed: 0.8
+  activate_sound: CHEST_OPEN
+  disable_sound: CHEST_CLOSE
+  fail_sound: GHAST_SCREAM
+  real-parachute: false
+  Item:
+    id: 344
+    name: 'Parachute'
+    lore:
+      - 'This is a parachute'
+      - 'use rightclick to activate'
+    recipe:
+      useRecipe: true
+      shape:
+      - 'AAA'
+      - 'B B'
+      - 'CDC'
+      ingredients:
+        A: WOOL
+        B: STICK
+        C: WOOD
+        D: IRON_INGOT
+  failchance: 10
+  singleuse: true
+  dobblespace-to-activate: false
+  remove-parachute-on-damage: true
+  useLeash: false
+  autoParachute:
+    useAutoParachute: true
+    fallBlocks: 5
+    id: 76
+    name: 'AutoParachute'
+    lore:
+      - 'This is a autoparachute'
+      - 'It will open after you fall 5 blocks'
