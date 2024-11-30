@@ -30,19 +30,19 @@ armor:
           amount: 6.0
           slot: chest
           operation: 0
-          key: minecraft:dc92a467-8705-4b1a-8f6f-6a09b0c45007
+          key: minecraft:6170e3e7-b1d7-47ed-8e19-810c0fb982aa
         minecraft:generic.armor_toughness:
         - ==: org.bukkit.attribute.AttributeModifier
           amount: 1.0
           slot: chest
           operation: 0
-          key: minecraft:d7c62713-9181-4209-b6f7-8810df11ca5c
+          key: minecraft:ff717191-2fcd-4579-a457-46f0d8a7f2c0
         minecraft:generic.knockback_resistance:
         - ==: org.bukkit.attribute.AttributeModifier
           amount: 0.0
           slot: chest
           operation: 0
-          key: minecraft:f39a1e52-1e97-44a6-8d5f-c98e007d355d
+          key: minecraft:4adf027f-ecda-4b04-bb11-e557065daeac
       ItemFlags:
       - HIDE_ENCHANTS
       Unbreakable: true
@@ -50,24 +50,6 @@ armor:
         {
             "goditems:code_name": "draculas_armor"
         }
-  boots:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: DIAMOND_BOOTS
-    meta:
-      ==: ItemMeta
-      meta-type: ARMOR
-      enchants:
-        minecraft:protection: 2
-      Damage: 46
-  helmet:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: IRON_HELMET
-    meta:
-      ==: ItemMeta
-      meta-type: ARMOR
-      Damage: 49
   leggings:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -78,42 +60,46 @@ armor:
       enchants:
         minecraft:blast_protection: 2
         minecraft:unbreaking: 2
-      Damage: 36
-charms: {}
-contents:
-  slot_0:
+      Damage: 190
+  boots:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: DIAMOND_SWORD
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      enchants:
+        minecraft:protection: 2
+      Damage: 237
+charms: {}
+contents:
+  slot_1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIAMOND_SHOVEL
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
-      Damage: 71
+      enchants:
+        minecraft:efficiency: 1
+        minecraft:unbreaking: 1
+      Damage: 705
   slot_2:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: DIAMOND_AXE
+    type: IRON_PICKAXE
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
       enchants:
         minecraft:efficiency: 2
-      Damage: 937
-  slot_3:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: DIAMOND_PICKAXE
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      enchants:
-        minecraft:efficiency: 2
-      Damage: 1346
+        minecraft:unbreaking: 1
+      Damage: 132
   slot_5:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: TORCH
-    amount: 2
+    type: HOPPER
+    amount: 6
   slot_6:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
@@ -128,31 +114,104 @@ contents:
         properties:
         - name: textures
           value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0=
-  slot_7:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3953
-    type: SPRUCE_PLANKS
   slot_8:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: MINECART
+    type: STICK
+    amount: 10
   slot_9:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: EMERALD
-    amount: 25
-  slot_24:
+    type: OAK_SIGN
+    amount: 12
+  slot_10:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
     type: STICK
-    amount: 14
+    amount: 64
+  slot_11:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIRT
+    amount: 32
+  slot_12:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPRUCE_FENCE
+    amount: 3
+  slot_13:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: GRANITE
+    amount: 24
+  slot_14:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: COBBLESTONE
+    amount: 64
+  slot_18:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: COBBLESTONE
+    amount: 39
+  slot_7:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: CHEST
+    amount: 6
+  slot_19:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: POLISHED_DEEPSLATE_STAIRS
+    amount: 48
+  slot_24:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPRUCE_FENCE_GATE
+  slot_0:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 112
+  slot_3:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ANDESITE
+    amount: 4
   slot_21:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: ARROW
-    amount: 2
+    type: COBBLESTONE
+    amount: 12
   slot_4:
     ==: org.bukkit.inventory.ItemStack
     v: 3953
-    type: BREAD
-    amount: 31
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        minecraft:efficiency: 2
+      Damage: 1075
+  slot_15:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPRUCE_PLANKS
+    amount: 7
+  slot_16:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: IRON_INGOT
+    amount: 2
+  slot_26:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: IRON_INGOT
+    amount: 14
+  slot_35:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: WATER_BUCKET

@@ -1,3 +1,0 @@
-#Custom blockstate colors.
-#Example: "minecraft:note_block[instrument=harp,note=0,powered=false]": "minecraft:obsidian"
-block-overrides: {}
