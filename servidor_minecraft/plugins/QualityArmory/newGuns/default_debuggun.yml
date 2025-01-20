@@ -33,7 +33,6 @@ invalid: false
 durability: 1000
 maxItemStack: 1
 setZoomLevel: 0
-ammotype: '556'
 delayForReload: 1.5
 bullets-per-shot: 1
 maxBulletDistance: 200
@@ -56,4 +55,5 @@ weaponsounds_reloadingSound: reloadmagclick
 firing_knockback: 0
 DestructableMaterials:
 - MATERIAL_NAME_HERE
-lastModifiedByQA: 1737333371933
+lastModifiedByQA: 1737335942254
+ammotype: '556'

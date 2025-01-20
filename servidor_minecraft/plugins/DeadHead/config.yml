@@ -1,1 +1,13 @@
 grave-duration: 15
+graves:
+  9cc27cbf-cd7b-3ed0-b486-57ba22a03b54:
+    5bbe7414-e681-48c2-a221-c365f0fd5824:
+      location:
+        ==: org.bukkit.Location
+        world: world
+        x: 1.0
+        y: 104.0
+        z: 25.0
+        pitch: 0.0
+        yaw: 0.0
+      expiration: 1737335020234

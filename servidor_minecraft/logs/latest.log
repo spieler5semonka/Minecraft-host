@@ -1,40 +1,26 @@
-[00:35:43] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[00:35:43] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
-[00:35:43] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[00:35:43] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/KnockbackSync-1.3.2.jar'...
-[00:35:43] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/Katanas-2.0.jar'...
-[00:35:43] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/QualityArmory.jar'...
-[00:35:43] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/instantrestock_2.4.6-shadowed.jar'...
-[00:35:44] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Katanas-2.0.jar' in 758ms.
-[00:35:44] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/ErraticExplosions-2.0.1.jar'...
-[00:35:44] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/ErraticExplosions-2.0.1.jar' in 527ms.
-[00:35:44] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/sit-1.7.1.jar'...
-[00:35:45] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/sit-1.7.1.jar' in 138ms.
-[00:35:45] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/emotecraft-2.2.0-bukkit.jar'...
-[00:35:45] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/emotecraft-2.2.0-bukkit.jar' in 270ms.
-[00:35:45] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/instantrestock_2.4.6-shadowed.jar' in 1835ms.
-[00:35:45] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/QualityArmory.jar' in 2100ms.
-[00:35:47] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/KnockbackSync-1.3.2.jar' in 3545ms.
-[00:35:47] [ServerMain/INFO]: [PluginInitializerManager] Initialized 16 plugins
-[00:35:47] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (16):
+[01:18:28] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[01:18:28] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
+[01:18:28] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[01:18:32] [ServerMain/INFO]: [PluginInitializerManager] Initialized 16 plugins
+[01:18:32] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (16):
  - AirCannon (1.1.0), BackpackPlus (1.4.5), CrazyEnchantments (2.5.1), DeadHead (1.3), ErraticExplosions (2.0.1), HomePlugin (0.6.5), InstantRestock (2.4.6), Katanas (2.0), KnockbackSync (1.3.2), PlayerCarry (1.1), QualityArmory (2.0.17), Quests (5.1.6-b523), Sit (1.7.1), SkinsRestorer (15.5.1), emotecraft (2.2.0), vanilla-sword-blocking (1.0.1)
-[00:35:52] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[00:35:53] [ServerMain/INFO]: Loaded 1290 recipes
-[00:35:54] [ServerMain/INFO]: Loaded 1399 advancements
-[00:35:54] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[00:35:54] [Server thread/INFO]: Loading properties
-[00:35:54] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[00:35:55] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[00:35:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[00:35:55] [Server thread/INFO]: Using 4 threads for Netty based IO
-[00:35:56] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[00:35:56] [Server thread/INFO]: Default game type: SURVIVAL
-[00:35:56] [Server thread/INFO]: Generating keypair
-[00:35:56] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:35:56] [Server thread/INFO]: Using epoll channel type
-[00:35:56] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[00:35:56] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[00:35:56] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/.paper-remapped/emotecraft-2.2.0-bukkit.jar' in 'plugins/.paper-remapped'
+[01:18:37] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:18:39] [ServerMain/INFO]: Loaded 1290 recipes
+[01:18:39] [ServerMain/INFO]: Loaded 1399 advancements
+[01:18:40] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[01:18:40] [Server thread/INFO]: Loading properties
+[01:18:40] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[01:18:40] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[01:18:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:18:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:18:41] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[01:18:42] [Server thread/INFO]: Default game type: SURVIVAL
+[01:18:42] [Server thread/INFO]: Generating keypair
+[01:18:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:18:42] [Server thread/INFO]: Using epoll channel type
+[01:18:42] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[01:18:42] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[01:18:42] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/.paper-remapped/emotecraft-2.2.0-bukkit.jar' in 'plugins/.paper-remapped'
 org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [ProtocolLib]. Please download and install these plugins to run 'emotecraft'.
 	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
 	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
@@ -44,191 +30,1122 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[00:35:56] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loading 2 libraries... please wait
-[00:35:56] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar
-[00:35:56] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.jar
-[00:35:56] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/org/xerial/sqlite-jdbc/3.46.1.0/sqlite-jdbc-3.46.1.0.jar
-[00:35:57] [Server thread/INFO]: [Sit] Loading server plugin Sit v1.7.1
-[00:35:57] [Server thread/INFO]: [PlayerCarry] Loading server plugin PlayerCarry v1.1
-[00:35:57] [Server thread/INFO]: [HomePlugin] Loading server plugin HomePlugin v0.6.5
-[00:35:57] [Server thread/INFO]: [CrazyEnchantments] Loading server plugin CrazyEnchantments v2.5.1
-[00:35:57] [Server thread/INFO]: [BackpackPlus] Loading server plugin BackpackPlus v1.4.5
-[00:35:57] [Server thread/INFO]: [ErraticExplosions] Loading server plugin ErraticExplosions v2.0.1
-[00:35:57] [Server thread/INFO]: [InstantRestock] Loading server plugin InstantRestock v2.4.6
-[00:35:57] [Server thread/INFO]: [QualityArmory] Loading server plugin QualityArmory v2.0.17
-[00:35:57] [Server thread/INFO]: [Katanas] Loading server plugin Katanas v2.0
-[00:35:57] [Server thread/INFO]: [AirCannon] Loading server plugin AirCannon v1.1.0
-[00:35:57] [Server thread/INFO]: [vanilla-sword-blocking] Loading server plugin vanilla-sword-blocking v1.0.1
-[00:35:57] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.1
-[00:35:57] [Server thread/INFO]: [Quests] Loading server plugin Quests v5.1.6-b523
-[00:35:57] [Server thread/INFO]: [DeadHead] Loading server plugin DeadHead v1.3
-[00:35:57] [Server thread/INFO]: [KnockbackSync] Loading server plugin KnockbackSync v1.3.2
-[00:35:58] [Server thread/INFO]: [CommandAPI] Loaded platform NMS_1_21_R1 > NMS_Common > CommandAPIBukkit
-[00:35:58] [Server thread/INFO]: [CommandAPI] Hooked into Spigot successfully for Chat/ChatComponents
-[00:35:58] [Server thread/INFO]: [CommandAPI] Hooked into Adventure for AdventureChat/AdventureChatComponents
-[00:35:58] [Server thread/INFO]: [CommandAPI] Hooked into Paper for paper-specific API implementations
-[00:36:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[00:36:01] [Server thread/INFO]: [HomePlugin] Enabling HomePlugin v0.6.5
-[00:36:01] [Server thread/INFO]: [HomePlugin] YAML has been selected !
-[00:36:01] [Server thread/INFO]: [HomePlugin] Skipping Redis...
-[00:36:01] [Server thread/INFO]: [HomePlugin] Cannot connect to Redis... use default cache!
-[00:36:01] [Server thread/INFO]: [HomePlugin] Registering Homes
-[00:36:01] [Server thread/INFO]: [HomePlugin] Registering Commands
-[00:36:01] [Server thread/INFO]: [HomePlugin] Registering Events
-[00:36:01] [Server thread/INFO]: [HomePlugin] Registering Completers
-[00:36:01] [Server thread/INFO]: [HomePlugin] Registering Spawns
-[00:36:01] [Server thread/WARN]: [HomePlugin] PlaceholderAPI is not installed. Placeholders will not be available.
-[00:36:01] [Server thread/INFO]: [HomePlugin] ----------------------HomePlugin----------------------
-[00:36:01] [Server thread/INFO]: [HomePlugin] ----------HomePlugin a démmaré avec succés !----------
-[00:36:01] [Server thread/INFO]: [HomePlugin] ------------------------------------------------------
-[00:36:01] [Server thread/WARN]: [HomePlugin] No plugins to load skipping...
-[00:36:01] [Server thread/INFO]: [vanilla-sword-blocking] Enabling vanilla-sword-blocking v1.0.1
-[00:36:01] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.1
-[00:36:02] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[00:36:03] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
-[00:36:04] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[00:36:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:36:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:36:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:36:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:36:04] [Server thread/INFO]: Preparing level "world"
-[00:36:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[00:36:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[00:36:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[00:36:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[00:36:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[00:36:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[00:36:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[00:36:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.1
-[00:36:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: d5d8613
-[00:36:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[00:36:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[00:36:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[00:36:04] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[00:36:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:36:06] [Server thread/INFO]: Time elapsed: 1396 ms
-[00:36:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[00:36:06] [Server thread/INFO]: Time elapsed: 152 ms
-[00:36:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[00:36:06] [Server thread/INFO]: Time elapsed: 196 ms
-[00:36:06] [Server thread/INFO]: [Sit] Enabling Sit v1.7.1
-[00:36:06] [Server thread/INFO]: [PlayerCarry] Enabling PlayerCarry v1.1
-[00:36:06] [Server thread/INFO]: [CrazyEnchantments] Enabling CrazyEnchantments v2.5.1
-[00:36:06] [Server thread/INFO]: [CrazyEnchantments] Loading the config.yml
-[00:36:06] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded config.yml
-[00:36:06] [Server thread/INFO]: [CrazyEnchantments] Loading the BlockList.yml
-[00:36:06] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded BlockList.yml
-[00:36:06] [Server thread/INFO]: [CrazyEnchantments] Loading the HeadMap.yml
-[00:36:06] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded HeadMap.yml
-[00:36:06] [Server thread/INFO]: [CrazyEnchantments] Loading the Data.yml
-[00:36:06] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Data.yml
-[00:36:06] [Server thread/INFO]: [CrazyEnchantments] Loading the Enchantments.yml
-[00:36:06] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Enchantments.yml
-[00:36:06] [Server thread/INFO]: [CrazyEnchantments] Loading the GKitz.yml
-[00:36:06] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded GKitz.yml
-[00:36:06] [Server thread/INFO]: [CrazyEnchantments] Loading the Messages.yml
-[00:36:06] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Messages.yml
-[00:36:06] [Server thread/INFO]: [CrazyEnchantments] Loading the Enchantment-Types.yml
-[00:36:06] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Enchantment-Types.yml
-[00:36:06] [Server thread/INFO]: [CrazyEnchantments] Loading the Tinker.yml
-[00:36:06] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Tinker.yml
-[00:36:07] [Server thread/WARN]: [CrazyEnchantments] No eco plugin found or the eco plugin didn't enable. Any economy based feature will not work.
-[00:36:07] [Server thread/INFO]: [CrazyEnchantments]: === CrazyEnchantment Hook Status ===
-[00:36:07] [Server thread/INFO]: [CrazyEnchantments]: PLOT_SQUARED NOT FOUND
-[00:36:07] [Server thread/INFO]: [CrazyEnchantments]: NO_CHEAT_PLUS NOT FOUND
-[00:36:07] [Server thread/INFO]: [CrazyEnchantments]: WORLDEDIT NOT FOUND
-[00:36:07] [Server thread/INFO]: [CrazyEnchantments]: MCMMO NOT FOUND
-[00:36:07] [Server thread/INFO]: [CrazyEnchantments]: ORAXEN NOT FOUND
-[00:36:07] [Server thread/INFO]: [CrazyEnchantments]: FACTIONS_UUID NOT FOUND
-[00:36:07] [Server thread/INFO]: [CrazyEnchantments]: WORLDGUARD NOT FOUND
-[00:36:07] [Server thread/INFO]: [CrazyEnchantments]: GRIEF_PREVENTION NOT FOUND
-[00:36:07] [Server thread/INFO]: [CrazyEnchantments]: TOWNYADVANCED NOT FOUND
-[00:36:07] [Server thread/INFO]: [CrazyEnchantments]: VAULT NOT FOUND
-[00:36:07] [Server thread/INFO]: [CrazyEnchantments]: LANDS NOT FOUND
-[00:36:07] [Server thread/INFO]: [CrazyEnchantments]: SUPERIORSKYBLOCK NOT FOUND
-[00:36:07] [Server thread/INFO]: [CrazyEnchantments] G-Kitz support is now enabled.
-[00:36:07] [Server thread/INFO]: [BackpackPlus] Enabling BackpackPlus v1.4.5
-[00:36:07] [Server thread/INFO]: [BackpackPlus] [Pack] No update needed; current readme is up to date.
-[00:36:07] [Server thread/INFO]: [BackpackPlus] [Settings] Configuration loaded successfully. No missing fields detected.
-[00:36:07] [Server thread/INFO]: [BackpackPlus] [Database] Configuration loaded successfully. No missing fields detected.
-[00:36:08] [Server thread/INFO]: [BackpackPlus] [Database] SQLite Successfully connected to database
-[00:36:08] [Server thread/INFO]: [BackpackPlus] Language used: eng
-[00:36:08] [ForkJoinPool.commonPool-worker-1/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[00:36:08] [Server thread/INFO]: [ErraticExplosions] Enabling ErraticExplosions v2.0.1
-[00:36:08] [Server thread/INFO]: [ErraticExplosions] Downloaded library https://repo1.maven.org/maven2/org/bstats/bstats-base/3.1.0/bstats-base-3.1.0.jar
-[00:36:08] [Server thread/INFO]: [ErraticExplosions] Downloaded library https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar
-[00:36:08] [Server thread/INFO]: [ErraticExplosions] Downloaded library https://repo1.maven.org/maven2/org/ow2/asm/asm/9.7/asm-9.7.jar
-[00:36:08] [Server thread/INFO]: [ErraticExplosions] Downloaded library https://repo1.maven.org/maven2/me/lucko/jar-relocator/1.7/jar-relocator-1.7.jar
-[00:36:08] [Server thread/INFO]: [ErraticExplosions] Relocations applied to libs/org/bstats/bstats-base/3.1.0/bstats-base-3.1.0.jar
-[00:36:08] [Server thread/INFO]: [ErraticExplosions] Downloaded library https://repo1.maven.org/maven2/org/bstats/bstats-bukkit/3.1.0/bstats-bukkit-3.1.0.jar
-[00:36:08] [Server thread/INFO]: [ErraticExplosions] Relocations applied to libs/org/bstats/bstats-bukkit/3.1.0/bstats-bukkit-3.1.0.jar
-[00:36:08] [Server thread/INFO]: [ErraticExplosions] ------------------------
-[00:36:08] [Server thread/INFO]: [ErraticExplosions] ErraticExplosions v2.0.1
-[00:36:08] [Server thread/INFO]: [ErraticExplosions] By srnyx
-[00:36:08] [Server thread/INFO]: [ErraticExplosions] ------------------------
-[00:36:08] [Server thread/INFO]: [ErraticExplosions] Downloaded library https://repo1.maven.org/maven2/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar
-[00:36:09] [Server thread/INFO]: [ErraticExplosions] Relocations applied to libs/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar
-[00:36:09] [Server thread/INFO]: [ErraticExplosions] Downloaded library https://repo1.maven.org/maven2/org/reflections/reflections/0.10.2/reflections-0.10.2.jar
-[00:36:09] [Server thread/INFO]: [ErraticExplosions] Relocations applied to libs/org/reflections/reflections/0.10.2/reflections-0.10.2.jar
-[00:36:09] [Server thread/INFO]: [InstantRestock] Enabling InstantRestock v2.4.6
-[00:36:10] [Server thread/INFO]: [QualityArmory] Enabling QualityArmory v2.0.17
-[00:36:10] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
-[00:36:10] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
-[00:36:10] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'QualityArmory' to create a bStats instance!
-[00:36:11] [Server thread/INFO]: [QualityArmory] -Loaded 11 Ammo types.
-[00:36:11] [Server thread/INFO]: [QualityArmory] -Loaded 16 Misc.
-[00:36:12] [Server thread/INFO]: [QualityArmory] -Loaded 70 Gun types.
-[00:36:12] [Server thread/INFO]: [QualityArmory] -Loading Attachment: uzicorn
-[00:36:12] [Server thread/INFO]: [QualityArmory] -Loading Attachment: awpasiimov
-[00:36:12] [Server thread/INFO]: [QualityArmory] -Loading Attachment: p30silenced
-[00:36:12] [Server thread/INFO]: [QualityArmory] -Loaded 3 Attachment types.
-[00:36:12] [Server thread/INFO]: [QualityArmory] -Loaded 4 Armor types.
-[00:36:12] [Server thread/INFO]: [Katanas] Enabling Katanas v2.0
-[00:36:12] [Server thread/INFO]: **********************************
-[00:36:12] [Server thread/INFO]: | Katanas 2.0 have been enabled! |
-[00:36:12] [Server thread/INFO]: **********************************
-[00:36:12] [Server thread/INFO]: [AirCannon] Enabling AirCannon v1.1.0
-[00:36:12] [Server thread/INFO]: [AirCannon] ----------------
-[00:36:12] [Server thread/INFO]: [AirCannon] AirCannon v1.1.0
-[00:36:12] [Server thread/INFO]: [AirCannon] By srnyx
-[00:36:12] [Server thread/INFO]: [AirCannon] ----------------
-[00:36:12] [Server thread/INFO]: [Quests] Enabling Quests v5.1.6-b523
-[00:36:12] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[00:36:20] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
-[00:36:20] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
-[00:36:20] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'Quests' to create a bStats instance!
-[00:36:20] [Server thread/INFO]: [Quests] Loaded language en-US. Translations via Crowdin
-[00:36:20] [Server thread/INFO]: [Quests] Loading storage implementation: YAML
-[00:36:20] [Server thread/INFO]: [DeadHead] Enabling DeadHead v1.3
-[00:36:20] [Server thread/INFO]: [KnockbackSync] Enabling KnockbackSync v1.3.2
-[00:36:20] [Server thread/INFO]: [KnockbackSync] Checking for updates...
-[00:36:20] [Server thread/INFO]: [CommandAPI] Hooked into Paper ServerResourcesReloadedEvent
-[00:36:20] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[00:36:21] [Server thread/INFO]: [spark] Starting background profiler...
-[00:36:21] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.5.0) | Latest release: (2.7.0)
-[00:36:21] [Server thread/INFO]: Done preparing level "world" (17.023s)
-[00:36:21] [Server thread/INFO]: Running delayed init tasks
-[00:36:21] [Server thread/INFO]: [CommandAPI] Reloading datapacks...
-[00:36:21] [Craft Scheduler Thread - 2 - BackpackPlus/INFO]: [BackpackPlus] Plugin is up to date.
-[00:36:21] [Craft Scheduler Thread - 3 - HomePlugin/INFO]: [HomePlugin] There is not a new update available.
-[00:36:21] [Server thread/INFO]: Loaded 1290 recipes
-[00:36:21] [Server thread/INFO]: Loaded 1399 advancements
-[00:36:22] [Server thread/INFO]: [CommandAPI] Finished reloading datapacks
-[00:36:22] [Server thread/INFO]: Done (40.100s)! For help, type "help"
-[00:36:22] [Server thread/INFO]: Timings Reset
-[00:36:22] [Server thread/INFO]: [Quests] Loaded 4 Quest(s), 7 Action(s), 1 Condition(s) and 798 Phrase(s)
-[00:36:24] [Craft Scheduler Thread - 5 - KnockbackSync/INFO]: [KnockbackSync] You are running the latest release.
-[00:38:25] [User Authenticator #0/INFO]: UUID of player _Livic_ is 92d8b901-6891-3cc5-a2df-34035521cf2e
-[00:38:32] [Server thread/INFO]: _Livic_ joined the game
-[00:38:32] [Server thread/INFO]: _Livic_[/127.220.96.10:52861] logged in with entity id 53 at ([world]3.5, 120.0, -8.5)
-[00:39:20] [Server thread/INFO]: _Livic_ lost connection: Disconnected
-[00:39:20] [Server thread/INFO]: _Livic_ left the game
-[00:42:35] [User Authenticator #1/INFO]: UUID of player _Livic_ is 92d8b901-6891-3cc5-a2df-34035521cf2e
-[00:42:37] [Server thread/INFO]: _Livic_ joined the game
-[00:42:37] [Server thread/INFO]: _Livic_[/127.220.96.10:58371] logged in with entity id 458 at ([world]3.5, 120.0, -8.5)
-[00:43:31] [Server thread/INFO]: _Livic_ lost connection: Disconnected
-[00:43:31] [Server thread/INFO]: _Livic_ left the game
-[00:44:20] [User Authenticator #2/INFO]: UUID of player spieler_senmoka is 9cc27cbf-cd7b-3ed0-b486-57ba22a03b54
-[00:44:22] [Server thread/INFO]: spieler_senmoka joined the game
-[00:44:22] [Server thread/INFO]: spieler_senmoka[/127.21.135.85:48307] logged in with entity id 544 at ([world]7.5, 116.0, 1.5)
-[00:44:49] [Async Chat Thread - #1/INFO]: [Not Secure] <spieler_senmoka> alo?
+[01:18:42] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loading 2 libraries... please wait
+[01:18:43] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar
+[01:18:43] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.jar
+[01:18:43] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/org/xerial/sqlite-jdbc/3.46.1.0/sqlite-jdbc-3.46.1.0.jar
+[01:18:46] [Server thread/INFO]: [Sit] Loading server plugin Sit v1.7.1
+[01:18:46] [Server thread/INFO]: [PlayerCarry] Loading server plugin PlayerCarry v1.1
+[01:18:46] [Server thread/INFO]: [HomePlugin] Loading server plugin HomePlugin v0.6.5
+[01:18:46] [Server thread/INFO]: [CrazyEnchantments] Loading server plugin CrazyEnchantments v2.5.1
+[01:18:46] [Server thread/INFO]: [BackpackPlus] Loading server plugin BackpackPlus v1.4.5
+[01:18:46] [Server thread/INFO]: [ErraticExplosions] Loading server plugin ErraticExplosions v2.0.1
+[01:18:46] [Server thread/INFO]: [InstantRestock] Loading server plugin InstantRestock v2.4.6
+[01:18:46] [Server thread/INFO]: [QualityArmory] Loading server plugin QualityArmory v2.0.17
+[01:18:46] [Server thread/INFO]: [Katanas] Loading server plugin Katanas v2.0
+[01:18:46] [Server thread/INFO]: [AirCannon] Loading server plugin AirCannon v1.1.0
+[01:18:46] [Server thread/INFO]: [vanilla-sword-blocking] Loading server plugin vanilla-sword-blocking v1.0.1
+[01:18:46] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.1
+[01:18:46] [Server thread/INFO]: [Quests] Loading server plugin Quests v5.1.6-b523
+[01:18:46] [Server thread/INFO]: [DeadHead] Loading server plugin DeadHead v1.3
+[01:18:46] [Server thread/INFO]: [KnockbackSync] Loading server plugin KnockbackSync v1.3.2
+[01:18:47] [Server thread/INFO]: [CommandAPI] Loaded platform NMS_1_21_R1 > NMS_Common > CommandAPIBukkit
+[01:18:47] [Server thread/INFO]: [CommandAPI] Hooked into Spigot successfully for Chat/ChatComponents
+[01:18:47] [Server thread/INFO]: [CommandAPI] Hooked into Adventure for AdventureChat/AdventureChatComponents
+[01:18:47] [Server thread/INFO]: [CommandAPI] Hooked into Paper for paper-specific API implementations
+[01:18:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:18:51] [Server thread/INFO]: [HomePlugin] Enabling HomePlugin v0.6.5
+[01:18:51] [Server thread/INFO]: [HomePlugin] YAML has been selected !
+[01:18:51] [Server thread/INFO]: [HomePlugin] Skipping Redis...
+[01:18:51] [Server thread/INFO]: [HomePlugin] Cannot connect to Redis... use default cache!
+[01:18:51] [Server thread/INFO]: [HomePlugin] Registering Homes
+[01:18:51] [Server thread/INFO]: [HomePlugin] Registering Commands
+[01:18:51] [Server thread/INFO]: [HomePlugin] Registering Events
+[01:18:51] [Server thread/INFO]: [HomePlugin] Registering Completers
+[01:18:51] [Server thread/INFO]: [HomePlugin] Registering Spawns
+[01:18:51] [Server thread/WARN]: [HomePlugin] PlaceholderAPI is not installed. Placeholders will not be available.
+[01:18:51] [Server thread/INFO]: [HomePlugin] ----------------------HomePlugin----------------------
+[01:18:51] [Server thread/INFO]: [HomePlugin] ----------HomePlugin a démmaré avec succés !----------
+[01:18:51] [Server thread/INFO]: [HomePlugin] ------------------------------------------------------
+[01:18:51] [Server thread/WARN]: [HomePlugin] No plugins to load skipping...
+[01:18:51] [Server thread/INFO]: [vanilla-sword-blocking] Enabling vanilla-sword-blocking v1.0.1
+[01:18:51] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.1
+[01:18:52] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[01:18:53] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[01:18:55] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[01:18:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:18:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:18:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:18:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:18:55] [Server thread/INFO]: Preparing level "world"
+[01:18:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:18:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[01:18:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[01:18:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[01:18:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[01:18:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[01:18:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:18:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.1
+[01:18:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: d5d8613
+[01:18:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[01:18:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:18:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[01:18:55] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[01:18:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:18:57] [Server thread/INFO]: Time elapsed: 1690 ms
+[01:18:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[01:18:57] [Server thread/INFO]: Time elapsed: 220 ms
+[01:18:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[01:18:57] [Server thread/INFO]: Time elapsed: 389 ms
+[01:18:57] [Server thread/INFO]: [Sit] Enabling Sit v1.7.1
+[01:18:57] [Server thread/INFO]: [PlayerCarry] Enabling PlayerCarry v1.1
+[01:18:57] [Server thread/INFO]: [CrazyEnchantments] Enabling CrazyEnchantments v2.5.1
+[01:18:57] [Server thread/INFO]: [CrazyEnchantments] Loading the config.yml
+[01:18:58] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded config.yml
+[01:18:58] [Server thread/INFO]: [CrazyEnchantments] Loading the BlockList.yml
+[01:18:58] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded BlockList.yml
+[01:18:58] [Server thread/INFO]: [CrazyEnchantments] Loading the HeadMap.yml
+[01:18:58] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded HeadMap.yml
+[01:18:58] [Server thread/INFO]: [CrazyEnchantments] Loading the Data.yml
+[01:18:58] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Data.yml
+[01:18:58] [Server thread/INFO]: [CrazyEnchantments] Loading the Enchantments.yml
+[01:18:58] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Enchantments.yml
+[01:18:58] [Server thread/INFO]: [CrazyEnchantments] Loading the GKitz.yml
+[01:18:58] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded GKitz.yml
+[01:18:58] [Server thread/INFO]: [CrazyEnchantments] Loading the Messages.yml
+[01:18:58] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Messages.yml
+[01:18:58] [Server thread/INFO]: [CrazyEnchantments] Loading the Enchantment-Types.yml
+[01:18:58] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Enchantment-Types.yml
+[01:18:58] [Server thread/INFO]: [CrazyEnchantments] Loading the Tinker.yml
+[01:18:58] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Tinker.yml
+[01:18:58] [Server thread/WARN]: [CrazyEnchantments] No eco plugin found or the eco plugin didn't enable. Any economy based feature will not work.
+[01:18:58] [Server thread/INFO]: [CrazyEnchantments]: === CrazyEnchantment Hook Status ===
+[01:18:58] [Server thread/INFO]: [CrazyEnchantments]: MCMMO NOT FOUND
+[01:18:58] [Server thread/INFO]: [CrazyEnchantments]: NO_CHEAT_PLUS NOT FOUND
+[01:18:58] [Server thread/INFO]: [CrazyEnchantments]: SUPERIORSKYBLOCK NOT FOUND
+[01:18:58] [Server thread/INFO]: [CrazyEnchantments]: TOWNYADVANCED NOT FOUND
+[01:18:58] [Server thread/INFO]: [CrazyEnchantments]: VAULT NOT FOUND
+[01:18:58] [Server thread/INFO]: [CrazyEnchantments]: PLOT_SQUARED NOT FOUND
+[01:18:58] [Server thread/INFO]: [CrazyEnchantments]: FACTIONS_UUID NOT FOUND
+[01:18:58] [Server thread/INFO]: [CrazyEnchantments]: WORLDGUARD NOT FOUND
+[01:18:58] [Server thread/INFO]: [CrazyEnchantments]: LANDS NOT FOUND
+[01:18:58] [Server thread/INFO]: [CrazyEnchantments]: ORAXEN NOT FOUND
+[01:18:58] [Server thread/INFO]: [CrazyEnchantments]: WORLDEDIT NOT FOUND
+[01:18:58] [Server thread/INFO]: [CrazyEnchantments]: GRIEF_PREVENTION NOT FOUND
+[01:18:59] [Server thread/INFO]: [CrazyEnchantments] G-Kitz support is now enabled.
+[01:18:59] [Server thread/INFO]: [BackpackPlus] Enabling BackpackPlus v1.4.5
+[01:18:59] [Server thread/INFO]: [BackpackPlus] [Pack] No update needed; current readme is up to date.
+[01:18:59] [Server thread/INFO]: [BackpackPlus] [Settings] Configuration loaded successfully. No missing fields detected.
+[01:18:59] [Server thread/INFO]: [BackpackPlus] [Database] Configuration loaded successfully. No missing fields detected.
+[01:18:59] [Server thread/INFO]: [BackpackPlus] [Database] SQLite Successfully connected to database
+[01:18:59] [Server thread/INFO]: [BackpackPlus] Language used: eng
+[01:18:59] [ForkJoinPool.commonPool-worker-1/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:18:59] [Server thread/INFO]: [ErraticExplosions] Enabling ErraticExplosions v2.0.1
+[01:18:59] [Server thread/INFO]: [ErraticExplosions] ------------------------
+[01:18:59] [Server thread/INFO]: [ErraticExplosions] ErraticExplosions v2.0.1
+[01:18:59] [Server thread/INFO]: [ErraticExplosions] By srnyx
+[01:18:59] [Server thread/INFO]: [ErraticExplosions] ------------------------
+[01:19:00] [Server thread/INFO]: [InstantRestock] Enabling InstantRestock v2.4.6
+[01:19:01] [Server thread/INFO]: [QualityArmory] Enabling QualityArmory v2.0.17
+[01:19:01] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
+[01:19:01] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
+[01:19:01] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'QualityArmory' to create a bStats instance!
+[01:19:02] [Server thread/INFO]: [QualityArmory] -Loaded 11 Ammo types.
+[01:19:02] [Server thread/INFO]: [QualityArmory] -Loaded 16 Misc.
+[01:19:02] [Server thread/INFO]: [QualityArmory] -Loaded 70 Gun types.
+[01:19:02] [Server thread/INFO]: [QualityArmory] -Loading Attachment: uzicorn
+[01:19:02] [Server thread/INFO]: [QualityArmory] -Loading Attachment: awpasiimov
+[01:19:02] [Server thread/INFO]: [QualityArmory] -Loading Attachment: p30silenced
+[01:19:02] [Server thread/INFO]: [QualityArmory] -Loaded 3 Attachment types.
+[01:19:02] [Server thread/INFO]: [QualityArmory] -Loaded 4 Armor types.
+[01:19:02] [Server thread/INFO]: [Katanas] Enabling Katanas v2.0
+[01:19:02] [Server thread/INFO]: **********************************
+[01:19:02] [Server thread/INFO]: | Katanas 2.0 have been enabled! |
+[01:19:02] [Server thread/INFO]: **********************************
+[01:19:02] [Server thread/INFO]: [AirCannon] Enabling AirCannon v1.1.0
+[01:19:02] [Server thread/INFO]: [AirCannon] ----------------
+[01:19:02] [Server thread/INFO]: [AirCannon] AirCannon v1.1.0
+[01:19:02] [Server thread/INFO]: [AirCannon] By srnyx
+[01:19:02] [Server thread/INFO]: [AirCannon] ----------------
+[01:19:03] [Server thread/INFO]: [Quests] Enabling Quests v5.1.6-b523
+[01:19:03] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[01:19:12] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
+[01:19:12] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
+[01:19:12] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'Quests' to create a bStats instance!
+[01:19:12] [Server thread/INFO]: [Quests] Loaded language en-US. Translations via Crowdin
+[01:19:12] [Server thread/INFO]: [Quests] Loading storage implementation: YAML
+[01:19:12] [Server thread/INFO]: [DeadHead] Enabling DeadHead v1.3
+[01:19:12] [Server thread/ERROR]: Error occurred while enabling DeadHead v1.3 (Is it up to date?)
+java.lang.IllegalArgumentException: ItemStack cannot be null
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:143) ~[guava-32.1.2-jre.jar:?]
+	at org.bukkit.craftbukkit.CraftWorld.dropItem(CraftWorld.java:688) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.CraftWorld.dropItem(CraftWorld.java:682) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at DeadHead-1.2.jar/com.civblock.deadhead.PlayerDeathListener.loadGraveItems(PlayerDeathListener.java:83) ~[DeadHead-1.2.jar:?]
+	at DeadHead-1.2.jar/com.civblock.deadhead.DeadHead.onEnable(DeadHead.java:41) ~[DeadHead-1.2.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:640) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:589) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:754) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:516) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:329) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[01:19:12] [Server thread/INFO]: [DeadHead] Disabling DeadHead v1.3
+[01:19:12] [Server thread/INFO]: [KnockbackSync] Enabling KnockbackSync v1.3.2
+[01:19:12] [Server thread/INFO]: [KnockbackSync] Checking for updates...
+[01:19:12] [Server thread/INFO]: [CommandAPI] Hooked into Paper ServerResourcesReloadedEvent
+[01:19:12] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[01:19:13] [Server thread/INFO]: [spark] Starting background profiler...
+[01:19:13] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.5.0) | Latest release: (2.7.0)
+[01:19:14] [Server thread/INFO]: Done preparing level "world" (19.014s)
+[01:19:14] [Server thread/INFO]: Running delayed init tasks
+[01:19:14] [Server thread/INFO]: [CommandAPI] Reloading datapacks...
+[01:19:14] [Craft Scheduler Thread - 4 - HomePlugin/INFO]: [HomePlugin] There is not a new update available.
+[01:19:14] [Craft Scheduler Thread - 6 - BackpackPlus/INFO]: [BackpackPlus] Plugin is up to date.
+[01:19:14] [Server thread/INFO]: Loaded 1290 recipes
+[01:19:14] [Server thread/INFO]: Loaded 1399 advancements
+[01:19:14] [Server thread/INFO]: [CommandAPI] Finished reloading datapacks
+[01:19:14] [Server thread/INFO]: Done (47.987s)! For help, type "help"
+[01:19:14] [Server thread/INFO]: Timings Reset
+[01:19:15] [Server thread/INFO]: [Quests] Loaded 4 Quest(s), 7 Action(s), 1 Condition(s) and 798 Phrase(s)
+[01:19:17] [Craft Scheduler Thread - 9 - KnockbackSync/INFO]: [KnockbackSync] You are running the latest release.
+[01:26:56] [User Authenticator #0/INFO]: UUID of player spieler_senmoka is 9cc27cbf-cd7b-3ed0-b486-57ba22a03b54
+[01:26:59] [Server thread/INFO]: spieler_senmoka joined the game
+[01:26:59] [Server thread/INFO]: spieler_senmoka[/127.21.135.85:36179] logged in with entity id 34 at ([world]3.5, 114.0, 8.5)
+[01:27:41] [User Authenticator #0/INFO]: UUID of player _Livic_ is 92d8b901-6891-3cc5-a2df-34035521cf2e
+[01:27:43] [Server thread/INFO]: _Livic_ joined the game
+[01:27:43] [Server thread/INFO]: _Livic_[/127.220.96.10:51767] logged in with entity id 304 at ([world]9.5, 110.0, 5.5)
+[01:27:50] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to vanilla-sword-blocking v1.0.1
+java.lang.NoClassDefFoundError: net/minecraft/world/item/component/Consumable
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlocking.<clinit>(VanillaBlocking.java:14) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlockingPaper.onDamagePlayer(VanillaBlockingPaper.java:69) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor7.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEvent(CraftEventFactory.java:277) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1209) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1199) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1129) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1092) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:1247) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.handleEntityDamage(LivingEntity.java:2327) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1488) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.player.Player.hurt(Player.java:1002) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.hurt(ServerPlayer.java:1205) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.doHurtTarget(Mob.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.doHurtTarget(Zombie.java:372) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.checkAndPerformAttack(MeleeAttackGoal.java:130) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.tick(MeleeAttackGoal.java:122) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.ZombieAttackGoal.tick(ZombieAttackGoal.java:28) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.WrappedGoal.tick(WrappedGoal.java:63) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tickRunningGoals(GoalSelector.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.serverAiStep(Mob.java:935) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3470) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.aiStep(Mob.java:678) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Monster.aiStep(Monster.java:44) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.aiStep(Zombie.java:273) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3173) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.tick(Mob.java:445) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.tick(Zombie.java:241) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1248) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:1420) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.lambda$tick$4(ServerLevel.java:737) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:39) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:717) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1806) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: net.minecraft.world.item.component.Consumable
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:197) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	... 45 more
+[01:27:58] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to vanilla-sword-blocking v1.0.1
+java.lang.NoClassDefFoundError: Could not initialize class net.player005.vanillablocking.VanillaBlocking
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlockingPaper.onDamagePlayer(VanillaBlockingPaper.java:69) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor7.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEvent(CraftEventFactory.java:277) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1209) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1199) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1129) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1092) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:1247) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.handleEntityDamage(LivingEntity.java:2327) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1488) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.player.Player.hurt(Player.java:1002) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.hurt(ServerPlayer.java:1205) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.doHurtTarget(Mob.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.doHurtTarget(Zombie.java:372) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.checkAndPerformAttack(MeleeAttackGoal.java:130) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.tick(MeleeAttackGoal.java:122) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.ZombieAttackGoal.tick(ZombieAttackGoal.java:28) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.WrappedGoal.tick(WrappedGoal.java:63) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tickRunningGoals(GoalSelector.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.serverAiStep(Mob.java:935) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3470) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.aiStep(Mob.java:678) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Monster.aiStep(Monster.java:44) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.aiStep(Zombie.java:273) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3173) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.tick(Mob.java:445) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.tick(Zombie.java:241) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1248) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:1420) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.lambda$tick$4(ServerLevel.java:737) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:39) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:717) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1806) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NoClassDefFoundError: net/minecraft/world/item/component/Consumable [in thread "Server thread"]
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlocking.<clinit>(VanillaBlocking.java:14) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	... 44 more
+[01:27:59] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to vanilla-sword-blocking v1.0.1
+java.lang.NoClassDefFoundError: Could not initialize class net.player005.vanillablocking.VanillaBlocking
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlockingPaper.onDamagePlayer(VanillaBlockingPaper.java:69) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor7.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEvent(CraftEventFactory.java:277) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1209) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1199) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1129) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1092) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:1247) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.handleEntityDamage(LivingEntity.java:2327) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1488) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.player.Player.hurt(Player.java:1002) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.hurt(ServerPlayer.java:1205) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.doHurtTarget(Mob.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.doHurtTarget(Zombie.java:372) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.checkAndPerformAttack(MeleeAttackGoal.java:130) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.tick(MeleeAttackGoal.java:122) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.ZombieAttackGoal.tick(ZombieAttackGoal.java:28) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.WrappedGoal.tick(WrappedGoal.java:63) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tickRunningGoals(GoalSelector.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.serverAiStep(Mob.java:935) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3470) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.aiStep(Mob.java:678) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Monster.aiStep(Monster.java:44) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.aiStep(Zombie.java:273) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3173) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.tick(Mob.java:445) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.tick(Zombie.java:241) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1248) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:1420) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.lambda$tick$4(ServerLevel.java:737) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:39) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:717) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1806) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NoClassDefFoundError: net/minecraft/world/item/component/Consumable [in thread "Server thread"]
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlocking.<clinit>(VanillaBlocking.java:14) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	... 44 more
+[01:27:59] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to vanilla-sword-blocking v1.0.1
+java.lang.NoClassDefFoundError: Could not initialize class net.player005.vanillablocking.VanillaBlocking
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlockingPaper.onDamagePlayer(VanillaBlockingPaper.java:69) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor7.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEvent(CraftEventFactory.java:277) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1209) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1199) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1129) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1092) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:1247) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.handleEntityDamage(LivingEntity.java:2327) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1488) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.player.Player.hurt(Player.java:1002) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.hurt(ServerPlayer.java:1205) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.player.Player.attack(Player.java:1344) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.attack(ServerPlayer.java:2420) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl$3.onAttack(ServerGamePacketListenerImpl.java:2871) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket$1.dispatch(ServerboundInteractPacket.java:29) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.dispatch(ServerboundInteractPacket.java:89) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleInteract(ServerGamePacketListenerImpl.java:2782) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.handle(ServerboundInteractPacket.java:76) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.handle(ServerboundInteractPacket.java:14) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:56) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NoClassDefFoundError: net/minecraft/world/item/component/Consumable [in thread "Server thread"]
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlocking.<clinit>(VanillaBlocking.java:14) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlockingPaper.onDamagePlayer(VanillaBlockingPaper.java:69) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor7.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEvent(CraftEventFactory.java:277) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1209) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1199) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1129) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1092) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:1247) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.handleEntityDamage(LivingEntity.java:2327) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1488) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.player.Player.hurt(Player.java:1002) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.hurt(ServerPlayer.java:1205) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.doHurtTarget(Mob.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.doHurtTarget(Zombie.java:372) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.checkAndPerformAttack(MeleeAttackGoal.java:130) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.tick(MeleeAttackGoal.java:122) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.ZombieAttackGoal.tick(ZombieAttackGoal.java:28) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.WrappedGoal.tick(WrappedGoal.java:63) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tickRunningGoals(GoalSelector.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.serverAiStep(Mob.java:935) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3470) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.aiStep(Mob.java:678) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Monster.aiStep(Monster.java:44) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.aiStep(Zombie.java:273) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3173) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.tick(Mob.java:445) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.tick(Zombie.java:241) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1248) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:1420) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.lambda$tick$4(ServerLevel.java:737) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:39) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:717) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1806) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	... 2 more
+[01:28:00] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to vanilla-sword-blocking v1.0.1
+java.lang.NoClassDefFoundError: Could not initialize class net.player005.vanillablocking.VanillaBlocking
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlockingPaper.onDamagePlayer(VanillaBlockingPaper.java:69) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor7.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEvent(CraftEventFactory.java:277) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1209) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1199) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1129) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1092) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:1247) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.handleEntityDamage(LivingEntity.java:2327) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1488) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.player.Player.hurt(Player.java:1002) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.hurt(ServerPlayer.java:1205) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.doHurtTarget(Mob.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.doHurtTarget(Zombie.java:372) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.checkAndPerformAttack(MeleeAttackGoal.java:130) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.tick(MeleeAttackGoal.java:122) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.ZombieAttackGoal.tick(ZombieAttackGoal.java:28) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.WrappedGoal.tick(WrappedGoal.java:63) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tickRunningGoals(GoalSelector.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tick(GoalSelector.java:122) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.serverAiStep(Mob.java:942) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3470) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.aiStep(Mob.java:678) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Monster.aiStep(Monster.java:44) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.aiStep(Zombie.java:273) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3173) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.tick(Mob.java:445) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.tick(Zombie.java:241) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1248) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:1420) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.lambda$tick$4(ServerLevel.java:737) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:39) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:717) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1806) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NoClassDefFoundError: net/minecraft/world/item/component/Consumable [in thread "Server thread"]
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlocking.<clinit>(VanillaBlocking.java:14) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlockingPaper.onDamagePlayer(VanillaBlockingPaper.java:69) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor7.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEvent(CraftEventFactory.java:277) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1209) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1199) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1129) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1092) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:1247) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.handleEntityDamage(LivingEntity.java:2327) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1488) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.player.Player.hurt(Player.java:1002) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.hurt(ServerPlayer.java:1205) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.doHurtTarget(Mob.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.doHurtTarget(Zombie.java:372) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.checkAndPerformAttack(MeleeAttackGoal.java:130) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.tick(MeleeAttackGoal.java:122) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.ZombieAttackGoal.tick(ZombieAttackGoal.java:28) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.WrappedGoal.tick(WrappedGoal.java:63) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tickRunningGoals(GoalSelector.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.serverAiStep(Mob.java:935) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	... 18 more
+[01:28:01] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to vanilla-sword-blocking v1.0.1
+java.lang.NoClassDefFoundError: Could not initialize class net.player005.vanillablocking.VanillaBlocking
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlockingPaper.onDamagePlayer(VanillaBlockingPaper.java:69) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor7.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEvent(CraftEventFactory.java:277) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1209) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1199) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1129) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1092) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:1247) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.handleEntityDamage(LivingEntity.java:2327) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1488) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.player.Player.hurt(Player.java:1002) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.hurt(ServerPlayer.java:1205) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.player.Player.attack(Player.java:1344) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.attack(ServerPlayer.java:2420) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl$3.onAttack(ServerGamePacketListenerImpl.java:2871) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket$1.dispatch(ServerboundInteractPacket.java:29) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.dispatch(ServerboundInteractPacket.java:89) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleInteract(ServerGamePacketListenerImpl.java:2782) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.handle(ServerboundInteractPacket.java:76) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.handle(ServerboundInteractPacket.java:14) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:56) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NoClassDefFoundError: net/minecraft/world/item/component/Consumable [in thread "Server thread"]
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlocking.<clinit>(VanillaBlocking.java:14) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlockingPaper.onDamagePlayer(VanillaBlockingPaper.java:69) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor7.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEvent(CraftEventFactory.java:277) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1209) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1199) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1129) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1092) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:1247) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.handleEntityDamage(LivingEntity.java:2327) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1488) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.player.Player.hurt(Player.java:1002) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.hurt(ServerPlayer.java:1205) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.doHurtTarget(Mob.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.doHurtTarget(Zombie.java:372) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.checkAndPerformAttack(MeleeAttackGoal.java:130) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.tick(MeleeAttackGoal.java:122) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.ZombieAttackGoal.tick(ZombieAttackGoal.java:28) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.WrappedGoal.tick(WrappedGoal.java:63) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tickRunningGoals(GoalSelector.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.serverAiStep(Mob.java:935) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3470) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.aiStep(Mob.java:678) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Monster.aiStep(Monster.java:44) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.aiStep(Zombie.java:273) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3173) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.tick(Mob.java:445) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.tick(Zombie.java:241) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1248) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:1420) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.lambda$tick$4(ServerLevel.java:737) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:39) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:717) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1806) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	... 2 more
+[01:28:01] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to vanilla-sword-blocking v1.0.1
+java.lang.NoClassDefFoundError: Could not initialize class net.player005.vanillablocking.VanillaBlocking
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlockingPaper.onDamagePlayer(VanillaBlockingPaper.java:69) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor7.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEvent(CraftEventFactory.java:277) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1209) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1199) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1129) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1092) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:1247) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.handleEntityDamage(LivingEntity.java:2327) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1488) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.player.Player.hurt(Player.java:1002) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.hurt(ServerPlayer.java:1205) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.doHurtTarget(Mob.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.doHurtTarget(Zombie.java:372) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.checkAndPerformAttack(MeleeAttackGoal.java:130) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.tick(MeleeAttackGoal.java:122) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.ZombieAttackGoal.tick(ZombieAttackGoal.java:28) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.WrappedGoal.tick(WrappedGoal.java:63) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tickRunningGoals(GoalSelector.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.serverAiStep(Mob.java:935) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3470) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.aiStep(Mob.java:678) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Monster.aiStep(Monster.java:44) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.aiStep(Zombie.java:273) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3173) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.tick(Mob.java:445) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.tick(Zombie.java:241) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1248) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:1420) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.lambda$tick$4(ServerLevel.java:737) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:39) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:717) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1806) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NoClassDefFoundError: net/minecraft/world/item/component/Consumable [in thread "Server thread"]
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlocking.<clinit>(VanillaBlocking.java:14) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	... 44 more
+[01:28:03] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to vanilla-sword-blocking v1.0.1
+java.lang.NoClassDefFoundError: Could not initialize class net.player005.vanillablocking.VanillaBlocking
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlockingPaper.onDamagePlayer(VanillaBlockingPaper.java:69) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor7.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEvent(CraftEventFactory.java:277) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1209) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1199) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1129) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1092) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:1247) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.handleEntityDamage(LivingEntity.java:2327) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1488) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.player.Player.hurt(Player.java:1002) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.hurt(ServerPlayer.java:1205) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.doHurtTarget(Mob.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.doHurtTarget(Zombie.java:372) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.checkAndPerformAttack(MeleeAttackGoal.java:130) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.tick(MeleeAttackGoal.java:122) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.ZombieAttackGoal.tick(ZombieAttackGoal.java:28) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.WrappedGoal.tick(WrappedGoal.java:63) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tickRunningGoals(GoalSelector.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.serverAiStep(Mob.java:935) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3470) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.aiStep(Mob.java:678) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Monster.aiStep(Monster.java:44) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.aiStep(Zombie.java:273) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3173) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.tick(Mob.java:445) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.tick(Zombie.java:241) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1248) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:1420) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.lambda$tick$4(ServerLevel.java:737) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:39) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:717) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1806) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NoClassDefFoundError: net/minecraft/world/item/component/Consumable [in thread "Server thread"]
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlocking.<clinit>(VanillaBlocking.java:14) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	... 44 more
+[01:28:04] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to vanilla-sword-blocking v1.0.1
+java.lang.NoClassDefFoundError: Could not initialize class net.player005.vanillablocking.VanillaBlocking
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlockingPaper.onDamagePlayer(VanillaBlockingPaper.java:69) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor7.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEvent(CraftEventFactory.java:277) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1209) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1199) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1129) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1092) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:1247) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.handleEntityDamage(LivingEntity.java:2327) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1488) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.player.Player.hurt(Player.java:1002) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.hurt(ServerPlayer.java:1205) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.doHurtTarget(Mob.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.doHurtTarget(Zombie.java:372) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.checkAndPerformAttack(MeleeAttackGoal.java:130) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.tick(MeleeAttackGoal.java:122) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.ZombieAttackGoal.tick(ZombieAttackGoal.java:28) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.WrappedGoal.tick(WrappedGoal.java:63) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tickRunningGoals(GoalSelector.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tick(GoalSelector.java:122) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.serverAiStep(Mob.java:942) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3470) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.aiStep(Mob.java:678) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Monster.aiStep(Monster.java:44) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.aiStep(Zombie.java:273) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3173) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.tick(Mob.java:445) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.tick(Zombie.java:241) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1248) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:1420) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.lambda$tick$4(ServerLevel.java:737) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:39) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:717) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1806) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NoClassDefFoundError: net/minecraft/world/item/component/Consumable [in thread "Server thread"]
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlocking.<clinit>(VanillaBlocking.java:14) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlockingPaper.onDamagePlayer(VanillaBlockingPaper.java:69) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor7.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEvent(CraftEventFactory.java:277) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1209) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1199) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1129) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1092) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:1247) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.handleEntityDamage(LivingEntity.java:2327) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1488) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.player.Player.hurt(Player.java:1002) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.hurt(ServerPlayer.java:1205) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.doHurtTarget(Mob.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.doHurtTarget(Zombie.java:372) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.checkAndPerformAttack(MeleeAttackGoal.java:130) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.tick(MeleeAttackGoal.java:122) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.ZombieAttackGoal.tick(ZombieAttackGoal.java:28) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.WrappedGoal.tick(WrappedGoal.java:63) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tickRunningGoals(GoalSelector.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.serverAiStep(Mob.java:935) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	... 18 more
+[01:28:05] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to vanilla-sword-blocking v1.0.1
+java.lang.NoClassDefFoundError: Could not initialize class net.player005.vanillablocking.VanillaBlocking
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlockingPaper.onDamagePlayer(VanillaBlockingPaper.java:69) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor7.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEvent(CraftEventFactory.java:277) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1209) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1199) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1129) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1092) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:1247) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.handleEntityDamage(LivingEntity.java:2327) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1488) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.player.Player.hurt(Player.java:1002) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.hurt(ServerPlayer.java:1205) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.doHurtTarget(Mob.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.doHurtTarget(Zombie.java:372) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.checkAndPerformAttack(MeleeAttackGoal.java:130) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.tick(MeleeAttackGoal.java:122) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.ZombieAttackGoal.tick(ZombieAttackGoal.java:28) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.WrappedGoal.tick(WrappedGoal.java:63) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tickRunningGoals(GoalSelector.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.serverAiStep(Mob.java:935) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3470) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.aiStep(Mob.java:678) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Monster.aiStep(Monster.java:44) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.aiStep(Zombie.java:273) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3173) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.tick(Mob.java:445) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.tick(Zombie.java:241) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1248) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:1420) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.lambda$tick$4(ServerLevel.java:737) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:39) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:717) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1806) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NoClassDefFoundError: net/minecraft/world/item/component/Consumable [in thread "Server thread"]
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlocking.<clinit>(VanillaBlocking.java:14) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	... 44 more
+[01:28:06] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to vanilla-sword-blocking v1.0.1
+java.lang.NoClassDefFoundError: Could not initialize class net.player005.vanillablocking.VanillaBlocking
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlockingPaper.onDamagePlayer(VanillaBlockingPaper.java:69) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor7.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEvent(CraftEventFactory.java:277) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1209) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1199) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1129) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1092) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:1247) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.handleEntityDamage(LivingEntity.java:2327) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1488) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.player.Player.hurt(Player.java:1002) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.hurt(ServerPlayer.java:1205) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.doHurtTarget(Mob.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.doHurtTarget(Zombie.java:372) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.checkAndPerformAttack(MeleeAttackGoal.java:130) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.tick(MeleeAttackGoal.java:122) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.ZombieAttackGoal.tick(ZombieAttackGoal.java:28) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.WrappedGoal.tick(WrappedGoal.java:63) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tickRunningGoals(GoalSelector.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tick(GoalSelector.java:122) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.serverAiStep(Mob.java:942) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3470) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.aiStep(Mob.java:678) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Monster.aiStep(Monster.java:44) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.aiStep(Zombie.java:273) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3173) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.tick(Mob.java:445) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.tick(Zombie.java:241) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1248) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:1420) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.lambda$tick$4(ServerLevel.java:737) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:39) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:717) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1806) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NoClassDefFoundError: net/minecraft/world/item/component/Consumable [in thread "Server thread"]
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlocking.<clinit>(VanillaBlocking.java:14) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlockingPaper.onDamagePlayer(VanillaBlockingPaper.java:69) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor7.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEvent(CraftEventFactory.java:277) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1209) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1199) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1129) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1092) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:1247) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.handleEntityDamage(LivingEntity.java:2327) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1488) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.player.Player.hurt(Player.java:1002) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.hurt(ServerPlayer.java:1205) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.doHurtTarget(Mob.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.doHurtTarget(Zombie.java:372) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.checkAndPerformAttack(MeleeAttackGoal.java:130) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.tick(MeleeAttackGoal.java:122) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.ZombieAttackGoal.tick(ZombieAttackGoal.java:28) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.WrappedGoal.tick(WrappedGoal.java:63) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tickRunningGoals(GoalSelector.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.serverAiStep(Mob.java:935) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	... 18 more
+[01:28:07] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to vanilla-sword-blocking v1.0.1
+java.lang.NoClassDefFoundError: Could not initialize class net.player005.vanillablocking.VanillaBlocking
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlockingPaper.onDamagePlayer(VanillaBlockingPaper.java:69) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor7.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEvent(CraftEventFactory.java:277) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1209) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1199) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1129) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1092) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:1247) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.handleEntityDamage(LivingEntity.java:2327) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1488) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.player.Player.hurt(Player.java:1002) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.hurt(ServerPlayer.java:1205) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.doHurtTarget(Mob.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.doHurtTarget(Zombie.java:372) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.checkAndPerformAttack(MeleeAttackGoal.java:130) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.tick(MeleeAttackGoal.java:122) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.ZombieAttackGoal.tick(ZombieAttackGoal.java:28) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.WrappedGoal.tick(WrappedGoal.java:63) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tickRunningGoals(GoalSelector.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tick(GoalSelector.java:122) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.serverAiStep(Mob.java:942) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3470) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.aiStep(Mob.java:678) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Monster.aiStep(Monster.java:44) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.aiStep(Zombie.java:273) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3173) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.tick(Mob.java:445) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.tick(Zombie.java:241) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1248) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:1420) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.lambda$tick$4(ServerLevel.java:737) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:39) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:717) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1806) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NoClassDefFoundError: net/minecraft/world/item/component/Consumable [in thread "Server thread"]
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlocking.<clinit>(VanillaBlocking.java:14) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlockingPaper.onDamagePlayer(VanillaBlockingPaper.java:69) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor7.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEvent(CraftEventFactory.java:277) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1209) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1199) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1129) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1092) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:1247) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.handleEntityDamage(LivingEntity.java:2327) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1488) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.player.Player.hurt(Player.java:1002) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.hurt(ServerPlayer.java:1205) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.doHurtTarget(Mob.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.doHurtTarget(Zombie.java:372) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.checkAndPerformAttack(MeleeAttackGoal.java:130) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.tick(MeleeAttackGoal.java:122) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.ZombieAttackGoal.tick(ZombieAttackGoal.java:28) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.WrappedGoal.tick(WrappedGoal.java:63) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tickRunningGoals(GoalSelector.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.serverAiStep(Mob.java:935) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	... 18 more
+[01:28:11] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to vanilla-sword-blocking v1.0.1
+java.lang.NoClassDefFoundError: Could not initialize class net.player005.vanillablocking.VanillaBlocking
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlockingPaper.onDamagePlayer(VanillaBlockingPaper.java:69) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor7.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEvent(CraftEventFactory.java:277) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1209) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1199) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1129) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1092) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:1247) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.handleEntityDamage(LivingEntity.java:2327) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1488) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.player.Player.hurt(Player.java:1002) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.hurt(ServerPlayer.java:1205) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.doHurtTarget(Mob.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.doHurtTarget(Zombie.java:372) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.checkAndPerformAttack(MeleeAttackGoal.java:130) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.tick(MeleeAttackGoal.java:122) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.ZombieAttackGoal.tick(ZombieAttackGoal.java:28) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.WrappedGoal.tick(WrappedGoal.java:63) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tickRunningGoals(GoalSelector.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tick(GoalSelector.java:122) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.serverAiStep(Mob.java:942) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3470) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.aiStep(Mob.java:678) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Monster.aiStep(Monster.java:44) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.aiStep(Zombie.java:273) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3173) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.tick(Mob.java:445) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.tick(Zombie.java:241) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1248) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:1420) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.lambda$tick$4(ServerLevel.java:737) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:39) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:717) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1806) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NoClassDefFoundError: net/minecraft/world/item/component/Consumable [in thread "Server thread"]
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlocking.<clinit>(VanillaBlocking.java:14) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlockingPaper.onDamagePlayer(VanillaBlockingPaper.java:69) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor7.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEvent(CraftEventFactory.java:277) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1209) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1199) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1129) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1092) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:1247) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.handleEntityDamage(LivingEntity.java:2327) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1488) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.player.Player.hurt(Player.java:1002) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.hurt(ServerPlayer.java:1205) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.doHurtTarget(Mob.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.doHurtTarget(Zombie.java:372) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.checkAndPerformAttack(MeleeAttackGoal.java:130) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.tick(MeleeAttackGoal.java:122) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.ZombieAttackGoal.tick(ZombieAttackGoal.java:28) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.WrappedGoal.tick(WrappedGoal.java:63) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tickRunningGoals(GoalSelector.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.serverAiStep(Mob.java:935) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	... 18 more
+[01:28:12] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to vanilla-sword-blocking v1.0.1
+java.lang.NoClassDefFoundError: Could not initialize class net.player005.vanillablocking.VanillaBlocking
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlockingPaper.onDamagePlayer(VanillaBlockingPaper.java:69) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor7.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEvent(CraftEventFactory.java:277) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1209) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1199) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1129) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1092) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:1247) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.handleEntityDamage(LivingEntity.java:2327) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1488) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.player.Player.hurt(Player.java:1002) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.hurt(ServerPlayer.java:1205) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.doHurtTarget(Mob.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.doHurtTarget(Zombie.java:372) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.checkAndPerformAttack(MeleeAttackGoal.java:130) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.tick(MeleeAttackGoal.java:122) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.ZombieAttackGoal.tick(ZombieAttackGoal.java:28) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.WrappedGoal.tick(WrappedGoal.java:63) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tickRunningGoals(GoalSelector.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tick(GoalSelector.java:122) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.serverAiStep(Mob.java:942) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3470) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.aiStep(Mob.java:678) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Monster.aiStep(Monster.java:44) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.aiStep(Zombie.java:273) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3173) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.tick(Mob.java:445) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.tick(Zombie.java:241) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1248) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.level.Level.guardEntityTick(Level.java:1420) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.lambda$tick$4(ServerLevel.java:737) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:39) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:717) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1806) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NoClassDefFoundError: net/minecraft/world/item/component/Consumable [in thread "Server thread"]
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlocking.<clinit>(VanillaBlocking.java:14) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	at vanilla-sword-blocking-1.0.1.jar/net.player005.vanillablocking.VanillaBlockingPaper.onDamagePlayer(VanillaBlockingPaper.java:69) ~[vanilla-sword-blocking-1.0.1.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor7.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEvent(CraftEventFactory.java:277) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1209) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1199) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1129) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1092) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:1247) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.handleEntityDamage(LivingEntity.java:2327) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1488) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.player.Player.hurt(Player.java:1002) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.hurt(ServerPlayer.java:1205) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.doHurtTarget(Mob.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.monster.Zombie.doHurtTarget(Zombie.java:372) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.checkAndPerformAttack(MeleeAttackGoal.java:130) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.tick(MeleeAttackGoal.java:122) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.ZombieAttackGoal.tick(ZombieAttackGoal.java:28) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.WrappedGoal.tick(WrappedGoal.java:63) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.tickRunningGoals(GoalSelector.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Mob.serverAiStep(Mob.java:935) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	... 18 more
+[01:28:12] [Server thread/INFO]: spieler_senmoka was slain by Zombie
