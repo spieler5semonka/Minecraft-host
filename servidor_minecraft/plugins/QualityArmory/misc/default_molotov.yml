@@ -15,7 +15,7 @@ material: CROSSBOW
 damage: 100
 durability: 1
 MiscType: MOLOTOV
-lastModifiedByQA: 1732823741192
+lastModifiedByQA: 1737333371925
 radius: 5
 weaponsounds: bulletmedium
 maxItemStack: 1

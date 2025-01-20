@@ -10,7 +10,7 @@ MiscType: HELMET
 minProtectionHeight: 1.0
 maxProtectionHeight: 0.0
 stopsHeadshots: false
-lastModifiedByQA: 1732823741007
+lastModifiedByQA: 1737333371721
 material: PHANTOM_MEMBRANE
 weaponsounds: bulletmedium
 damage: 3

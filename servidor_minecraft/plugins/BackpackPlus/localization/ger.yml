@@ -1,0 +1,91 @@
+# Nachricht, wenn der Rucksack aus der Datenbank geladen wird (nach Spielerinteraktion)
+backpack-loading: "#eb0000Rucksack wird geladen..."
+# Nachricht, wenn der Rucksack geladen wurde
+backpack-loaded: "&fDer Rucksack wurde geladen"
+# Nachricht, wenn der Rucksack aktualisiert wird und der Spieler versucht, ihn zu öffnen
+backpack-updating: "&fAktualisierung des Rucksacks läuft"
+# Nachricht, wenn der Rucksack nicht geladen werden konnte
+backpack-loading-error: "&cProblem beim Laden des Rucksacks aufgetreten"
+# Wenn ein Spieler versucht, einen Rucksack zu öffnen, der von einem anderen Spieler verwendet wird
+backpack-is-used-by-another-player: "&cDer Rucksack wird von einem anderen Spieler verwendet"
+
+# Nachricht, wenn der Administrator das Crafting ändert
+backpack-crafting-change: "&aDas Crafting des Rucksacks wurde geändert"
+# Nachricht, wenn ein Spieler versucht, das Crafting zu ändern, wenn es leer ist oder dasselbe wie zuvor ist
+backpack-crafting-cannot-change: "&cDas Crafting des Rucksacks kann nicht geändert werden, vielleicht ist es leer oder dasselbe wie zuvor"
+# Nachricht, wenn der Administrator die Crafting-Änderungen abbricht
+backpack-crafting-change-cancelled: "&cÄnderungen am Rucksack-Crafting wurden abgebrochen"
+
+# Nachricht nachdem der Rucksack durch die Rucksackansicht des Spielers hinzugefügt wurde
+# %player% Name des Rucksackbesitzers
+backpack-added-inventory: "&6Spieler-Rucksack hinzugefügt&8: &f%player% &6zu Ihrem Inventar"
+
+# Wenn ein Spieler keine Berechtigungen hat
+command-no-permissions: "&4Sie haben keine Berechtigung, diesen Befehl zu verwenden"
+# Wenn ein Spieler eine Abklingzeit hat
+cooldown-message: "#eb0000Sie müssen warten, bevor Sie es erneut verwenden können"
+# Wenn ein Spieler nicht berechtigt ist, einen Rucksack zu öffnen
+backpack-no-permission-use: "&4Sie haben keine Berechtigung, den Rucksack zu öffnen"
+# Wenn der Rucksack des Spielers (durch Befehl) wieder aufgeladen wird
+loading-in-progress: "&6Laden läuft... bitte warten Sie einen Moment"
+# Wenn die Rucksäcke der Spieler nicht geladen werden konnten
+players-backpack-not-loaded: "&cDie Rucksäcke der Spieler konnten nicht geladen werden"
+# Wenn der Spieler keinen Rucksack hat
+player-not-created-backpacks: "&7Dieser Spieler hat noch keine Rucksäcke erstellt"
+# Wenn der Spieler offline ist
+# %player% > Spielername
+player-is-offline: "&7Spieler&8: &f%player% &7ist offline"
+
+# Nachricht, wenn ein Spieler versucht, mehr als einen Rucksack zu haben (nur wenn die Option in der Konfiguration auf true gesetzt ist: Grenze-Rucksack-pro-Inventar)
+one-backpack-per-inventory: "&cSie können nur einen Rucksack tragen"
+
+# Meldung, wenn der Spieler versucht, einen Gegenstand in den Container zu legen, obwohl dieser verschlossen ist
+blocked-backpack-insert-message: "&cSie können diesen Artikel nicht hier abstellen!"
+
+# Nachricht beim Laden des Resourcepacks Leer lassen, wenn keine Nachricht erscheinen soll
+resourcepack-loaded: "&6Resourcepack wurde geladen"
+# Meldung, wenn das Resourcepack nicht geladen werden kann Leer lassen, wenn keine Meldung erscheinen soll
+resourcepack-failed-load: "&6Resourcepack konnte nicht geladen werden"
+
+# Meldung, wenn der Befehl nur für den Spieler gilt
+command-only-player: "&cDieses Argument kann nur von einem Spieler verwendet werden!"
+# Meldung, wenn der Befehl nur für die Konsole bestimmt ist
+command-only-console: "&cDieses Argument kann nur von einer Konsole verwendet werden!"
+
+# Meldung, wenn uuid ungültig ist
+invalid-uuid: "&cFalsche UUID"
+
+# Meldung, wenn die Position gesperrt wurde, %item% ist der Name des Materials
+item-has-blocked: "&6Der Artikel wurde gesperrt&8: &f%item%"
+
+# Meldung, wenn eine Position bereits gesperrt ist
+item-already-blocked: "&cPosten bereits gesperrt&8: &f%item%"
+
+# Meldung, wenn das Material gesperrt wurde, %item% ist der Name des Materials
+material-has-blocked: "&6Das Material wurde gesperrt&8: &f%material%"
+# Meldung, wenn das angegebene Material bereits gesperrt ist
+material-already-blocked: "&cMaterial bereits gesperrt&8: &f%material%"
+# Meldung, wenn gegebenes Material falsch ist
+invalid-material: "&cUngültiger Materialname&8: &f%material%"
+# Meldung, wenn der Spieler leere Hände hat
+empty-hand: "&cSie müssen etwas in der Hand haben"
+
+# Meldung, wenn Rucksacktier falsch ist, %tier% ist der angegebene Wert
+invalid-backpack-tier: "&cUngültiger Rucksack Tier&8: &f%tier%"
+
+# Meldung, wenn ein Spieler einen Rucksack hinzufügt, %tier% ist die Stufe des Rucksacks
+backpack-added: "&6Rucksack&8: &f%tier% &6Hinzufügen"
+
+# Meldung, wenn ein Rucksack zu einem Spieler hinzugefügt wurde, %tier% ist die Stufe des Rucksacks, %player% ist der Name des Spielers
+backpack-added-player: "&6Rucksack&8: &f%tier% &6Hinzufügen zu Spieler&8: &f%player%"
+# Meldung, wenn ein Rucksack der angegebenen Stufe nicht gefunden wurde
+backpack-tier-not-found: "&cRucksack&8: &f%tier% &cnicht gefunden"
+
+# Meldung, wenn noch keine Spieler Rucksäcke erstellt haben oder etwas schief gelaufen ist
+players-not-created-backpacks: "&cKein Spieler hat bisher einen Rucksack erstellt oder es ist etwas schief gelaufen"
+
+# Meldung beim Auftreten eines unerwarteten Fehlers
+unexpected-error: "&cWährend der Ausführung des Befehls ist ein unerwarteter Fehler aufgetreten, überprüfen Sie die Konsole auf Fehler."
+
+# Meldung, wenn Resourcepack mit Befehl neu geladen wird
+resourcepack-reloaded: "&6Resourcepack wurde aktualisiert und mit allen Spielern neu geladen"

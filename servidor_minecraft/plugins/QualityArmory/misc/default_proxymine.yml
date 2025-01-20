@@ -15,7 +15,7 @@ material: CROSSBOW
 damage: 100
 durability: 1
 MiscType: PROXYMINES
-lastModifiedByQA: 1732823741194
+lastModifiedByQA: 1737333371927
 radius: 5
 weaponsounds: bulletmedium
 maxItemStack: 1

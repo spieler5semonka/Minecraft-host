@@ -1,0 +1,94 @@
+# Spanish language / Idioma español
+# Translated by: Sopherine(isofix19)
+
+# Message when the backpack starts to be loaded from the database (after player interaction)
+backpack-loading: "#eb0000Cargando mochila..."
+# Message when the backpack has been loaded
+backpack-loaded: "&f¡La mochila cargó correctamente!"
+# Message when the backpack is updating and the player tries to open it
+backpack-updating: "&fActualizando la Mochila..."
+# Message when the backpack could not be loaded
+backpack-loading-error: "&cHubo un problema mientras cargaba la mochila"
+# When a player tries to open a backpack, but it is being used by another player
+backpack-is-used-by-another-player: "&cLa mochila está siendo usada por otro jugador"
+
+# Message when admin changes crafting
+backpack-crafting-change: "&aLa fabricación de la mochila fue cambiada"
+# Message when a player tries to change crafting when it is empty or the same as before
+backpack-crafting-cannot-change: "&cLa fabricación de la mochila no puede cambiarse, está vacío o es el mismo"
+# Message when admin cancels crafting changes
+backpack-crafting-change-cancelled: "&cSe canceló el cambio en la fabricación de la mochila"
+
+# Message after the backpack has been added by the player's backpack view
+# %player% Name of backpack owner
+backpack-added-inventory: "&6Se añadió la mochila del jugador&8: &f%player% &6a tu inventario"
+
+# If a player has no permissions
+command-no-permissions: "&4No tienes permisos para este comando"
+# When a player has a cooldown
+cooldown-message: "#eb0000Espera antes de volver a usar la mochila"
+# When a player is not authorised to open a backpack
+backpack-no-permission-use: "&4No tienes permiso para abrir la mochila"
+# When the player's backpack recharges (using the command)
+loading-in-progress: "&6Carga en progreso... Espera un momento"
+# When players' backpacks could not be loaded
+players-backpack-not-loaded: "&cLa mochila de este jugador no pudo cargar correctamente"
+# When the player does not have any backpack
+player-not-created-backpacks: "&7Este jugador no creó ninguna mochila aún"
+# When the player is offline
+# %player% > Player Name
+player-is-offline: "&7Jugador&8: &f%player% &7está desconectado"
+
+# Message when a player tries to have more backpacks than one (only if option in config is set to true: limit-backpack-per-inventory)
+one-backpack-per-inventory: "&cSolo puedes llevar una mochila"
+
+# Mensaje cuando el jugador intenta poner un objeto en el contenedor cuando está bloqueado
+blocked-backpack-insert-message: "&c¡No puedes poner este artículo aquí!!"
+
+# Message when resourcepack is loaded leave blank if there is to be no message
+resourcepack-loaded: "&6El Resourcepack cargó correctamente"
+# Message when resourcepack fails to load leave blank if there is to be no message
+resourcepack-failed-load: "&6No se pudo cargar el Resourcepack"
+
+# Message if the command is only for the player
+command-only-player: "&c¡Este argumento solo puede usarse por un jugador!"
+# Message if the command is only for the console
+command-only-console: "&c¡Este argumento solo puede usarse en la consola!"
+
+# Message when uuid is invalid
+invalid-uuid: "&cUUID Incorrecta"
+
+# Message when the item was blocked, %item% is the name of the material
+item-has-blocked: "&6Se bloqueó el Item&8: &f%item%"
+
+# Message when the given item is already blocked
+item-already-blocked: "&cEl Item ya está bloqueado&8: &f%item%"
+
+# Message when the material was blocked, %item% is the name of the material
+material-has-blocked: "&6Se bloqueó el material&8: &f%material%"
+# Message when the given material is already blocked
+material-already-blocked: "&cEl material está bloqueado&8: &f%material%"
+# Message when given material is incorrect
+invalid-material: "&cNombre de material invalido&8: &f%material%"
+# Message when player has empty hands
+empty-hand: "&cDebes tener algo en la mano"
+
+# Message when backpack tier is incorrect, %tier% is the given value
+invalid-backpack-tier: "&cNivel de mochila invalido&8: &f%tier%"
+
+# Message when a player adds a backpack, %tier% is the tier of the backpack
+backpack-added: "&6Mochila&8: &f%tier% &6Añadida"
+
+# Message when a backpack was added to a player, %tier% is the tier of the backpack, %player% is the name of the player
+backpack-added-player: "&6Mochila&8: &f%tier%  &6Se añadió a&8: &f%player%"
+# Message when a backpack of the specified tier has not been found
+backpack-tier-not-found: "&cMochila&8: &f%tier% &cno se encontró"
+
+# Message when no players have created backpacks yet or something has gone wrong
+players-not-created-backpacks: "Ningún jugador ha creado una mochila todavía o algo salió mal"
+
+# Message when an unexpected error occurs
+unexpected-error: "&cUn error inesperado ocurrió durante la ejecución del comando, comprobar el error en la consola"
+
+# Message when resourcepack is reloaded with command
+resourcepack-reloaded: "&6El paquete de recursos se ha actualizado y recargado con todos los jugadores"

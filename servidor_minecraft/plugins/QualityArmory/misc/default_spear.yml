@@ -11,7 +11,7 @@ material: CROSSBOW
 damage: 6
 durability: 1000
 MiscType: MELEE
-lastModifiedByQA: 1732823741189
+lastModifiedByQA: 1737333371922
 weaponsounds: bulletmedium
 maxItemStack: 1
 ThrowSpeed: 1.5

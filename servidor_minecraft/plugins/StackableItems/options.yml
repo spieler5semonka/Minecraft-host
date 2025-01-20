@@ -1,8 +1,0 @@
-Debug: false
-Furnace_Amount: -1
-Blast_Furnace_Amount: -1
-Smoker_Amount: -1
-Prevent_Wasted_Flint_and_Steel: true
-update-check:
-  enabled: true
-  frequency: 6

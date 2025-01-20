@@ -4,7 +4,7 @@
 ## 1.9 and up players use these sounds: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
 ###################################################################
 Settings:
-  Prefix: '&8[&aCrazyEnchants&8]: ' #The prefix in the messages
+  Prefix: '&8[&aCrazyEnchantments&8]: ' #The prefix in the messages
   Toggle-Metrics: true #Turn on and off if your server stats are sent to https://bstats.org/ - Requires a restart!
   Player-Info-Backup-Message: true #Toggle this on and off if you wish to see when the player's data gets backed up.
   Reset-Players-Max-Health: true #This is for some servers that get a health duplication glitch from plugins like CombatTagPlus(v1.2.3 down)
@@ -281,6 +281,7 @@ Settings:
       Check-Perms: false # If false, the limit permissions will be used, otherwise the the limits listed below.
       Default-Limit: 3 # Use the permission crazyenchantments.limit.# to edit it per player.
       Default-Base-Limit: 0 # Use the permission crazyenchantments.base-limit.# to edit it per player.
+      Change-On-Fail: true # If the enchantment limiter should be reduced on enchant fail.
     IncludeVanillaEnchantments: false #Count Vanilla enchantments also.
     Enchant-Stacked-Items: false #Turn on if you wish for enchantment books to enchant stacked items.
     MaxRageLevel: 4 #The max amount of rage that scan stack when fighting.

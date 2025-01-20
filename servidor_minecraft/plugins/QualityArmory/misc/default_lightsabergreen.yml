@@ -14,7 +14,7 @@ material: CROSSBOW
 damage: 9
 durability: 1000
 MiscType: MELEE
-lastModifiedByQA: 1732823741185
+lastModifiedByQA: 1737333371918
 sound_equip: lightsaberstart
 sound_meleehit: saberhit
 weaponsounds: bulletmedium

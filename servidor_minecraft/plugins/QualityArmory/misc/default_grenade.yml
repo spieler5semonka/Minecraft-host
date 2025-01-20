@@ -15,7 +15,7 @@ material: CROSSBOW
 damage: 100
 durability: 1
 MiscType: GRENADES
-lastModifiedByQA: 1732823740578
+lastModifiedByQA: 1737333371161
 radius: 10
 weaponsounds: bulletmedium
 maxItemStack: 1

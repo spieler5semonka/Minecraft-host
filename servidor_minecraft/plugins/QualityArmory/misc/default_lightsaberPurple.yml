@@ -13,7 +13,7 @@ material: CROSSBOW
 damage: 9
 durability: 1000
 MiscType: MELEE
-lastModifiedByQA: 1732823741186
+lastModifiedByQA: 1737333371920
 sound_equip: sithsaberstart
 sound_meleehit: saberhit
 weaponsounds: bulletmedium

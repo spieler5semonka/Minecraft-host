@@ -9,7 +9,7 @@ craftingRequirements:
 price: 2400
 material: CROSSBOW
 baseGun: uzi
-lastModifiedByQA: 1732823741176
+lastModifiedByQA: 1737333371910
 KilledByMessage: '%player% was surprised by %killer% using a %name%'
 ReloadingHandler: SlideReload
 weaponsounds: bulletsilence

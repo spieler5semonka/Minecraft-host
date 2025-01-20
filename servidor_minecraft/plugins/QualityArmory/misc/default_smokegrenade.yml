@@ -15,7 +15,7 @@ material: CROSSBOW
 damage: 100
 durability: 1
 MiscType: SMOKE_GRENADES
-lastModifiedByQA: 1732823740585
+lastModifiedByQA: 1737333371184
 radius: 5
 weaponsounds: bulletmedium
 maxItemStack: 1

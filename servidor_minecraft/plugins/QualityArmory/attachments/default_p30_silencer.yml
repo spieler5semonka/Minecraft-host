@@ -9,7 +9,7 @@ craftingRequirements:
 price: 1000
 material: CROSSBOW
 baseGun: p30
-lastModifiedByQA: 1732823740761
+lastModifiedByQA: 1737333371478
 ReloadingHandler: SlideReload
 weaponsounds: bulletsilence
 damage: 3

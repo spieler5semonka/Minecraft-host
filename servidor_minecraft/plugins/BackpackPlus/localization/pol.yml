@@ -1,0 +1,91 @@
+# Komunikat, gdy plecak zaczyna być ładowany z bazy danych (po interakcji gracza)
+backpack-loading: "#eb0000Trwa ładowanie plecaka..."
+# Komunikat, gdy plecak został załadowany
+backpack-loaded: "&fPlecak został załadowany"
+# Komunikat, gdy plecak jest aktualizowany, a gracz próbuje go otworzyć
+backpack-updating: "&fAktualizacja plecaka w trakcie"
+# Komunikat, gdy nie można załadować plecaka
+backpack-loading-error: "&cWystąpił problem podczas ładowania plecaka"
+# Gdy gracz próbuje otworzyć plecak, ale jest używany przez innego gracza
+backpack-is-used-by-another-player: "&cPlecak jest używany przez innego gracza"
+
+# Komunikat, gdy administrator zmienia craftowanie
+backpack-crafting-change: "&aCraftowanie plecaka zostało zmienione"
+# Komunikat, gdy gracz próbuje zmienić craftowanie, gdy jest puste lub takie samo jak wcześniej
+backpack-crafting-cannot-change: "&cCraftowanie plecaka nie może być zmienione, być może jest puste lub jest takie samo"
+# Komunikat, gdy administrator anuluje zmiany craftowania
+backpack-crafting-change-cancelled: "&cZmiany craftowania plecaka zostały anulowane"
+
+# Komunikat po dodaniu plecaka przez widok plecaka gracza
+# %player% Nazwa właściciela plecaka
+backpack-added-inventory: "&6Dodano plecak gracza&8: &f%player% &6do twojego inwentarza"
+
+# Gdy gracz nie ma uprawnień
+command-no-permissions: "&4Nie masz uprawnień do użycia tej komendy"
+# Gdy gracz ma czas odnowy
+cooldown-message: "#eb0000Musisz poczekać przed ponownym użyciem"
+# Gdy gracz nie ma uprawnień do otwarcia plecaka
+backpack-no-permission-use: "&4Nie masz uprawnień do otwarcia plecaka"
+# Gdy plecak gracza się przeładowuje (używając komendy)
+loading-in-progress: "&6Trwa ładowanie... proszę czekać chwilę"
+# Gdy plecaki graczy nie mogą być załadowane
+players-backpack-not-loaded: "&cPlecaki graczy nie mogą być załadowane"
+# Gdy gracz nie ma żadnych plecaków
+player-not-created-backpacks: "&7Ten gracz nie stworzył jeszcze żadnych plecaków"
+# Gdy gracz jest offline
+# %player% > Nazwa Gracza
+player-is-offline: "&7Gracz&8: &f%player% &7 jest offline"
+
+# Komunikat, gdy gracz próbuje mieć więcej niż jeden plecak (tylko jeśli opcja w konfiguracji jest ustawiona na true: limit-backpack-per-inventory)
+one-backpack-per-inventory: "&cMożesz nosić tylko jeden plecak"
+
+# Komunikat, gdy gracz próbuje umieścić przedmiot w zablokowanym pojemniku.
+blocked-backpack-insert-message: "&cNie możesz umieścić tego przedmiotu tutaj!"
+
+# Komunikat po załadowaniu pakietu zasobów, zostaw puste, jeśli nie ma być żadnego komunikatu
+resourcepack-loaded: "&6Resourcepack został załadowany"
+# Komunikat, gdy pakiet zasobów nie zostanie załadowany, zostaw puste, jeśli nie ma być komunikatu
+resourcepack-failed-load: "&6Nie udało się załadować resourcepack"
+
+# Komunikat, jeśli polecenie dotyczy tylko gracza
+command-only-player: "&cTo polecenie może użyć tylko gracz!"
+# Komunikat, jeśli polecenie jest przeznaczone tylko dla konsoli
+command-only-console: "&cTo polecenie możesz użyć tylko przez konsolę!"
+
+# Komunikat, gdy uuid jest nieprawidłowy
+invalid-uuid: "&cNiepoprawne UUID"
+
+# Komunikat o zablokowaniu elementu, %item% to nazwa materiału.
+item-has-blocked: "&6Przedmiot&8: &f%item% został zablokowany"
+
+# Komunikat, gdy dany materiał jest już zablokowany
+item-already-blocked: "&cPrzedmiot&8: &f%item% jest już zablokowany"
+
+# Komunikat o zablokowaniu materiału, %item% to nazwa materiału.
+material-has-blocked: "&6Materiał&8: &f%material% został zablokowany"
+# Komunikat, gdy dany materiał jest już zablokowany
+material-already-blocked: "&cMateriał&8: &f%material% jest już zablokowany"
+# Komunikat, gdy podany materiał jest nieprawidłowy
+invalid-material: "&cNiepoprawny materiał&8: &f%material%"
+# Komunikat, gdy gracz ma puste ręce
+empty-hand: "&cMusisz mieć coś w ręce"
+
+# Komunikat, gdy tier plecaka jest nieprawidłowy, %tier% jest podaną wartością
+invalid-backpack-tier: "&cNiepoprawny tier plecaka&8: &f%tier%"
+
+# Komunikat, gdy gracz dodaje sobie plecak, %tier% to tier plecaka.
+backpack-added: "&6Plecak&8: &f%tier% &6Został dodany"
+
+# Komunikat o dodaniu plecaka do gracza, %tier% to poziom plecaka, %player% to nazwa gracza.
+backpack-added-player: "&6Plecak&8: &f%tier%  &6Został dodany do gracza&8: &f%player%"
+# Komunikat, gdy nie znaleziono plecaka określonego poziomu
+backpack-tier-not-found: "&cPlecak&8: &f%tier% &cnie został znaleziony!"
+
+# Komunikat, gdy żaden gracz nie stworzył jeszcze plecaka lub coś poszło nie tak.
+players-not-created-backpacks: "&cŻaden gracz nie stworzył jeszcze plecaka lub coś poszło nie tak."
+
+# Komunikat w przypadku wystąpienia nieoczekiwanego błędu
+unexpected-error: "&cWystąpił nieoczekiwany błąd podczas wykonywania polecenia, sprawdź błędy w konsoli."
+
+# Komunikat po przeładowaniu pakietu zasobów za pomocą polecenia
+resourcepack-reloaded: "&6Resourcepack został zaktualizowany i przeładowany u wszystkich graczy"
