@@ -8,12 +8,16 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:flower_forest": "2025-01-20 02:31:54 +0000",
+      "minecraft:snowy_slopes": "2025-01-20 04:08:26 +0000",
       "minecraft:forest": "2025-01-20 02:29:06 +0000",
       "minecraft:deep_dark": "2025-01-20 03:40:29 +0000",
+      "minecraft:sunflower_plains": "2025-01-20 04:06:31 +0000",
       "minecraft:river": "2025-01-20 02:13:13 +0000",
+      "minecraft:grove": "2025-01-20 04:10:35 +0000",
       "minecraft:meadow": "2025-01-20 02:35:23 +0000",
       "minecraft:dripstone_caves": "2025-01-20 02:37:54 +0000",
-      "minecraft:plains": "2025-01-20 02:10:40 +0000"
+      "minecraft:plains": "2025-01-20 02:10:40 +0000",
+      "minecraft:jagged_peaks": "2025-01-20 04:09:09 +0000"
     },
     "done": false
   },
@@ -387,6 +391,7 @@
     "criteria": {
       "mutton": "2025-01-20 02:17:57 +0000",
       "bread": "2025-01-20 02:25:14 +0000",
+      "cooked_mutton": "2025-01-20 04:09:42 +0000",
       "porkchop": "2025-01-20 02:21:19 +0000"
     },
     "done": false
@@ -1096,6 +1101,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2025-01-20 04:09:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_button": {
     "criteria": {
       "has_planks": "2025-01-20 03:52:40 +0000"
@@ -1129,6 +1140,12 @@
   "minecraft:recipes/decorations/jukebox": {
     "criteria": {
       "has_diamond": "2025-01-20 03:52:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2025-01-20 04:09:15 +0000"
     },
     "done": true
   },
@@ -1186,6 +1203,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_flint": "2025-01-20 04:09:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dropper": {
     "criteria": {
       "has_redstone": "2025-01-20 03:45:13 +0000"
@@ -1225,6 +1248,12 @@
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
       "has_stone": "2025-01-20 03:59:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2025-01-20 04:10:25 +0000"
     },
     "done": true
   },
