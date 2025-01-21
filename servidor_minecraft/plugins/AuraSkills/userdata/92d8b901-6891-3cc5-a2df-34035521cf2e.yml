@@ -33,7 +33,7 @@ skills:
   auraskills/enchanting:
     level: 1
     xp: 50.0
-mana: 23.400000000000006
+mana: 24.0
 action_bar:
   idle: true
 trait_modifiers:
