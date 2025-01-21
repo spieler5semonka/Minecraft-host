@@ -1,0 +1,8 @@
+Events:
+  event1:
+    type: player_join
+      actions:
+        default: 
+         - 'message: &efuncionó  el evento %player%?ce.'
+
+

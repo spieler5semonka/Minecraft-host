@@ -1,0 +1,6 @@
+items:
+  spieler_senmoka:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: ROTTEN_FLESH
+    amount: 60
