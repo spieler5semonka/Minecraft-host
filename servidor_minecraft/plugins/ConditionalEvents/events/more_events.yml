@@ -1,5 +1,5 @@
 Events:
-  event1:
+  hola:
     type: player_join
       actions:
         default: 

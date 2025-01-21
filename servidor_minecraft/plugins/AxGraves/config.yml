@@ -3,7 +3,7 @@ prefix: '&#FF00FF&lAxGraves &7» '
 # how fast should the graves disappear
 # set to -1 to make graves last until the next server restart
 # in seconds
-despawn-time-seconds: 180
+despawn-time-seconds: 1800
 
 # should graves drop all items on the ground when they expire?
 # if false: items will be removed
@@ -52,7 +52,7 @@ interact-only-own: false
 
 # should the player lose any xp on death?
 # this is a percentage, so 0.5 would be 50% xp
-xp-keep-percentage: 1.0
+xp-keep-percentage: 0.6
 
 # should the plugin store XP in graves?
 # if disabled, XP will be dropped on the ground
