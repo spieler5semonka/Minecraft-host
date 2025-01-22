@@ -20,7 +20,7 @@ skills:
     xp: 0.0
   auraskills/agility:
     level: 1
-    xp: 154.01940000000002
+    xp: 158.2194
   auraskills/alchemy:
     level: 0
     xp: 0.0
@@ -43,4 +43,4 @@ trait_modifiers:
     value: 10.0
 ability_data:
   auraskills/xp_convert:
-    xp: 25.4
+    xp: 29.599999999999998
