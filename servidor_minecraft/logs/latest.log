@@ -344,3 +344,9 @@ java.lang.IllegalArgumentException: ItemStack cannot be null
 [00:38:10] [Server thread/INFO]: [voicechat] Sent secret to spieler_senmoka
 [00:39:41] [Server thread/INFO]: spieler_senmoka issued server command: /mana add spieler_senmoka 4
 [00:39:55] [Server thread/INFO]: spieler_senmoka issued server command: /skills
+[00:58:45] [User Authenticator #1/INFO]: UUID of player _Livic_ is 92d8b901-6891-3cc5-a2df-34035521cf2e
+[00:58:49] [Server thread/INFO]: _Livic_ joined the game
+[00:58:49] [Server thread/INFO]: _Livic_[/127.220.96.10:55707] logged in with entity id 3841 at ([world]148.8525528745684, 70.0, 256.25575675017075)
+[01:00:00] [Server thread/INFO]: spieler_senmoka issued server command: /skills
+[01:00:05] [Server thread/INFO]: _Livic_ issued server command: /skills
+[01:03:00] [Server thread/INFO]: _Livic_ issued server command: /backpack give 3
