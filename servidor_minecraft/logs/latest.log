@@ -1,28 +1,28 @@
-[00:35:10] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[00:35:10] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
-[00:35:10] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[00:35:13] [ServerMain/INFO]: [PluginInitializerManager] Initialized 20 plugins
-[00:35:13] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[01:47:13] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[01:47:13] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
+[01:47:14] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[01:47:14] [ServerMain/INFO]: [PluginInitializerManager] Initialized 20 plugins
+[01:47:14] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - LightItUp (1.0)
-[00:35:13] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (19):
+[01:47:14] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (19):
  - AirCannon (1.1.0), AuraSkills (2.2.7), AxGraves (1.17.1), BackpackPlus (1.4.5), ConditionalEvents (4.60.1), CrazyEnchantments (2.5.1), DeadHead (1.3), ErraticExplosions (2.0.1), HomePlugin (0.6.5), InstantRestock (2.4.6), Katanas (2.0), KnockbackSync (1.3.2), PlayerCarry (1.1), QualityArmory (2.0.17), Sit (1.7.1), SkinsRestorer (15.5.1), TheDungeon (4.0.3), Veinminer (2.2.2), voicechat (2.5.26)
-[00:35:19] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[00:35:21] [ServerMain/INFO]: Loaded 1290 recipes
-[00:35:21] [ServerMain/INFO]: Loaded 1399 advancements
-[00:35:21] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[00:35:21] [Server thread/INFO]: Loading properties
-[00:35:21] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[00:35:22] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[00:35:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[00:35:22] [Server thread/INFO]: Using 4 threads for Netty based IO
-[00:35:23] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[00:35:23] [Server thread/INFO]: Default game type: SURVIVAL
-[00:35:23] [Server thread/INFO]: Generating keypair
-[00:35:24] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:35:24] [Server thread/INFO]: Using epoll channel type
-[00:35:24] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[00:35:24] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[00:35:24] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/.paper-remapped/TheDungeons-4.0.3.jar' in 'plugins/.paper-remapped'
+[01:47:18] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:47:20] [ServerMain/INFO]: Loaded 1290 recipes
+[01:47:20] [ServerMain/INFO]: Loaded 1399 advancements
+[01:47:20] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[01:47:20] [Server thread/INFO]: Loading properties
+[01:47:20] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[01:47:21] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[01:47:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:47:21] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:47:22] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[01:47:22] [Server thread/INFO]: Default game type: SURVIVAL
+[01:47:22] [Server thread/INFO]: Generating keypair
+[01:47:22] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:47:22] [Server thread/INFO]: Using epoll channel type
+[01:47:22] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[01:47:22] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[01:47:22] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/.paper-remapped/TheDungeons-4.0.3.jar' in 'plugins/.paper-remapped'
 org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [PLAZMER-ENGINE]. Please download and install these plugins to run 'TheDungeon'.
 	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
 	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
@@ -32,167 +32,167 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[00:35:24] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loading 2 libraries... please wait
-[00:35:25] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar
-[00:35:25] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.jar
-[00:35:25] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/org/xerial/sqlite-jdbc/3.46.1.0/sqlite-jdbc-3.46.1.0.jar
-[00:35:28] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loading 4 libraries... please wait
-[00:35:28] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0.jar
-[00:35:28] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
-[00:35:28] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json/1.7.3/kotlinx-serialization-json-1.7.3.jar
-[00:35:28] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.7.3/kotlinx-serialization-json-jvm-1.7.3.jar
-[00:35:28] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.7.3/kotlinx-serialization-core-jvm-1.7.3.jar
-[00:35:28] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.9.0/kotlinx-coroutines-core-1.9.0.jar
-[00:35:28] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.9.0/kotlinx-coroutines-core-jvm-1.9.0.jar
-[00:35:28] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/de/miraculixx/kpaper/1.2.1/kpaper-1.2.1.jar
-[00:35:28] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-jdk8/1.7.1/kotlinx-coroutines-jdk8-1.7.1.jar
-[00:35:28] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.22/kotlin-stdlib-jdk8-1.8.22.jar
-[00:35:28] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.22/kotlin-stdlib-jdk7-1.8.22.jar
-[00:35:28] [Server thread/INFO]: [Sit] Loading server plugin Sit v1.7.1
-[00:35:28] [Server thread/INFO]: [PlayerCarry] Loading server plugin PlayerCarry v1.1
-[00:35:28] [Server thread/INFO]: [HomePlugin] Loading server plugin HomePlugin v0.6.5
-[00:35:28] [Server thread/INFO]: [CrazyEnchantments] Loading server plugin CrazyEnchantments v2.5.1
-[00:35:28] [Server thread/INFO]: [BackpackPlus] Loading server plugin BackpackPlus v1.4.5
-[00:35:28] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.2.7
-[00:35:28] [Server thread/INFO]: [ErraticExplosions] Loading server plugin ErraticExplosions v2.0.1
-[00:35:28] [Server thread/INFO]: [InstantRestock] Loading server plugin InstantRestock v2.4.6
-[00:35:28] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.26
-[00:35:28] [Server thread/INFO]: [QualityArmory] Loading server plugin QualityArmory v2.0.17
-[00:35:28] [Server thread/INFO]: [ConditionalEvents] Loading server plugin ConditionalEvents v4.60.1
-[00:35:28] [Server thread/INFO]: [Katanas] Loading server plugin Katanas v2.0
-[00:35:28] [Server thread/INFO]: [AxGraves] Loading server plugin AxGraves v1.17.1
-[00:35:28] [Server thread/INFO]: [AxGraves] Loading library commons-math3
-[00:35:28] [Server thread/INFO]: [AxGraves] Loading library caffeine
-[00:35:28] [Server thread/INFO]: [AirCannon] Loading server plugin AirCannon v1.1.0
-[00:35:28] [Server thread/INFO]: [LightItUp] Loading server plugin LightItUp v1.0
-[00:35:28] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.2.2
-[00:35:29] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.1
-[00:35:29] [Server thread/INFO]: [DeadHead] Loading server plugin DeadHead v1.3
-[00:35:29] [Server thread/INFO]: [KnockbackSync] Loading server plugin KnockbackSync v1.3.2
-[00:35:29] [Server thread/INFO]: [CommandAPI] Loaded platform NMS_1_21_R1 > NMS_Common > CommandAPIBukkit
-[00:35:29] [Server thread/INFO]: [CommandAPI] Hooked into Spigot successfully for Chat/ChatComponents
-[00:35:29] [Server thread/INFO]: [CommandAPI] Hooked into Adventure for AdventureChat/AdventureChatComponents
-[00:35:29] [Server thread/INFO]: [CommandAPI] Hooked into Paper for paper-specific API implementations
-[00:35:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[00:35:33] [Server thread/INFO]: [HomePlugin] Enabling HomePlugin v0.6.5
-[00:35:33] [Server thread/INFO]: [HomePlugin] YAML has been selected !
-[00:35:33] [Server thread/INFO]: [HomePlugin] Skipping Redis...
-[00:35:33] [Server thread/INFO]: [HomePlugin] Cannot connect to Redis... use default cache!
-[00:35:33] [Server thread/INFO]: [HomePlugin] Registering Homes
-[00:35:33] [Server thread/INFO]: [HomePlugin] Registering Commands
-[00:35:33] [Server thread/INFO]: [HomePlugin] Registering Events
-[00:35:33] [Server thread/INFO]: [HomePlugin] Registering Completers
-[00:35:33] [Server thread/INFO]: [HomePlugin] Registering Spawns
-[00:35:33] [Server thread/WARN]: [HomePlugin] PlaceholderAPI is not installed. Placeholders will not be available.
-[00:35:33] [Server thread/INFO]: [HomePlugin] ----------------------HomePlugin----------------------
-[00:35:33] [Server thread/INFO]: [HomePlugin] ----------HomePlugin a démmaré avec succés !----------
-[00:35:33] [Server thread/INFO]: [HomePlugin] ------------------------------------------------------
-[00:35:33] [Server thread/WARN]: [HomePlugin] No plugins to load skipping...
-[00:35:33] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.2.2
-[00:35:33] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.1
-[00:35:33] [DefaultDispatcher-worker-1/INFO]: [VeinminerUpdater] veinminer is up to date
-[00:35:34] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[00:35:35] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
-[00:35:37] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[00:35:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:35:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:35:37] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:35:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:35:37] [Server thread/INFO]: Preparing level "world"
-[00:35:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[00:35:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[00:35:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[00:35:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[00:35:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[00:35:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[00:35:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[00:35:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.1
-[00:35:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: d5d8613
-[00:35:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[00:35:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[00:35:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[00:35:37] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[00:35:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:35:39] [Server thread/INFO]: Time elapsed: 1587 ms
-[00:35:39] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[00:35:39] [Server thread/INFO]: Time elapsed: 406 ms
-[00:35:39] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[00:35:39] [Server thread/INFO]: Time elapsed: 140 ms
-[00:35:39] [Server thread/INFO]: [Sit] Enabling Sit v1.7.1
-[00:35:39] [Server thread/INFO]: [PlayerCarry] Enabling PlayerCarry v1.1
-[00:35:39] [Server thread/INFO]: [CrazyEnchantments] Enabling CrazyEnchantments v2.5.1
-[00:35:39] [Server thread/INFO]: [CrazyEnchantments] Loading the config.yml
-[00:35:39] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded config.yml
-[00:35:39] [Server thread/INFO]: [CrazyEnchantments] Loading the BlockList.yml
-[00:35:39] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded BlockList.yml
-[00:35:39] [Server thread/INFO]: [CrazyEnchantments] Loading the HeadMap.yml
-[00:35:39] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded HeadMap.yml
-[00:35:39] [Server thread/INFO]: [CrazyEnchantments] Loading the Data.yml
-[00:35:39] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Data.yml
-[00:35:39] [Server thread/INFO]: [CrazyEnchantments] Loading the Enchantments.yml
-[00:35:39] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Enchantments.yml
-[00:35:39] [Server thread/INFO]: [CrazyEnchantments] Loading the GKitz.yml
-[00:35:39] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded GKitz.yml
-[00:35:39] [Server thread/INFO]: [CrazyEnchantments] Loading the Messages.yml
-[00:35:39] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Messages.yml
-[00:35:39] [Server thread/INFO]: [CrazyEnchantments] Loading the Enchantment-Types.yml
-[00:35:39] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Enchantment-Types.yml
-[00:35:39] [Server thread/INFO]: [CrazyEnchantments] Loading the Tinker.yml
-[00:35:39] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Tinker.yml
-[00:35:40] [Server thread/WARN]: [CrazyEnchantments] No eco plugin found or the eco plugin didn't enable. Any economy based feature will not work.
-[00:35:40] [Server thread/INFO]: [CrazyEnchantments]: === CrazyEnchantment Hook Status ===
-[00:35:40] [Server thread/INFO]: [CrazyEnchantments]: MCMMO NOT FOUND
-[00:35:40] [Server thread/INFO]: [CrazyEnchantments]: TOWNYADVANCED NOT FOUND
-[00:35:40] [Server thread/INFO]: [CrazyEnchantments]: WORLDGUARD NOT FOUND
-[00:35:40] [Server thread/INFO]: [CrazyEnchantments]: PLOT_SQUARED NOT FOUND
-[00:35:40] [Server thread/INFO]: [CrazyEnchantments]: SUPERIORSKYBLOCK NOT FOUND
-[00:35:40] [Server thread/INFO]: [CrazyEnchantments]: VAULT NOT FOUND
-[00:35:40] [Server thread/INFO]: [CrazyEnchantments]: GRIEF_PREVENTION NOT FOUND
-[00:35:40] [Server thread/INFO]: [CrazyEnchantments]: NO_CHEAT_PLUS NOT FOUND
-[00:35:40] [Server thread/INFO]: [CrazyEnchantments]: LANDS NOT FOUND
-[00:35:40] [Server thread/INFO]: [CrazyEnchantments]: WORLDEDIT NOT FOUND
-[00:35:40] [Server thread/INFO]: [CrazyEnchantments]: ORAXEN NOT FOUND
-[00:35:40] [Server thread/INFO]: [CrazyEnchantments]: FACTIONS_UUID NOT FOUND
-[00:35:40] [Server thread/INFO]: [CrazyEnchantments] G-Kitz support is now enabled.
-[00:35:40] [Server thread/INFO]: [BackpackPlus] Enabling BackpackPlus v1.4.5
-[00:35:40] [Server thread/INFO]: [BackpackPlus] [Pack] No update needed; current readme is up to date.
-[00:35:41] [Server thread/INFO]: [BackpackPlus] [Settings] Configuration loaded successfully. No missing fields detected.
-[00:35:41] [Server thread/INFO]: [BackpackPlus] [Database] Configuration loaded successfully. No missing fields detected.
-[00:35:41] [Server thread/INFO]: [BackpackPlus] [Database] SQLite Successfully connected to database
-[00:35:41] [Server thread/INFO]: [BackpackPlus] Language used: eng
-[00:35:41] [ForkJoinPool.commonPool-worker-1/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[00:35:41] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.2.7
-[00:35:42] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
-[00:35:43] [Server thread/INFO]: [AuraSkills] Loaded 151 config options in 92 ms
-[00:35:43] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
-[00:35:43] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
-[00:35:43] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
-[00:35:44] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
-[00:35:44] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
-[00:35:45] [Server thread/INFO]: [ErraticExplosions] Enabling ErraticExplosions v2.0.1
-[00:35:45] [Server thread/INFO]: [ErraticExplosions] ------------------------
-[00:35:45] [Server thread/INFO]: [ErraticExplosions] ErraticExplosions v2.0.1
-[00:35:45] [Server thread/INFO]: [ErraticExplosions] By srnyx
-[00:35:45] [Server thread/INFO]: [ErraticExplosions] ------------------------
-[00:35:45] [Server thread/INFO]: [InstantRestock] Enabling InstantRestock v2.4.6
-[00:35:46] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.26
-[00:35:46] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.21.1-R0.1
-[00:35:46] [Server thread/INFO]: [voicechat] Compatibility version 18
-[00:35:47] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[00:35:47] [Server thread/INFO]: [QualityArmory] Enabling QualityArmory v2.0.17
-[00:35:47] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
-[00:35:47] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
-[00:35:47] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'QualityArmory' to create a bStats instance!
-[00:35:47] [Server thread/INFO]: [QualityArmory] -Loaded 11 Ammo types.
-[00:35:47] [Server thread/INFO]: [QualityArmory] -Loaded 16 Misc.
-[00:35:47] [Server thread/INFO]: [QualityArmory] -Loaded 70 Gun types.
-[00:35:47] [Server thread/INFO]: [QualityArmory] -Loading Attachment: uzicorn
-[00:35:47] [Server thread/INFO]: [QualityArmory] -Loading Attachment: awpasiimov
-[00:35:47] [Server thread/INFO]: [QualityArmory] -Loading Attachment: p30silenced
-[00:35:47] [Server thread/INFO]: [QualityArmory] -Loaded 3 Attachment types.
-[00:35:47] [Server thread/INFO]: [QualityArmory] -Loaded 4 Armor types.
-[00:35:47] [Server thread/INFO]: [ConditionalEvents] Enabling ConditionalEvents v4.60.1
-[00:35:47] [Server thread/ERROR]: Cannot load plugins/ConditionalEvents/events/more_events.yml
+[01:47:22] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loading 2 libraries... please wait
+[01:47:22] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar
+[01:47:22] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.jar
+[01:47:22] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/org/xerial/sqlite-jdbc/3.46.1.0/sqlite-jdbc-3.46.1.0.jar
+[01:47:24] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loading 4 libraries... please wait
+[01:47:24] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0.jar
+[01:47:24] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
+[01:47:24] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json/1.7.3/kotlinx-serialization-json-1.7.3.jar
+[01:47:24] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.7.3/kotlinx-serialization-json-jvm-1.7.3.jar
+[01:47:24] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.7.3/kotlinx-serialization-core-jvm-1.7.3.jar
+[01:47:24] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.9.0/kotlinx-coroutines-core-1.9.0.jar
+[01:47:24] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.9.0/kotlinx-coroutines-core-jvm-1.9.0.jar
+[01:47:24] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/de/miraculixx/kpaper/1.2.1/kpaper-1.2.1.jar
+[01:47:24] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-jdk8/1.7.1/kotlinx-coroutines-jdk8-1.7.1.jar
+[01:47:24] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.22/kotlin-stdlib-jdk8-1.8.22.jar
+[01:47:24] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /workspaces/Minecraft-host/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.22/kotlin-stdlib-jdk7-1.8.22.jar
+[01:47:25] [Server thread/INFO]: [Sit] Loading server plugin Sit v1.7.1
+[01:47:25] [Server thread/INFO]: [PlayerCarry] Loading server plugin PlayerCarry v1.1
+[01:47:25] [Server thread/INFO]: [HomePlugin] Loading server plugin HomePlugin v0.6.5
+[01:47:25] [Server thread/INFO]: [CrazyEnchantments] Loading server plugin CrazyEnchantments v2.5.1
+[01:47:25] [Server thread/INFO]: [BackpackPlus] Loading server plugin BackpackPlus v1.4.5
+[01:47:25] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.2.7
+[01:47:25] [Server thread/INFO]: [ErraticExplosions] Loading server plugin ErraticExplosions v2.0.1
+[01:47:25] [Server thread/INFO]: [InstantRestock] Loading server plugin InstantRestock v2.4.6
+[01:47:25] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.26
+[01:47:25] [Server thread/INFO]: [QualityArmory] Loading server plugin QualityArmory v2.0.17
+[01:47:25] [Server thread/INFO]: [ConditionalEvents] Loading server plugin ConditionalEvents v4.60.1
+[01:47:25] [Server thread/INFO]: [Katanas] Loading server plugin Katanas v2.0
+[01:47:25] [Server thread/INFO]: [AxGraves] Loading server plugin AxGraves v1.17.1
+[01:47:25] [Server thread/INFO]: [AxGraves] Loading library commons-math3
+[01:47:25] [Server thread/INFO]: [AxGraves] Loading library caffeine
+[01:47:25] [Server thread/INFO]: [AirCannon] Loading server plugin AirCannon v1.1.0
+[01:47:25] [Server thread/INFO]: [LightItUp] Loading server plugin LightItUp v1.0
+[01:47:25] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.2.2
+[01:47:25] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.1
+[01:47:25] [Server thread/INFO]: [DeadHead] Loading server plugin DeadHead v1.3
+[01:47:25] [Server thread/INFO]: [KnockbackSync] Loading server plugin KnockbackSync v1.3.2
+[01:47:25] [Server thread/INFO]: [CommandAPI] Loaded platform NMS_1_21_R1 > NMS_Common > CommandAPIBukkit
+[01:47:25] [Server thread/INFO]: [CommandAPI] Hooked into Spigot successfully for Chat/ChatComponents
+[01:47:25] [Server thread/INFO]: [CommandAPI] Hooked into Adventure for AdventureChat/AdventureChatComponents
+[01:47:25] [Server thread/INFO]: [CommandAPI] Hooked into Paper for paper-specific API implementations
+[01:47:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:47:28] [Server thread/INFO]: [HomePlugin] Enabling HomePlugin v0.6.5
+[01:47:28] [Server thread/INFO]: [HomePlugin] YAML has been selected !
+[01:47:28] [Server thread/INFO]: [HomePlugin] Skipping Redis...
+[01:47:28] [Server thread/INFO]: [HomePlugin] Cannot connect to Redis... use default cache!
+[01:47:28] [Server thread/INFO]: [HomePlugin] Registering Homes
+[01:47:28] [Server thread/INFO]: [HomePlugin] Registering Commands
+[01:47:28] [Server thread/INFO]: [HomePlugin] Registering Events
+[01:47:28] [Server thread/INFO]: [HomePlugin] Registering Completers
+[01:47:28] [Server thread/INFO]: [HomePlugin] Registering Spawns
+[01:47:28] [Server thread/WARN]: [HomePlugin] PlaceholderAPI is not installed. Placeholders will not be available.
+[01:47:28] [Server thread/INFO]: [HomePlugin] ----------------------HomePlugin----------------------
+[01:47:28] [Server thread/INFO]: [HomePlugin] ----------HomePlugin a démmaré avec succés !----------
+[01:47:28] [Server thread/INFO]: [HomePlugin] ------------------------------------------------------
+[01:47:28] [Server thread/WARN]: [HomePlugin] No plugins to load skipping...
+[01:47:28] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.2.2
+[01:47:28] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.1
+[01:47:28] [DefaultDispatcher-worker-1/INFO]: [VeinminerUpdater] veinminer is up to date
+[01:47:29] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[01:47:29] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[01:47:30] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[01:47:30] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:47:30] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:47:30] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:47:30] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:47:30] [Server thread/INFO]: Preparing level "world"
+[01:47:30] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:47:30] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[01:47:30] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[01:47:30] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[01:47:30] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[01:47:30] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[01:47:30] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:47:30] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.1
+[01:47:30] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: d5d8613
+[01:47:30] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[01:47:30] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:47:30] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[01:47:30] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[01:47:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:47:32] [Server thread/INFO]: Time elapsed: 1129 ms
+[01:47:32] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[01:47:32] [Server thread/INFO]: Time elapsed: 325 ms
+[01:47:32] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[01:47:32] [Server thread/INFO]: Time elapsed: 155 ms
+[01:47:32] [Server thread/INFO]: [Sit] Enabling Sit v1.7.1
+[01:47:32] [Server thread/INFO]: [PlayerCarry] Enabling PlayerCarry v1.1
+[01:47:32] [Server thread/INFO]: [CrazyEnchantments] Enabling CrazyEnchantments v2.5.1
+[01:47:32] [Server thread/INFO]: [CrazyEnchantments] Loading the config.yml
+[01:47:32] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded config.yml
+[01:47:32] [Server thread/INFO]: [CrazyEnchantments] Loading the BlockList.yml
+[01:47:32] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded BlockList.yml
+[01:47:32] [Server thread/INFO]: [CrazyEnchantments] Loading the HeadMap.yml
+[01:47:32] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded HeadMap.yml
+[01:47:32] [Server thread/INFO]: [CrazyEnchantments] Loading the Data.yml
+[01:47:32] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Data.yml
+[01:47:32] [Server thread/INFO]: [CrazyEnchantments] Loading the Enchantments.yml
+[01:47:32] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Enchantments.yml
+[01:47:32] [Server thread/INFO]: [CrazyEnchantments] Loading the GKitz.yml
+[01:47:32] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded GKitz.yml
+[01:47:32] [Server thread/INFO]: [CrazyEnchantments] Loading the Messages.yml
+[01:47:32] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Messages.yml
+[01:47:32] [Server thread/INFO]: [CrazyEnchantments] Loading the Enchantment-Types.yml
+[01:47:32] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Enchantment-Types.yml
+[01:47:32] [Server thread/INFO]: [CrazyEnchantments] Loading the Tinker.yml
+[01:47:32] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Tinker.yml
+[01:47:33] [Server thread/WARN]: [CrazyEnchantments] No eco plugin found or the eco plugin didn't enable. Any economy based feature will not work.
+[01:47:33] [Server thread/INFO]: [CrazyEnchantments]: === CrazyEnchantment Hook Status ===
+[01:47:33] [Server thread/INFO]: [CrazyEnchantments]: LANDS NOT FOUND
+[01:47:33] [Server thread/INFO]: [CrazyEnchantments]: WORLDEDIT NOT FOUND
+[01:47:33] [Server thread/INFO]: [CrazyEnchantments]: ORAXEN NOT FOUND
+[01:47:33] [Server thread/INFO]: [CrazyEnchantments]: NO_CHEAT_PLUS NOT FOUND
+[01:47:33] [Server thread/INFO]: [CrazyEnchantments]: FACTIONS_UUID NOT FOUND
+[01:47:33] [Server thread/INFO]: [CrazyEnchantments]: PLOT_SQUARED NOT FOUND
+[01:47:33] [Server thread/INFO]: [CrazyEnchantments]: VAULT NOT FOUND
+[01:47:33] [Server thread/INFO]: [CrazyEnchantments]: GRIEF_PREVENTION NOT FOUND
+[01:47:33] [Server thread/INFO]: [CrazyEnchantments]: SUPERIORSKYBLOCK NOT FOUND
+[01:47:33] [Server thread/INFO]: [CrazyEnchantments]: MCMMO NOT FOUND
+[01:47:33] [Server thread/INFO]: [CrazyEnchantments]: WORLDGUARD NOT FOUND
+[01:47:33] [Server thread/INFO]: [CrazyEnchantments]: TOWNYADVANCED NOT FOUND
+[01:47:34] [Server thread/INFO]: [CrazyEnchantments] G-Kitz support is now enabled.
+[01:47:34] [Server thread/INFO]: [BackpackPlus] Enabling BackpackPlus v1.4.5
+[01:47:34] [Server thread/INFO]: [BackpackPlus] [Pack] No update needed; current readme is up to date.
+[01:47:34] [Server thread/INFO]: [BackpackPlus] [Settings] Configuration loaded successfully. No missing fields detected.
+[01:47:34] [Server thread/INFO]: [BackpackPlus] [Database] Configuration loaded successfully. No missing fields detected.
+[01:47:34] [Server thread/INFO]: [BackpackPlus] [Database] SQLite Successfully connected to database
+[01:47:34] [Server thread/INFO]: [BackpackPlus] Language used: eng
+[01:47:34] [ForkJoinPool.commonPool-worker-1/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:47:34] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.2.7
+[01:47:35] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
+[01:47:36] [Server thread/INFO]: [AuraSkills] Loaded 151 config options in 67 ms
+[01:47:36] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
+[01:47:36] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
+[01:47:36] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
+[01:47:36] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
+[01:47:36] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[01:47:37] [Server thread/INFO]: [ErraticExplosions] Enabling ErraticExplosions v2.0.1
+[01:47:37] [Server thread/INFO]: [ErraticExplosions] ------------------------
+[01:47:37] [Server thread/INFO]: [ErraticExplosions] ErraticExplosions v2.0.1
+[01:47:37] [Server thread/INFO]: [ErraticExplosions] By srnyx
+[01:47:37] [Server thread/INFO]: [ErraticExplosions] ------------------------
+[01:47:37] [Server thread/INFO]: [InstantRestock] Enabling InstantRestock v2.4.6
+[01:47:38] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.26
+[01:47:38] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.21.1-R0.1
+[01:47:38] [Server thread/INFO]: [voicechat] Compatibility version 18
+[01:47:39] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[01:47:39] [Server thread/INFO]: [QualityArmory] Enabling QualityArmory v2.0.17
+[01:47:39] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
+[01:47:39] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
+[01:47:39] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'QualityArmory' to create a bStats instance!
+[01:47:39] [Server thread/INFO]: [QualityArmory] -Loaded 11 Ammo types.
+[01:47:39] [Server thread/INFO]: [QualityArmory] -Loaded 16 Misc.
+[01:47:39] [Server thread/INFO]: [QualityArmory] -Loaded 70 Gun types.
+[01:47:39] [Server thread/INFO]: [QualityArmory] -Loading Attachment: uzicorn
+[01:47:39] [Server thread/INFO]: [QualityArmory] -Loading Attachment: awpasiimov
+[01:47:39] [Server thread/INFO]: [QualityArmory] -Loading Attachment: p30silenced
+[01:47:39] [Server thread/INFO]: [QualityArmory] -Loaded 3 Attachment types.
+[01:47:39] [Server thread/INFO]: [QualityArmory] -Loaded 4 Armor types.
+[01:47:39] [Server thread/INFO]: [ConditionalEvents] Enabling ConditionalEvents v4.60.1
+[01:47:39] [Server thread/ERROR]: Cannot load plugins/ConditionalEvents/events/more_events.yml
 org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
  in 'reader', line 3, column 5:
         type: player_join
@@ -257,7 +257,7 @@ expected <block end>, but found '<block mapping start>'
 	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-2.2.jar:?]
 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
 	... 20 more
-[00:35:47] [Server thread/ERROR]: Error occurred while enabling ConditionalEvents v4.60.1 (Is it up to date?)
+[01:47:39] [Server thread/ERROR]: Error occurred while enabling ConditionalEvents v4.60.1 (Is it up to date?)
 java.lang.NullPointerException: Cannot invoke "org.bukkit.configuration.file.FileConfiguration.contains(String)" because "config" is null
 	at ConditionalEvents.jar/ce.ajneb97.configs.ConfigsManager.configureEvents(ConfigsManager.java:58) ~[ConditionalEvents.jar:?]
 	at ConditionalEvents.jar/ce.ajneb97.configs.ConfigsManager.configure(ConfigsManager.java:35) ~[ConditionalEvents.jar:?]
@@ -274,21 +274,21 @@ java.lang.NullPointerException: Cannot invoke "org.bukkit.configuration.file.Fil
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[00:35:47] [Server thread/INFO]: [ConditionalEvents] Disabling ConditionalEvents v4.60.1
-[00:35:47] [Server thread/INFO]: [ConditionalEvents] Has been disabled! Version: 4.60.1
-[00:35:47] [Server thread/INFO]: [Katanas] Enabling Katanas v2.0
-[00:35:48] [Server thread/INFO]: **********************************
-[00:35:48] [Server thread/INFO]: | Katanas 2.0 have been enabled! |
-[00:35:48] [Server thread/INFO]: **********************************
-[00:35:48] [Server thread/INFO]: [AxGraves] Enabling AxGraves v1.17.1
-[00:35:48] [Server thread/INFO]: [AirCannon] Enabling AirCannon v1.1.0
-[00:35:48] [Server thread/INFO]: [AirCannon] ----------------
-[00:35:48] [Server thread/INFO]: [AirCannon] AirCannon v1.1.0
-[00:35:48] [Server thread/INFO]: [AirCannon] By srnyx
-[00:35:48] [Server thread/INFO]: [AirCannon] ----------------
-[00:35:49] [Server thread/INFO]: [LightItUp] Enabling LightItUp v1.0
-[00:35:49] [Server thread/INFO]: [DeadHead] Enabling DeadHead v1.3
-[00:35:49] [Server thread/ERROR]: Error occurred while enabling DeadHead v1.3 (Is it up to date?)
+[01:47:39] [Server thread/INFO]: [ConditionalEvents] Disabling ConditionalEvents v4.60.1
+[01:47:39] [Server thread/INFO]: [ConditionalEvents] Has been disabled! Version: 4.60.1
+[01:47:39] [Server thread/INFO]: [Katanas] Enabling Katanas v2.0
+[01:47:39] [Server thread/INFO]: **********************************
+[01:47:39] [Server thread/INFO]: | Katanas 2.0 have been enabled! |
+[01:47:39] [Server thread/INFO]: **********************************
+[01:47:39] [Server thread/INFO]: [AxGraves] Enabling AxGraves v1.17.1
+[01:47:40] [Server thread/INFO]: [AirCannon] Enabling AirCannon v1.1.0
+[01:47:40] [Server thread/INFO]: [AirCannon] ----------------
+[01:47:40] [Server thread/INFO]: [AirCannon] AirCannon v1.1.0
+[01:47:40] [Server thread/INFO]: [AirCannon] By srnyx
+[01:47:40] [Server thread/INFO]: [AirCannon] ----------------
+[01:47:40] [Server thread/INFO]: [LightItUp] Enabling LightItUp v1.0
+[01:47:40] [Server thread/INFO]: [DeadHead] Enabling DeadHead v1.3
+[01:47:40] [Server thread/ERROR]: Error occurred while enabling DeadHead v1.3 (Is it up to date?)
 java.lang.IllegalArgumentException: ItemStack cannot be null
 	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:143) ~[guava-32.1.2-jre.jar:?]
 	at org.bukkit.craftbukkit.CraftWorld.dropItem(CraftWorld.java:688) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
@@ -307,64 +307,325 @@ java.lang.IllegalArgumentException: ItemStack cannot be null
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[00:35:49] [Server thread/INFO]: [DeadHead] Disabling DeadHead v1.3
-[00:35:49] [Server thread/INFO]: [KnockbackSync] Enabling KnockbackSync v1.3.2
-[00:35:49] [Server thread/INFO]: [KnockbackSync] Checking for updates...
-[00:35:49] [Server thread/INFO]: [CommandAPI] Hooked into Paper ServerResourcesReloadedEvent
-[00:35:49] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[00:35:49] [Server thread/INFO]: [spark] Starting background profiler...
-[00:35:49] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.5.0) | Latest release: (2.7.0)
-[00:35:50] [Server thread/INFO]: Done preparing level "world" (13.369s)
-[00:35:50] [Server thread/INFO]: Running delayed init tasks
-[00:35:50] [Craft Scheduler Thread - 1 - BackpackPlus/INFO]: [BackpackPlus] Plugin is up to date.
-[00:35:50] [Craft Scheduler Thread - 3 - HomePlugin/INFO]: [HomePlugin] There is not a new update available.
-[00:35:51] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 312 total sources
-[00:35:51] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
-[00:35:51] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
-[00:35:51] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
-[00:35:52] [Server thread/INFO]: [AuraSkills] Loaded 6 menus
-[00:35:52] [Server thread/INFO]: [CommandAPI] Reloading datapacks...
-[00:35:52] [Server thread/INFO]: Loaded 1290 recipes
-[00:35:52] [Server thread/INFO]: Loaded 1399 advancements
-[00:35:53] [Server thread/INFO]: [CommandAPI] Finished reloading datapacks
-[00:35:53] [Server thread/INFO]: Done (44.685s)! For help, type "help"
-[00:35:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2780ms or 55 ticks behind
-[00:35:53] [Server thread/INFO]: Timings Reset
-[00:35:53] [Server thread/INFO]: [voicechat] Loading plugins
-[00:35:53] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
-[00:35:53] [Server thread/INFO]: [voicechat] Initializing plugins
-[00:35:53] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
-[00:35:53] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[00:35:53] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
-[00:35:54] [Craft Scheduler Thread - 5 - KnockbackSync/INFO]: [KnockbackSync] You are running the latest release.
-[00:38:07] [User Authenticator #0/INFO]: UUID of player spieler_senmoka is 9cc27cbf-cd7b-3ed0-b486-57ba22a03b54
-[00:38:10] [Server thread/INFO]: spieler_senmoka joined the game
-[00:38:10] [Server thread/INFO]: spieler_senmoka[/127.228.91.16:57217] logged in with entity id 22 at ([world]164.98458041796087, 62.0, 299.4519472659314)
-[00:38:10] [Server thread/INFO]: [voicechat] Received secret request of spieler_senmoka (18)
-[00:38:10] [Server thread/INFO]: [voicechat] Sent secret to spieler_senmoka
-[00:39:41] [Server thread/INFO]: spieler_senmoka issued server command: /mana add spieler_senmoka 4
-[00:39:55] [Server thread/INFO]: spieler_senmoka issued server command: /skills
-[00:58:45] [User Authenticator #1/INFO]: UUID of player _Livic_ is 92d8b901-6891-3cc5-a2df-34035521cf2e
-[00:58:49] [Server thread/INFO]: _Livic_ joined the game
-[00:58:49] [Server thread/INFO]: _Livic_[/127.220.96.10:55707] logged in with entity id 3841 at ([world]148.8525528745684, 70.0, 256.25575675017075)
-[01:00:00] [Server thread/INFO]: spieler_senmoka issued server command: /skills
-[01:00:05] [Server thread/INFO]: _Livic_ issued server command: /skills
-[01:03:00] [Server thread/INFO]: _Livic_ issued server command: /backpack give 3
-[01:09:00] [Server thread/INFO]: spieler_senmoka issued server command: /locate structure minecraft:fortress
-[01:09:00] [Server thread/INFO]: Locating element minecraft:fortress took 12 ms
-[01:12:44] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmoka _Livic_
-[01:12:44] [Server thread/INFO]: [_Livic_: Teleported spieler_senmoka to _Livic_]
-[01:13:16] [Server thread/INFO]: spieler_senmoka issued server command: /tp _Livic_ spieler_senmoka
-[01:13:16] [Server thread/INFO]: [spieler_senmoka: Teleported _Livic_ to spieler_senmoka]
-[01:19:32] [Server thread/INFO]: spieler_senmoka issued server command: /home casa
-[01:19:48] [Server thread/INFO]: spieler_senmoka issued server command: /tp _Livic_
-[01:19:48] [Server thread/INFO]: [spieler_senmoka: Teleported spieler_senmoka to _Livic_]
-[01:21:39] [Server thread/INFO]: spieler_senmoka issued server command: /home casa
-[01:21:40] [Server thread/INFO]: _Livic_ issued server command: /home casa
-[01:21:43] [Server thread/INFO]: [HomePlugin] [STDOUT] [HomePlugin] Canceling teleport task for player _Livic_
-[01:21:43] [Server thread/WARN]: Nag author(s): '[fuzeblocks]' of 'HomePlugin v0.6.5' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[01:21:53] [Server thread/INFO]: _Livic_ issued server command: /home casa
-[01:22:26] [Server thread/INFO]: spieler_senmoka issued server command: /locate structure minecraft:stronghold
-[01:22:26] [Server thread/INFO]: Locating element minecraft:stronghold took 13 ms
-[01:23:36] [Server thread/INFO]: spieler_senmoka issued server command: /tp _Livic_
-[01:23:36] [Server thread/INFO]: [spieler_senmoka: Teleported spieler_senmoka to _Livic_]
+[01:47:40] [Server thread/INFO]: [DeadHead] Disabling DeadHead v1.3
+[01:47:40] [Server thread/INFO]: [KnockbackSync] Enabling KnockbackSync v1.3.2
+[01:47:40] [Server thread/INFO]: [KnockbackSync] Checking for updates...
+[01:47:40] [Server thread/INFO]: [CommandAPI] Hooked into Paper ServerResourcesReloadedEvent
+[01:47:40] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[01:47:40] [Server thread/INFO]: [spark] Starting background profiler...
+[01:47:40] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.5.0) | Latest release: (2.7.0)
+[01:47:41] [Server thread/INFO]: Done preparing level "world" (10.187s)
+[01:47:41] [Server thread/INFO]: Running delayed init tasks
+[01:47:41] [Craft Scheduler Thread - 1 - BackpackPlus/INFO]: [BackpackPlus] Plugin is up to date.
+[01:47:41] [Craft Scheduler Thread - 3 - HomePlugin/INFO]: [HomePlugin] There is not a new update available.
+[01:47:41] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 312 total sources
+[01:47:41] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
+[01:47:41] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
+[01:47:41] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
+[01:47:42] [Server thread/INFO]: [AuraSkills] Loaded 6 menus
+[01:47:42] [Server thread/INFO]: [CommandAPI] Reloading datapacks...
+[01:47:42] [Server thread/INFO]: Loaded 1290 recipes
+[01:47:42] [Server thread/INFO]: Loaded 1399 advancements
+[01:47:42] [Server thread/INFO]: [CommandAPI] Finished reloading datapacks
+[01:47:42] [Server thread/INFO]: Done (29.895s)! For help, type "help"
+[01:47:42] [Server thread/INFO]: Timings Reset
+[01:47:43] [Server thread/INFO]: [voicechat] Loading plugins
+[01:47:43] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[01:47:43] [Server thread/INFO]: [voicechat] Initializing plugins
+[01:47:43] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[01:47:43] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[01:47:43] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[01:47:43] [Craft Scheduler Thread - 5 - KnockbackSync/INFO]: [KnockbackSync] You are running the latest release.
+[01:48:38] [User Authenticator #0/INFO]: UUID of player spieler_senmoka is 9cc27cbf-cd7b-3ed0-b486-57ba22a03b54
+[01:48:41] [Server thread/INFO]: spieler_senmoka joined the game
+[01:48:41] [User Authenticator #0/INFO]: UUID of player _Livic_ is 92d8b901-6891-3cc5-a2df-34035521cf2e
+[01:48:42] [Server thread/INFO]: spieler_senmoka[/127.228.91.16:40675] logged in with entity id 26 at ([world_nether]-184.53079908634234, 68.0, 33.28967149769194)
+[01:48:42] [Server thread/INFO]: [voicechat] Received secret request of spieler_senmoka (18)
+[01:48:42] [Server thread/INFO]: [voicechat] Sent secret to spieler_senmoka
+[01:48:45] [Server thread/INFO]: _Livic_ joined the game
+[01:48:45] [Server thread/INFO]: _Livic_[/127.220.96.10:52029] logged in with entity id 28 at ([world_nether]-184.30000001192093, 67.0, 52.42398745733835)
+[01:50:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5209ms or 104 ticks behind
+[01:51:01] [Server thread/INFO]: spieler_senmoka issued server command: /locate structure minecraft:stronghold
+[01:51:01] [Server thread/INFO]: Locating element minecraft:stronghold took 12 ms
+[01:51:32] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmoka
+[01:51:32] [Server thread/INFO]: [_Livic_: Teleported _Livic_ to spieler_senmoka]
+[01:53:22] [Server thread/INFO]: spieler_senmoka has made the advancement [Eye Spy]
+[01:53:22] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmoka
+[01:53:22] [Server thread/INFO]: [_Livic_: Teleported _Livic_ to spieler_senmoka]
+[01:53:23] [Server thread/INFO]: _Livic_ has made the advancement [Eye Spy]
+[01:56:35] [Server thread/INFO]: spieler_senmoka issued server command: /gamemode spectator
+[01:56:35] [Server thread/INFO]: [spieler_senmoka: Set own game mode to Spectator Mode]
+[01:56:38] [Server thread/INFO]: _Livic_ issued server command: /gamemode spectator
+[01:56:38] [Server thread/INFO]: [_Livic_: Set own game mode to Spectator Mode]
+[01:56:58] [Server thread/INFO]: _Livic_ issued server command: /gamemode survival
+[01:56:58] [Server thread/INFO]: [_Livic_: Set own game mode to Survival Mode]
+[01:56:58] [Server thread/INFO]: spieler_senmoka issued server command: /tp _Livic_
+[01:56:58] [Server thread/INFO]: [spieler_senmoka: Teleported spieler_senmoka to _Livic_]
+[01:57:05] [Server thread/INFO]: spieler_senmoka issued server command: /gamemode survival
+[01:57:05] [Server thread/INFO]: [spieler_senmoka: Set own game mode to Survival Mode]
+[01:58:24] [Server thread/INFO]: _Livic_ issued server command: /gamemode spectator
+[01:58:24] [Server thread/INFO]: [_Livic_: Set own game mode to Spectator Mode]
+[01:58:42] [Server thread/INFO]: _Livic_ issued server command: /gamemode survival
+[01:58:42] [Server thread/INFO]: [_Livic_: Set own game mode to Survival Mode]
+[02:02:32] [Server thread/INFO]: spieler_senmoka issued server command: /tp _Livic_
+[02:02:32] [Server thread/INFO]: [spieler_senmoka: Teleported spieler_senmoka to _Livic_]
+[02:03:55] [Server thread/INFO]: spieler_senmoka issued server command: /qa give 556 spieler_senmoka 400
+[02:04:46] [Async Chat Thread - #0/INFO]: [Not Secure] <_Livic_> gg
+[02:04:46] [Server thread/INFO]: _Livic_ has made the advancement [The End?]
+[02:04:47] [Server thread/INFO]: spieler_senmoka has made the advancement [The End?]
+[02:04:48] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[02:04:48] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
+[02:08:40] [Server thread/INFO]: spieler_senmoka issued server command: /tp _Livic_ spieler_senmoka
+[02:08:40] [Server thread/INFO]: [spieler_senmoka: Teleported _Livic_ to spieler_senmoka]
+[02:09:24] [Server thread/INFO]: spieler_senmoka issued server command: /tp _Livic_ spieler_senmoka
+[02:09:24] [Server thread/INFO]: [spieler_senmoka: Teleported _Livic_ to spieler_senmoka]
+[02:09:42] [Server thread/INFO]: spieler_senmoka has made the advancement [Free the End]
+[02:10:50] [Server thread/INFO]: spieler_senmoka has reached the goal [The Next Generation]
+[02:12:22] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmoka _Livic_
+[02:12:22] [Server thread/INFO]: [_Livic_: Teleported spieler_senmoka to _Livic_]
+[02:13:45] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmonka _iLivic_
+[02:13:49] [Server thread/INFO]: spieler_senmoka issued server command: /tp _Livic_ spieler_senmoka
+[02:13:49] [Server thread/INFO]: [spieler_senmoka: Teleported _Livic_ to spieler_senmoka]
+[02:13:54] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmonka _iLivic_
+[02:14:15] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmonka _iLivic_
+[02:14:34] [Server thread/INFO]: spieler_senmoka has made the advancement [Remote Getaway]
+[02:15:03] [Server thread/INFO]: spieler_senmoka issued server command: /seed
+[02:15:37] [Server thread/INFO]: _Livic_ has made the advancement [Remote Getaway]
+[02:17:28] [Async Chat Thread - #1/INFO]: [Not Secure] <spieler_senmoka> -248 ~ -1576
+[02:20:22] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmoka _iLivic_
+[02:20:33] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmoka _iLivic_
+[02:20:48] [Async Chat Thread - #3/INFO]: [Not Secure] <_Livic_> ads
+[02:21:49] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmoka _Livic_
+[02:21:49] [Server thread/INFO]: [_Livic_: Teleported spieler_senmoka to _Livic_]
+[02:22:35] [Server thread/INFO]: spieler_senmoka issued server command: /tp _Livic_ spieler_senmoka
+[02:22:35] [Server thread/INFO]: [spieler_senmoka: Teleported _Livic_ to spieler_senmoka]
+[02:23:02] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmoka _Livic_
+[02:23:02] [Server thread/INFO]: [_Livic_: Teleported spieler_senmoka to _Livic_]
+[02:23:24] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmoka _Livic_
+[02:23:24] [Server thread/INFO]: [_Livic_: Teleported spieler_senmoka to _Livic_]
+[02:25:34] [Server thread/INFO]: spieler_senmoka issued server command: /tp _Livic_
+[02:25:34] [Server thread/INFO]: [spieler_senmoka: Teleported spieler_senmoka to _Livic_]
+[02:26:12] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmo
+[02:27:02] [Server thread/INFO]: spieler_senmoka issued server command: /locate structure minecraft:end_city
+[02:27:02] [Server thread/INFO]: Locating element minecraft:end_city took 0 ms
+[02:27:16] [Server thread/INFO]: spieler_senmoka issued server command: /tp -576 ~ 1632
+[02:27:16] [Server thread/INFO]: [spieler_senmoka: Teleported spieler_senmoka to -575.500000, 62.000000, 1632.500000]
+[02:27:21] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmoka
+[02:27:21] [Server thread/INFO]: [_Livic_: Teleported _Livic_ to spieler_senmoka]
+[02:27:27] [Server thread/INFO]: spieler_senmoka has made the advancement [The City at the End of the Game]
+[02:27:31] [Server thread/INFO]: _Livic_ has made the advancement [The City at the End of the Game]
+[02:28:57] [Server thread/INFO]: spieler_senmoka issued server command: /tp _Livic_
+[02:28:57] [Server thread/INFO]: [spieler_senmoka: Teleported spieler_senmoka to _Livic_]
+[02:29:49] [Server thread/INFO]: spieler_senmoka issued server command: /tp _Livic_
+[02:29:49] [Server thread/INFO]: [spieler_senmoka: Teleported spieler_senmoka to _Livic_]
+[02:31:25] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmoka _Livic_
+[02:31:25] [Server thread/INFO]: [_Livic_: Teleported spieler_senmoka to _Livic_]
+[02:31:44] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[02:31:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7397ms or 147 ticks behind
+[02:35:53] [Async Chat Thread - #5/INFO]: [Not Secure] <spieler_senmoka> alo?
+[02:35:57] [Async Chat Thread - #5/INFO]: [Not Secure] <_Livic_> pera
+[02:36:01] [Async Chat Thread - #5/INFO]: [Not Secure] <spieler_senmoka> ok
+[02:36:41] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmoka _Livic_
+[02:36:41] [Server thread/INFO]: [_Livic_: Teleported spieler_senmoka to _Livic_]
+[02:37:18] [Server thread/INFO]: spieler_senmoka issued server command: /tp -248 ~ -1576
+[02:37:18] [Server thread/INFO]: [spieler_senmoka: Teleported spieler_senmoka to -247.500000, 133.000000, -1575.500000]
+[02:37:23] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmoka _Livic_
+[02:37:23] [Server thread/INFO]: [_Livic_: Teleported spieler_senmoka to _Livic_]
+[02:37:35] [Server thread/INFO]: spieler_senmoka issued server command: /tp -248 ~ -1576
+[02:37:35] [Server thread/INFO]: [spieler_senmoka: Teleported spieler_senmoka to -247.500000, 137.000000, -1575.500000]
+[02:37:58] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmoka
+[02:37:58] [Server thread/INFO]: [_Livic_: Teleported _Livic_ to spieler_senmoka]
+[02:40:20] [Server thread/INFO]: spieler_senmoka issued server command: /seed
+[02:41:32] [Server thread/INFO]: spieler_senmoka issued server command: /tp -904 ~ -904
+[02:41:32] [Server thread/INFO]: [spieler_senmoka: Teleported spieler_senmoka to -903.500000, 61.000000, -903.500000]
+[02:42:42] [Server thread/INFO]: spieler_senmoka issued server command: /givegrave spieler_senmoka
+[02:42:42] [Server thread/ERROR]: Command exception: /givegrave spieler_senmoka
+org.bukkit.command.CommandException: Cannot execute command 'givegrave' in plugin DeadHead v1.3 - plugin is disabled.
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:443) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:350) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:332) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2218) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2192) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[02:43:00] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmoka
+[02:43:00] [Server thread/INFO]: [_Livic_: Teleported _Livic_ to spieler_senmoka]
+[02:44:01] [Server thread/INFO]: _Livic_ issued server command: /tp
+[02:44:03] [Server thread/INFO]: spieler_senmoka has made the advancement [Local Brewery]
+[02:44:08] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmoka
+[02:44:08] [Server thread/INFO]: [_Livic_: Teleported _Livic_ to spieler_senmoka]
+[02:44:10] [Server thread/INFO]: spieler_senmoka has reached the goal [Sky's the Limit]
+[02:46:28] [Server thread/INFO]: _Livic_ has reached the goal [Sky's the Limit]
+[02:49:11] [Server thread/INFO]: spieler_senmoka issued server command: /tp -2001 ~ -98
+[02:49:11] [Server thread/INFO]: [spieler_senmoka: Teleported spieler_senmoka to -2000.500000, 63.000000, -97.500000]
+[02:49:19] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmoka _Livic_
+[02:49:19] [Server thread/INFO]: [_Livic_: Teleported spieler_senmoka to _Livic_]
+[02:49:35] [Server thread/INFO]: spieler_senmoka issued server command: /tp -2136 ~ -264
+[02:49:35] [Server thread/INFO]: [spieler_senmoka: Teleported spieler_senmoka to -2135.500000, 63.000000, -263.500000]
+[02:49:42] [Server thread/INFO]: _Livic_ issued server command: /tp tp
+[02:49:48] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmoka
+[02:49:48] [Server thread/INFO]: [_Livic_: Teleported _Livic_ to spieler_senmoka]
+[02:51:01] [Server thread/INFO]: _Livic_ fell from a high place
+[02:51:24] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmonka
+[02:51:28] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmoka
+[02:51:28] [Server thread/INFO]: [_Livic_: Teleported _Livic_ to spieler_senmoka]
+[02:53:50] [Server thread/INFO]: _Livic_ has completed the challenge [Great View From Up Here]
+[02:54:42] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmoka
+[02:54:42] [Server thread/INFO]: [_Livic_: Teleported _Livic_ to spieler_senmoka]
+[02:55:43] [Async Chat Thread - #7/INFO]: [Not Secure] <_Livic_> buzzlightyear
+[02:56:11] [Async Chat Thread - #7/INFO]: [Not Secure] <_Livic_> buzz lightyear
+[02:56:45] [Async Chat Thread - #7/INFO]: [Not Secure] <_Livic_> buzz lightyear
+[02:57:04] [Server thread/INFO]: _Livic_ has made the advancement [Local Brewery]
+[02:58:28] [Server thread/INFO]: spieler_senmoka issued server command: /tp -3400 ~ 344
+[02:58:28] [Server thread/INFO]: [spieler_senmoka: Teleported spieler_senmoka to -3399.500000, 116.500000, 344.500000]
+[02:58:51] [Server thread/WARN]: spieler_senmoka moved wrongly!
+[02:59:06] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmoka
+[02:59:06] [Server thread/INFO]: [_Livic_: Teleported _Livic_ to spieler_senmoka]
+[03:00:01] [Server thread/INFO]: spieler_senmoka issued server command: /tp -3400 ~ 344
+[03:00:01] [Server thread/INFO]: [spieler_senmoka: Teleported spieler_senmoka to -3399.500000, 63.963757, 344.500000]
+[03:00:05] [Server thread/INFO]: spieler_senmoka issued server command: /tp -3400 ~ 344
+[03:00:05] [Server thread/INFO]: [spieler_senmoka: Teleported spieler_senmoka to -3399.500000, 67.712175, 344.500000]
+[03:00:14] [Server thread/INFO]: spieler_senmoka issued server command: /tp _Livic_
+[03:00:14] [Server thread/INFO]: [spieler_senmoka: Teleported spieler_senmoka to _Livic_]
+[03:01:54] [Server thread/INFO]: spieler_senmoka issued server command: /tp -3400 ~ -904
+[03:01:54] [Server thread/INFO]: [spieler_senmoka: Teleported spieler_senmoka to -3399.500000, 122.267846, -903.500000]
+[03:02:09] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmoka
+[03:02:09] [Server thread/INFO]: [_Livic_: Teleported _Livic_ to spieler_senmoka]
+[03:03:06] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmoka _Livic_
+[03:03:06] [Server thread/INFO]: [_Livic_: Teleported spieler_senmoka to _Livic_]
+[03:05:09] [Server thread/INFO]: spieler_senmoka issued server command: /home casa
+[03:05:11] [Server thread/INFO]: _Livic_ issued server command: /home casa
+[03:11:17] [Server thread/INFO]: Villager Villager['Nitwit'/9870, uuid='48a7f7b1-92c6-4cc9-93e3-20329b5d388e', l='ServerLevel[world]', x=162.00, y=66.00, z=263.32, cpos=[10, 16], tl=603561, v=true] died, message: 'Nitwit was slain by spieler_senmoka using [Diamond Katana]'
+[03:19:37] [Server thread/INFO]: _Livic_ has reached the goal [The Next Generation]
+[03:25:34] [Server thread/INFO]: spieler_senmoka issued server command: /ce book Haste
+[03:26:13] [Server thread/INFO]: spieler_senmoka issued server command: /crazyenchantments add Haste 3
+[03:27:29] [Server thread/INFO]: spieler_senmoka issued server command: /crazyenchantments add Haste 3
+[03:50:11] [Server thread/INFO]: spieler_senmoka issued server command: /crazyenchantments add Haste 3
+[04:07:08] [Server thread/WARN]: spieler_senmoka moved wrongly!
+[04:12:32] [Async Chat Thread - #9/INFO]: [Not Secure] <_Livic_> vino mi ama
+[04:12:35] [Async Chat Thread - #9/INFO]: [Not Secure] <spieler_senmoka> ok
+[04:17:11] [Server thread/INFO]: _Livic_ issued server command: /effect give _Livic_ minecraft:night_vision infinite
+[04:17:11] [Server thread/INFO]: [_Livic_: Applied effect Night Vision to _Livic_]
+[04:17:21] [Server thread/WARN]: _Livic_ moved wrongly!
+[04:20:10] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmoka
+[04:20:10] [Server thread/INFO]: [_Livic_: Teleported _Livic_ to spieler_senmoka]
+[04:23:25] [Server thread/INFO]: _Livic_ issued server command: /tp
+[04:23:29] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmoka
+[04:23:29] [Server thread/INFO]: [_Livic_: Teleported _Livic_ to spieler_senmoka]
+[04:34:10] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmoka
+[04:34:10] [Server thread/INFO]: [_Livic_: Teleported _Livic_ to spieler_senmoka]
+[04:36:36] [Server thread/INFO]: spieler_senmoka issued server command: /home cielo
+[04:36:54] [Server thread/INFO]: spieler_senmoka issued server command: /sethome cielo
+[04:39:56] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmoka
+[04:39:56] [Server thread/INFO]: [_Livic_: Teleported _Livic_ to spieler_senmoka]
+[04:46:11] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmoka _Livic_
+[04:46:11] [Server thread/INFO]: [_Livic_: Teleported spieler_senmoka to _Livic_]
+[04:47:49] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmoka
+[04:47:49] [Server thread/INFO]: [_Livic_: Teleported _Livic_ to spieler_senmoka]
+[04:52:15] [Async Chat Thread - #11/INFO]: [Not Secure] <_Livic_> mi ama otra vez XD
+[04:52:27] [Async Chat Thread - #11/INFO]: [Not Secure] <spieler_senmoka> xd
+[04:53:37] [Async Chat Thread - #13/INFO]: [Not Secure] <spieler_senmoka> hare el perimetro de la base
+[04:53:57] [Async Chat Thread - #13/INFO]: [Not Secure] <spieler_senmoka> de mientras puedes minar netherita
+[04:54:52] [Async Chat Thread - #13/INFO]: [Not Secure] <_Livic_> dalea
+[05:09:30] [Async Chat Thread - #15/INFO]: [Not Secure] <_Livic_> capa 15 era vrdd
+[05:09:35] [Async Chat Thread - #15/INFO]: [Not Secure] <spieler_senmoka> zi
+[05:10:00] [Async Chat Thread - #15/INFO]: [Not Secure] <_Livic_> ya puedo call
+[05:10:05] [Async Chat Thread - #15/INFO]: [Not Secure] <spieler_senmoka> ok
+[05:11:07] [Server thread/INFO]: _Livic_ has made the advancement [Hidden in the Depths]
+[05:14:45] [Async Chat Thread - #17/INFO]: [Not Secure] <_Livic_> cuanto de netherite se ocupa?
+[05:14:50] [Async Chat Thread - #17/INFO]: [Not Secure] <spieler_senmoka> no c
+[05:14:57] [Async Chat Thread - #17/INFO]: [Not Secure] <_Livic_> zi
+[05:14:58] [Async Chat Thread - #17/INFO]: [Not Secure] <spieler_senmoka> para la armadura
+[05:14:59] [Async Chat Thread - #17/INFO]: [Not Secure] <_Livic_> okei
+[05:15:03] [Async Chat Thread - #17/INFO]: [Not Secure] <spieler_senmoka> y katana
+[05:25:43] [Server thread/INFO]: _Livic_ issued server command: /sethome nether
+[05:25:46] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmoka
+[05:25:46] [Server thread/INFO]: [_Livic_: Teleported _Livic_ to spieler_senmoka]
+[05:26:44] [Server thread/INFO]: spieler_senmoka has made the advancement [Hidden in the Depths]
+[05:27:37] [Async Chat Thread - #19/INFO]: [Not Secure] <_Livic_> che amigo, m tengo q ir a dormir
+[05:27:43] [Async Chat Thread - #19/INFO]: [Not Secure] <_Livic_> bn
+[05:27:44] [Async Chat Thread - #19/INFO]: [Not Secure] <spieler_senmoka> ok
+[05:27:48] [Async Chat Thread - #19/INFO]: [Not Secure] <_Livic_> m obligaron
+[05:27:52] [Async Chat Thread - #19/INFO]: [Not Secure] <_Livic_> XD
+[05:27:57] [Async Chat Thread - #19/INFO]: [Not Secure] <spieler_senmoka> yo tambien me voy a dormir
+[05:28:01] [Async Chat Thread - #19/INFO]: [Not Secure] <spieler_senmoka> tengo sueño
+[05:28:02] [Async Chat Thread - #19/INFO]: [Not Secure] <_Livic_> okei
+[05:28:08] [Async Chat Thread - #19/INFO]: [Not Secure] <spieler_senmoka> jugamos mañana?
+[05:28:14] [Async Chat Thread - #19/INFO]: [Not Secure] <_Livic_> ya mañana como a las 6 pm hora arg puedo jugar
+[05:28:21] [Async Chat Thread - #19/INFO]: [Not Secure] <spieler_senmoka> ok
+[05:28:24] [Async Chat Thread - #19/INFO]: [Not Secure] <spieler_senmoka> vai
+[05:28:26] [Server thread/INFO]: spieler_senmoka lost connection: Disconnected
+[05:28:26] [Server thread/INFO]: [voicechat] Disconnecting client spieler_senmoka
+[05:28:26] [Server thread/INFO]: spieler_senmoka left the game
+[05:28:27] [Async Chat Thread - #19/INFO]: [Not Secure] <_Livic_> nos re jode el cambio de horario
+[05:28:28] [Server thread/INFO]: _Livic_ lost connection: Disconnected
+[05:28:28] [Server thread/INFO]: [voicechat] Disconnecting client _Livic_
+[05:28:28] [Server thread/INFO]: _Livic_ left the game
+[05:29:04] [Server thread/INFO]: Stopping the server
+[05:29:04] [Server thread/INFO]: Stopping server
+[05:29:04] [Server thread/INFO]: [KnockbackSync] Disabling KnockbackSync v1.3.2
+[05:29:04] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.1
+[05:29:04] [Server thread/INFO]: [Veinminer] Disabling Veinminer v2.2.2
+[05:29:04] [Server thread/INFO]: [LightItUp] Disabling LightItUp v1.0
+[05:29:04] [Server thread/INFO]: [AirCannon] Disabling AirCannon v1.1.0
+[05:29:04] [Server thread/INFO]: [AxGraves] Disabling AxGraves v1.17.1
+[05:29:04] [Server thread/INFO]: [Katanas] Disabling Katanas v2.0
+[05:29:04] [Server thread/INFO]: ***********************************
+[05:29:04] [Server thread/INFO]: | Katanas 2.0 have been disabled! |
+[05:29:04] [Server thread/INFO]: ***********************************
+[05:29:04] [Server thread/INFO]: [QualityArmory] Disabling QualityArmory v2.0.17
+[05:29:04] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.26
+[05:29:04] [Server thread/INFO]: [InstantRestock] Disabling InstantRestock v2.4.6
+[05:29:04] [Server thread/INFO]: [ErraticExplosions] Disabling ErraticExplosions v2.0.1
+[05:29:04] [Server thread/INFO]: [AuraSkills] Disabling AuraSkills v2.2.7
+[05:29:04] [Server thread/INFO]: [BackpackPlus] Disabling BackpackPlus v1.4.5
+[05:29:04] [Server thread/INFO]: [BackpackPlus] SQLite Successfully disconnected from the database
+[05:29:04] [Server thread/INFO]: [CrazyEnchantments] Disabling CrazyEnchantments v2.5.1
+[05:29:05] [Server thread/INFO]: [HomePlugin] Disabling HomePlugin v0.6.5
+[05:29:05] [Server thread/INFO]: [HomePlugin] ----------------------HomePlugin----------------------
+[05:29:05] [Server thread/INFO]: [HomePlugin] ----------HomePlugin a été éteint avec succés !----------
+[05:29:05] [Server thread/INFO]: [HomePlugin] ------------------------------------------------------
+[05:29:05] [Server thread/INFO]: [PlayerCarry] Disabling PlayerCarry v1.1
+[05:29:05] [Server thread/INFO]: [Sit] Disabling Sit v1.7.1
+[05:29:05] [Server thread/INFO]: Saving players
+[05:29:05] [Server thread/INFO]: Saving worlds
+[05:29:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:29:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[05:29:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[05:29:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[05:29:05] [Server thread/INFO]: [ChunkHolderManager] Saved 75 block chunks, 144 entity chunks, 2 poi chunks in world 'world' in 0.14s
+[05:29:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[05:29:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[05:29:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[05:29:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[05:29:05] [Server thread/INFO]: [ChunkHolderManager] Saved 13 block chunks, 125 entity chunks, 0 poi chunks in world 'world_nether' in 0.04s
+[05:29:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[05:29:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[05:29:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[05:29:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[05:29:05] [Server thread/INFO]: [ChunkHolderManager] Saved 3 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[05:29:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:29:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:29:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:29:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
