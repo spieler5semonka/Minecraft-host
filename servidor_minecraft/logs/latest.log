@@ -350,3 +350,9 @@ java.lang.IllegalArgumentException: ItemStack cannot be null
 [01:00:00] [Server thread/INFO]: spieler_senmoka issued server command: /skills
 [01:00:05] [Server thread/INFO]: _Livic_ issued server command: /skills
 [01:03:00] [Server thread/INFO]: _Livic_ issued server command: /backpack give 3
+[01:09:00] [Server thread/INFO]: spieler_senmoka issued server command: /locate structure minecraft:fortress
+[01:09:00] [Server thread/INFO]: Locating element minecraft:fortress took 12 ms
+[01:12:44] [Server thread/INFO]: _Livic_ issued server command: /tp spieler_senmoka _Livic_
+[01:12:44] [Server thread/INFO]: [_Livic_: Teleported spieler_senmoka to _Livic_]
+[01:13:16] [Server thread/INFO]: spieler_senmoka issued server command: /tp _Livic_ spieler_senmoka
+[01:13:16] [Server thread/INFO]: [spieler_senmoka: Teleported _Livic_ to spieler_senmoka]

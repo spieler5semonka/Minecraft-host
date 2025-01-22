@@ -2,7 +2,7 @@ uuid: 92d8b901-6891-3cc5-a2df-34035521cf2e
 skills:
   auraskills/defense:
     level: 4
-    xp: 85.7496580600734
+    xp: 222.3872570991512
   auraskills/fighting:
     level: 1
     xp: 45.0
@@ -29,7 +29,7 @@ skills:
     xp: 30.0
   auraskills/agility:
     level: 1
-    xp: 148.74880000000005
+    xp: 150.14880000000005
   auraskills/enchanting:
     level: 1
     xp: 50.0
@@ -45,3 +45,6 @@ trait_modifiers:
     name: foraging_luck_ability
     trait: auraskills/foraging_luck
     value: 10.0
+ability_data:
+  auraskills/xp_convert:
+    xp: 18.037599039077776
