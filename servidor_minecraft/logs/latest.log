@@ -356,3 +356,15 @@ java.lang.IllegalArgumentException: ItemStack cannot be null
 [01:12:44] [Server thread/INFO]: [_Livic_: Teleported spieler_senmoka to _Livic_]
 [01:13:16] [Server thread/INFO]: spieler_senmoka issued server command: /tp _Livic_ spieler_senmoka
 [01:13:16] [Server thread/INFO]: [spieler_senmoka: Teleported _Livic_ to spieler_senmoka]
+[01:19:32] [Server thread/INFO]: spieler_senmoka issued server command: /home casa
+[01:19:48] [Server thread/INFO]: spieler_senmoka issued server command: /tp _Livic_
+[01:19:48] [Server thread/INFO]: [spieler_senmoka: Teleported spieler_senmoka to _Livic_]
+[01:21:39] [Server thread/INFO]: spieler_senmoka issued server command: /home casa
+[01:21:40] [Server thread/INFO]: _Livic_ issued server command: /home casa
+[01:21:43] [Server thread/INFO]: [HomePlugin] [STDOUT] [HomePlugin] Canceling teleport task for player _Livic_
+[01:21:43] [Server thread/WARN]: Nag author(s): '[fuzeblocks]' of 'HomePlugin v0.6.5' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[01:21:53] [Server thread/INFO]: _Livic_ issued server command: /home casa
+[01:22:26] [Server thread/INFO]: spieler_senmoka issued server command: /locate structure minecraft:stronghold
+[01:22:26] [Server thread/INFO]: Locating element minecraft:stronghold took 13 ms
+[01:23:36] [Server thread/INFO]: spieler_senmoka issued server command: /tp _Livic_
+[01:23:36] [Server thread/INFO]: [spieler_senmoka: Teleported spieler_senmoka to _Livic_]
