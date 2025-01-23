@@ -1,10 +1,10 @@
 Events:
   hola:
-  type: player_join
-  actions:
-   default: 
-    - 'message: hola we'
-    - 'funcionó el mensaje?.'
+    type: player_join
+    actions:
+      default: 
+      - 'message: hola we'
+      - 'funcionó el mensaje?.'
 
   example:
   type: player_bed_enter
@@ -12,4 +12,3 @@ Events:
     default:
     - "cancel_event: false"
     - "message: &cZzzzzzz."       
-

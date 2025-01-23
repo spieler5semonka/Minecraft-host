@@ -294,3 +294,55 @@ java.lang.IllegalArgumentException: ItemStack cannot be null
 [19:00:29] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
 [19:00:30] [Craft Scheduler Thread - 9 - KnockbackSync/INFO]: [KnockbackSync] You are running the latest release.
 [19:00:32] [Server thread/INFO]: [SpectralDamage] There is not a new update available.
+[19:32:48] [Server thread/INFO]: Stopping the server
+[19:32:48] [Server thread/INFO]: Stopping server
+[19:32:48] [Server thread/INFO]: [KnockbackSync] Disabling KnockbackSync v1.3.2
+[19:32:48] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.1
+[19:32:48] [Server thread/INFO]: [Veinminer] Disabling Veinminer v2.2.2
+[19:32:48] [Server thread/INFO]: [LightItUp] Disabling LightItUp v1.0
+[19:32:48] [Server thread/INFO]: [AirCannon] Disabling AirCannon v1.1.0
+[19:32:48] [Server thread/INFO]: [AxGraves] Disabling AxGraves v1.17.1
+[19:32:48] [Server thread/INFO]: [Katanas] Disabling Katanas v2.0
+[19:32:48] [Server thread/INFO]: ***********************************
+[19:32:48] [Server thread/INFO]: | Katanas 2.0 have been disabled! |
+[19:32:48] [Server thread/INFO]: ***********************************
+[19:32:48] [Server thread/INFO]: [ConditionalEvents] Disabling ConditionalEvents v4.60.1
+[19:32:48] [Server thread/INFO]: [ConditionalEvents] Has been disabled! Version: 4.60.1
+[19:32:48] [Server thread/INFO]: [SpectralDamage] Disabling SpectralDamage v2.6.8
+[19:32:48] [Server thread/INFO]: [QualityArmory] Disabling QualityArmory v2.0.17
+[19:32:48] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.26
+[19:32:48] [Server thread/INFO]: [InstantRestock] Disabling InstantRestock v2.4.6
+[19:32:48] [Server thread/INFO]: [ErraticExplosions] Disabling ErraticExplosions v2.0.1
+[19:32:48] [Server thread/INFO]: [AuraSkills] Disabling AuraSkills v2.2.7
+[19:32:48] [Server thread/INFO]: [BackpackPlus] Disabling BackpackPlus v1.4.5
+[19:32:48] [Server thread/INFO]: [BackpackPlus] SQLite Successfully disconnected from the database
+[19:32:48] [Server thread/INFO]: [CrazyEnchantments] Disabling CrazyEnchantments v2.5.1
+[19:32:48] [Server thread/INFO]: [HomePlugin] Disabling HomePlugin v0.6.5
+[19:32:48] [Server thread/INFO]: [HomePlugin] ----------------------HomePlugin----------------------
+[19:32:48] [Server thread/INFO]: [HomePlugin] ----------HomePlugin a été éteint avec succés !----------
+[19:32:48] [Server thread/INFO]: [HomePlugin] ------------------------------------------------------
+[19:32:48] [Server thread/INFO]: [PlayerCarry] Disabling PlayerCarry v1.1
+[19:32:48] [Server thread/INFO]: [Sit] Disabling Sit v1.7.1
+[19:32:48] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.9+6959-7adf70b
+[19:32:48] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[19:32:48] [Server thread/INFO]: Saving players
+[19:32:48] [Server thread/INFO]: Saving worlds
+[19:32:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:32:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[19:32:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[19:32:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[19:32:48] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world' in 0.00s
+[19:32:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[19:32:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[19:32:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[19:32:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[19:32:48] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 8 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[19:32:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:32:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[19:32:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[19:32:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[19:32:48] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[19:32:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:32:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:32:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:32:48] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
